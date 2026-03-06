@@ -1,0 +1,415 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <!-- Hero Section -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="hero-section bg-light rounded-3 p-4">
+                <h1 class="display-4 fw-bold text-center mb-3">Explore Our Toys</h1>
+                <p class="lead text-center mb-0">Discover the perfect toys for your little ones</p>
+            </div>
+        </div>
+    </div>
+    <!-- Filters -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Filters</h5>
+                    
+                    <!-- Search -->
+                    <div class="mb-3">
+                        <form action="{% url 'products:product_list' %}" method="get" class="d-flex">
+                            <div class="position-relative">
+                                <input type="text" 
+                                       class="form-control me-2" 
+                                       name="search" 
+                                       value="{{ search_query }}"
+                                       placeholder="Search products..."
+                                       id="searchInput">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <!-- Search Suggestions -->
+                        <div id="searchSuggestions" class="position-absolute w-100 d-none bg-white rounded border mt-2">
+                            <div class="list-group">
+                                {% for suggestion in search_suggestions %}
+                                    <a href="{% url 'products:product_list' %}?search={{ suggestion.name }}{% if selected_category %}&category={{ selected_category }}{% endif %}{% if min_price %}&min_price={{ min_price }}{% endif %}{% if max_price %}&max_price={{ max_price }}{% endif %}{% if sort_by %}&sort_by={{ sort_by }}{% endif %}" 
+                                       class="list-group-item list-group-item-action">
+                                        {{ suggestion.name }}
+                                    </a>
+                                {% empty %}
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h1 class="display-4 fw-bold mb-4">Welcome to Our Toy Store</h1>
+                    <p class="lead mb-4">Discover amazing toys for your little ones</p>
+                    <div class="input-group mb-3">
+                        <input type="text" 
+                               class="form-control" 
+                               id="searchInput" 
+                               placeholder="Search for toys...">
+                        <button class="btn btn-primary" type="button">
+                            <i class="fas fa-search me-2"></i> Search
+                        </button>
+                    </div>
+                    <div class="list-group" id="searchSuggestions" style="display: none;">
+                        <!-- Search suggestions will be populated here -->
+                    </div>
+                    <a href="#products" class="btn btn-primary btn-lg">
+                        <i class="fas fa-arrow-down me-2"></i> Browse Products
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Filter Sidebar -->
+            <div class="col-md-3 col-lg-2">
+                <div class="sticky-top">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Filters</h5>
+                            <form id="filterForm">
+                                <!-- Category Filter -->
+                                <div class="mb-3">
+                                    <label class="form-label">Categories</label>
+                                    <select class="form-select" name="category" onchange="this.form.submit()">
+                                        <option value="">All Categories</option>
+                                        {% for category in categories %}
+                                            <option value="{{ category.slug }}" {% if request.GET.category == category.slug %}selected{% endif %}>
+                                                {{ category.name }}
+                                            </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+
+                                <!-- Price Range Filter -->
+                                <div class="mb-3">
+                                    <label class="form-label">Price Range</label>
+                                    <div class="price-slider-container">
+                                        <div id="priceSlider"></div>
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span>₹<span id="minPrice">0</span></span>
+                                            <span>₹<span id="maxPrice">10000</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Age Range Filter -->
+                                <div class="mb-3">
+                                    <label class="form-label">Age Range</label>
+                                    <select class="form-select" name="age_range" onchange="this.form.submit()">
+                                        <option value="">All Ages</option>
+                                        <option value="0-2" {% if request.GET.age_range == '0-2' %}selected{% endif %}>
+                                            0-2 Years
+                                        </option>
+                                        <option value="3-5" {% if request.GET.age_range == '3-5' %}selected{% endif %}>
+                                            3-5 Years
+                                        </option>
+                                        <option value="6-8" {% if request.GET.age_range == '6-8' %}selected{% endif %}>
+                                            6-8 Years
+                                        </option>
+                                        <option value="9-12" {% if request.GET.age_range == '9-12' %}selected{% endif %}>
+                                            9-12 Years
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <!-- Sort By -->
+                                <div class="mb-3">
+                                    <label class="form-label">Sort By</label>
+                                    <select class="form-select" name="sort_by" onchange="this.form.submit()">
+                                        <option value="name" {% if request.GET.sort_by == 'name' %}selected{% endif %}>
+                                            Name (A-Z)
+                                        </option>
+                                        <option value="-name" {% if request.GET.sort_by == '-name' %}selected{% endif %}>
+                                            Name (Z-A)
+                                        </option>
+                                        <option value="price" {% if request.GET.sort_by == 'price' %}selected{% endif %}>
+                                            Price (Low to High)
+                                        </option>
+                                        <option value="-price" {% if request.GET.sort_by == '-price' %}selected{% endif %}>
+                                            Price (High to Low)
+                                        </option>
+                                        <option value="-created_at" {% if request.GET.sort_by == '-created_at' %}selected{% endif %}>
+                                            Newest First
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <!-- Clear Filters Button -->
+                                {% if request.GET.category or request.GET.sort_by or request.GET.age_range %}
+                                    <button class="btn btn-danger w-100" onclick="clearFilters()">
+                                        <i class="fas fa-times me-2"></i> Clear Filters
+                                    </button>
+                                {% endif %}
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="col-md-9 col-lg-10">
+                    <!-- Filter Summary -->
+                    <div class="filter-summary mb-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted">Showing {{ page_obj.paginator.count }} products</span>
+                                {% if request.GET.category or request.GET.sort_by %}
+                                    <button class="btn btn-link text-danger text-decoration-none ms-3" onclick="clearFilters()">
+                                        <i class="fas fa-times me-1"></i> Clear Filters
+                                    </button>
+                                {% endif %}
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="{% url 'products:product_create' %}" class="btn btn-success">
+                                    <i class="fas fa-plus me-2"></i> Add New Product
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="row" id="products">
+                        {% if page_obj %}
+                            {% for product in page_obj %}
+                                <div class="col-md-3 col-sm-6 mb-4">
+                                    <div class="card h-100 shadow-sm">
+                                        <div class="position-relative">
+                                            <img src="{{ product.images.first.image.url }}" 
+                                                 class="card-img-top" 
+                                                 alt="{{ product.name }}">
+                                            {% if product.discount_price %}
+                                                <div class="discount-badge position-absolute top-0 start-0 m-3">
+                                                    <span class="badge bg-danger">{{ product.discount_percentage }}% OFF</span>
+                                                </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title h6 mb-2">{{ product.name }}</h5>
+                                            <p class="card-text text-muted text-truncate mb-2">{{ product.description }}</p>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price-container">
+                                                    <span class="h5 mb-0 text-primary">₹{{ product.final_price }}</span>
+                                                    {% if product.discount_price %}
+                                                        <span class="text-muted text-decoration-line-through ms-2">
+                                                            ₹{{ product.price }}
+                                                        </span>
+                                                    {% endif %}
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="stock-badge {% if product.stock > 10 %}bg-success{% elif product.stock > 0 %}bg-warning{% else %}bg-danger{% endif %} px-3 py-1 rounded">
+                                                    {% if product.stock > 10 %}In Stock{% elif product.stock > 0 %}Low Stock{% else %}Out of Stock{% endif %}
+                                                </div>
+                                                <div class="d-flex gap-2">
+                                                    <a href="{% url 'products:product_detail' product.slug %}" 
+                                                       class="btn btn-primary btn-sm">
+                                                        <i class="fas fa-eye me-1"></i> View Details
+                                                    </a>
+                                                    <form action="{% url 'cart:add' product.id %}" method="post" class="d-inline">
+                                                        {% csrf_token %}
+                                                        <input type="hidden" name="quantity" value="1">
+                                                        <button type="submit" class="btn btn-outline-primary btn-sm">
+                                                            <i class="fas fa-cart-plus me-1"></i> Add to Cart
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="col-12">
+                                <div class="alert alert-info text-center">
+                                    <i class="fas fa-info-circle me-2"></i>
+                                    No products found matching your criteria.
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <!-- Pagination -->
+                    {% if page_obj.paginator.num_pages > 1 %}
+                        <nav aria-label="Page navigation" class="mt-4">
+                            <ul class="pagination justify-content-center">
+                                {% if page_obj.has_previous %}
+                                    <li class="page-item">
+                                        <a class="page-link" href="{% url 'products:product_list' %}?page=1{% if request.GET.category %}&category={{ request.GET.category }}{% endif %}{% if request.GET.sort_by %}&sort_by={{ request.GET.sort_by }}{% endif %}{% if request.GET.age_range %}&age_range={{ request.GET.age_range }}{% endif %}">
+                                            <i class="fas fa-angle-double-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="{% url 'products:product_list' %}?page={{ page_obj.previous_page_number }}{% if request.GET.category %}&category={{ request.GET.category }}{% endif %}{% if request.GET.sort_by %}&sort_by={{ request.GET.sort_by }}{% endif %}{% if request.GET.age_range %}&age_range={{ request.GET.age_range }}{% endif %}">
+                                            <i class="fas fa-angle-left"></i>
+                                        </a>
+                                    </li>
+                                {% endif %}
+
+                                {% for num in page_obj.paginator.page_range %}
+                                    {% if page_obj.number == num %}
+                                        <li class="page-item active">
+                                            <span class="page-link">{{ num }}</span>
+                                        </li>
+                                    {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                                        <li class="page-item">
+                                            <a class="page-link" href="{% url 'products:product_list' %}?page={{ num }}{% if request.GET.category %}&category={{ request.GET.category }}{% endif %}{% if request.GET.sort_by %}&sort_by={{ request.GET.sort_by }}{% endif %}{% if request.GET.age_range %}&age_range={{ request.GET.age_range }}{% endif %}">{{ num }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+
+                                {% if page_obj.has_next %}
+                                    <li class="page-item">
+                                        <a class="page-link" href="{% url 'products:product_list' %}?page={{ page_obj.next_page_number }}{% if request.GET.category %}&category={{ request.GET.category }}{% endif %}{% if request.GET.sort_by %}&sort_by={{ request.GET.sort_by }}{% endif %}{% if request.GET.age_range %}&age_range={{ request.GET.age_range }}{% endif %}">
+                                            <i class="fas fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="{% url 'products:product_list' %}?page={{ page_obj.paginator.num_pages }}{% if request.GET.category %}&category={{ request.GET.category }}{% endif %}{% if request.GET.sort_by %}&sort_by={{ request.GET.sort_by }}{% endif %}{% if request.GET.age_range %}&age_range={{ request.GET.age_range }}{% endif %}">
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </a>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    // Initialize price slider
+    var priceSlider = document.getElementById('priceSlider');
+    if (priceSlider) {
+        noUiSlider.create(priceSlider, {
+            start: [0, 10000],
+            connect: true,
+            range: {
+                'min': 0,
+                'max': 10000
+            }
+        });
+
+        // Update price display
+        priceSlider.noUiSlider.on('update', function(values, handle) {
+            document.getElementById('minPrice').textContent = Math.round(values[0]);
+            document.getElementById('maxPrice').textContent = Math.round(values[1]);
+            document.getElementById('minPriceInput').value = Math.round(values[0]);
+            document.getElementById('maxPriceInput').value = Math.round(values[1]);
+        });
+    }
+
+    // Sort functionality
+    $('#sortBy').on('change', function() {
+        var sortBy = $(this).val();
+        var url = new URL(window.location.href);
+        url.searchParams.set('sort_by', sortBy);
+        window.location.href = url.toString();
+    });
+
+    // Search form submission
+    $('form[action*="product_list"]').on('submit', function(e) {
+        e.preventDefault();
+        var formData = new FormData(this);
+        var url = new URL(window.location.href);
+        url.search = new URLSearchParams(formData).toString();
+        window.location.href = url.toString();
+    });
+
+    // Search suggestions
+    $('#searchInput').on('input', function() {
+        var query = $(this).val().trim();
+        if (query.length >= 2) {
+            $.ajax({
+                url: '{% url "products:search_suggestions" %}',
+                method: 'GET',
+                data: { q: query },
+                success: function(response) {
+                    var suggestions = response.suggestions;
+                    if (suggestions.length > 0) {
+                        $('#searchSuggestions').removeClass('d-none');
+                        var list = $('#searchSuggestions .list-group');
+                        list.empty();
+                        suggestions.forEach(function(suggestion) {
+                            var currentUrl = new URL(window.location.href);
+                            var newUrl = new URL(window.location.origin + window.location.pathname);
+                            newUrl.searchParams.set('search', suggestion);
+                            
+                            // Preserve other parameters
+                            ['category', 'min_price', 'max_price', 'sort_by'].forEach(function(param) {
+                                if (currentUrl.searchParams.has(param)) {
+                                    newUrl.searchParams.set(param, currentUrl.searchParams.get(param));
+                                }
+                            });
+
+                            list.append(
+                                $('<a>')
+                                    .addClass('list-group-item list-group-item-action')
+                                    .text(suggestion)
+                                    .attr('href', newUrl.toString())
+                            );
+                        });
+                    } else {
+                        $('#searchSuggestions').addClass('d-none');
+                    }
+                }
+            });
+        } else {
+            $('#searchSuggestions').addClass('d-none');
+        }
+    });
+
+    // Handle back button
+    window.addEventListener('popstate', function(event) {
+        var url = new URL(window.location.href);
+        updateFiltersFromUrl(url);
+    });
+
+    // Initial filter state
+    updateFiltersFromUrl(new URL(window.location.href));
+
+    // Helper function to update filters from URL
+    function updateFiltersFromUrl(url) {
+        var searchParams = new URLSearchParams(url.search);
+        
+        // Update price slider
+        var minPrice = parseInt(searchParams.get('min_price')) || 0;
+        var maxPrice = parseInt(searchParams.get('max_price')) || 10000;
+        if (priceSlider) {
+            priceSlider.noUiSlider.set([minPrice, maxPrice]);
+        }
+        
+        // Update sort by
+        var sortBy = searchParams.get('sort_by') || 'created_at';
+        $('#sortBy').val(sortBy);
+    }
+
+    // Add smooth scroll to top when changing pages
+    $('a.page-link').on('click', function(e) {
+        e.preventDefault();
+        var href = $(this).attr('href');
+        window.location.href = href;
+        setTimeout(function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }, 100);
+    });
+});
+</script>
+{% endblock %}

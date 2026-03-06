@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "shipping/base.html" %}
+
+{% block title %}Shipping{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Shipping Details</h2>
+
+{% if order %}
+    <div class="card mt-4 p-3">
+        <h4>Order #{{ order.id }}</h4>
+        <p><strong>Status:</strong> {{ order.shipping_status }}</p>
+        <p><strong>Estimated Delivery:</strong> {{ order.estimated_delivery }}</p>
+
+        <h5 class="mt-4">Shipping Address</h5>
+        <p>{{ order.shipping_address.street }}, {{ order.shipping_address.city }}, {{ order.shipping_address.zip_code }}</p>
+
+        <h5 class="mt-4">Tracking Information</h5>
+        {% if order.tracking_number %}
+            <p><strong>Tracking Number:</strong> {{ order.tracking_number }}</p>
+            <a href="{{ order.tracking_url }}" class="btn btn-primary" target="_blank">Track Order</a>
+        {% else %}
+            <p>Tracking details will be available soon.</p>
+        {% endif %}
+    </div>
+
+{% else %}
+    <p class="text-center mt-4">No shipping details found. <a href="{% url 'checkout:checkout_home' %}">Go to Checkout</a></p>
+{% endif %}
+
+{% endblock %}
+</body>
+</html>

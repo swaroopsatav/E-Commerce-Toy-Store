@@ -1,0 +1,225 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Shipping Address - Checkout{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h2 mb-0">Shipping Address</h1>
+                <div class="d-flex gap-2">
+                    <a href="{% url 'cart:cart_view' %}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-1"></i> Back to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Shipping Address Form -->
+        <div class="col-lg-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Shipping Address</h5>
+
+                    <!-- Existing Addresses -->
+                    {% if addresses %}
+                        <div class="mb-4">
+                            <h6 class="mb-3">Saved Addresses</h6>
+                            <div class="list-group">
+                                {% for address in addresses %}
+                                    <a href="{% url 'checkout:payment_method' address.id %}" 
+                                       class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">{{ address.full_name }}</h6>
+                                            <small class="text-muted">
+                                                {% if address.is_default %}<i class="fas fa-star text-warning"></i>{% endif %}
+                                            </small>
+                                        </div>
+                                        <p class="mb-1">{{ address.address_line1 }}{% if address.address_line2 %}, {{ address.address_line2 }}{% endif %}</p>
+                                        <p class="mb-1">{{ address.city }}, {{ address.state }} - {{ address.pincode }}</p>
+                                        <small class="text-muted">{{ address.phone_number }}</small>
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+
+                    <!-- New Address Form -->
+                    <form method="post" action="{% url 'checkout:shipping_address' %}" class="needs-validation" novalidate>
+                        {% csrf_token %}
+                        <input type="hidden" name="address_id" value="new">
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="full_name" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="full_name" name="full_name" required>
+                                <div class="invalid-feedback">Please enter your full name.</div>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <label for="phone_number" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="phone_number" name="phone_number" required>
+                                <div class="invalid-feedback">Please enter your phone number.</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address_line1" class="form-label">Address Line 1 <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="address_line1" name="address_line1" required>
+                            <div class="invalid-feedback">Please enter your address line 1.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address_line2" class="form-label">Address Line 2</label>
+                            <input type="text" class="form-control" id="address_line2" name="address_line2">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="city" class="form-label">City <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="city" name="city" required>
+                                <div class="invalid-feedback">Please enter your city.</div>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <label for="state" class="form-label">State <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="state" name="state" required>
+                                <div class="invalid-feedback">Please enter your state.</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="pincode" class="form-label">Pincode <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="pincode" name="pincode" required>
+                                <div class="invalid-feedback">Please enter your pincode.</div>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <label for="country" class="form-label">Country</label>
+                                <select class="form-select" id="country" name="country">
+                                    <option value="India" selected>India</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="set_default" name="set_default">
+                                <label class="form-check-label" for="set_default">
+                                    Set as default address
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Continue to Payment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Order Summary</h5>
+
+                    <!-- Cart Items -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Your Cart</h6>
+                        <div class="list-group">
+                            {% for item in cart.cart_items.all %}
+                                <div class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-1">{{ item.product.name }}</h6>
+                                            <small class="text-muted">
+                                                ₹{{ item.product.final_price }} × {{ item.quantity }}
+                                            </small>
+                                        </div>
+                                        <span class="text-primary">₹{{ item.total_price }}</span>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!-- Price Summary -->
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <span class="h5">₹{{ cart.calculate_total_price }}</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Shipping</span>
+                        <span>₹50.00</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax (18%)</span>
+                        <span>₹{{ cart.calculate_total_price|multiply:0.18 }}</span>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="d-flex justify-content-between">
+                        <span class="h5">Total</span>
+                        <span class="h4 text-primary">₹{{ cart.calculate_total_price|multiply:1.18|add:50 }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Form validation
+(function () {
+    'use strict'
+    
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+    
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+            
+            form.classList.add('was-validated')
+        }, false)
+    })
+})()
+
+// Phone number validation
+const phoneInput = document.getElementById('phone_number')
+if (phoneInput) {
+    phoneInput.addEventListener('input', function(e) {
+        const value = e.target.value.replace(/\D/g, '')
+        e.target.value = value
+    })
+}
+
+// Pincode validation
+const pincodeInput = document.getElementById('pincode')
+if (pincodeInput) {
+    pincodeInput.addEventListener('input', function(e) {
+        const value = e.target.value.replace(/\D/g, '')
+        e.target.value = value
+    })
+}
+</script>
+{% endblock %}

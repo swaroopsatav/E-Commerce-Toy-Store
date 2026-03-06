@@ -1,0 +1,66 @@
+{% extends 'users/dashboard_base.html' %}
+
+{% block dashboard_content %}
+<div class="row mb-4">
+    <div class="col-md-12">
+        <h2 class="mb-3">Payment History</h2>
+        <p class="text-muted">View all your past payments and transactions.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Payment ID</th>
+                                <th>Order ID</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Method</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for payment in payments %}
+                            <tr>
+                                <td>{{ payment.transaction_id }}</td>
+                                <td>{{ payment.order.order_number }}</td>
+                                <td>{{ payment.created_at|date:"M d, Y" }}</td>
+                                <td>₹{{ payment.amount }}</td>
+                                <td>{{ payment.get_payment_method_display }}</td>
+                                <td>
+                                    <span class="status-badge status-{{ payment.status }}">
+                                        {{ payment.get_status_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="{% url 'users:payment_detail' payment.id %}" class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i> View
+                                        </a>
+                                        {% if payment.status == 'pending' %}
+                                            <a href="{% url 'users:cancel_payment' payment.id %}" class="btn btn-sm btn-outline-danger">
+                                                <i class="fas fa-times"></i> Cancel
+                                            </a>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                            </tr>
+                            {% empty %}
+                            <tr>
+                                <td colspan="7" class="text-center">No payments found</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

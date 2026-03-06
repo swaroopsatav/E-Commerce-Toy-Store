@@ -1,0 +1,435 @@
+ERROR 2025-07-03 07:16:56,974 views 8128 8544 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:16:56,974 views 8128 8544 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:16:57,280 log 8128 8544 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\Toy Store\products\views.py", line 48, in home_view
+    return render(request, 'products/home.html', context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\PycharmProjects\Toy Store\products\views.py", line 52, in home_view
+    return redirect('products:home')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:16:57,483 basehttp 8128 8544 "GET / HTTP/1.1" 500 177341
+ERROR 2025-07-03 07:20:23,703 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,703 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,768 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,768 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,804 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,804 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,844 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,844 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,891 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,891 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,939 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,939 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,991 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:23,991 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,030 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,030 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,075 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,075 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,116 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,116 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,214 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,214 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,256 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,256 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,286 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,286 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,316 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,316 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,344 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,344 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,375 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,375 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,407 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,407 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,436 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,436 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,466 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,466 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,493 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:24,493 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,576 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,576 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,627 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,627 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,673 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,673 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,704 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,704 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,735 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,735 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,764 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,764 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,793 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,793 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,823 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,823 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,852 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,852 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,883 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,883 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,914 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,914 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,965 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:25,965 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,021 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,021 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,083 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,083 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,122 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,122 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,169 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,169 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,208 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,208 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,239 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,239 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,269 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,269 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,305 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:26,305 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,442 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,442 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,474 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,474 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,511 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,511 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,540 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,540 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,569 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,569 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,601 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,601 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,628 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,628 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,659 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,659 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,689 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,689 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,719 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,719 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,749 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,749 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,779 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,779 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,808 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,808 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,840 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,840 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,874 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,874 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,918 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,918 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,950 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,950 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,983 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:30,983 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:31,014 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:31,014 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:31,042 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:31,042 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,557 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,557 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,593 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,593 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,630 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,630 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,657 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,657 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,754 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,754 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,783 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,783 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,811 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,811 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,840 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,840 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,877 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,877 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,905 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,905 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,936 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,936 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,966 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,966 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,996 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:32,996 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,025 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,025 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,055 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,055 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,086 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,086 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,119 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,119 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,148 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,148 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,180 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,180 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,209 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:33,209 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,608 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,608 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,639 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,639 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,671 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,671 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,704 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,704 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,734 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,734 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,763 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,763 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,797 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,797 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,848 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,848 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,889 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,889 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,930 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,930 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,972 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:34,972 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,007 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,007 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,039 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,039 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,070 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,070 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,105 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,105 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,141 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,141 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,175 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,175 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,208 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,208 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,237 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,237 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,266 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:35,266 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,339 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,339 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,378 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,378 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,419 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,419 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,466 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,466 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,514 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,514 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,550 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,550 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,594 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,594 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,635 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,635 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,668 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,668 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,703 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,703 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,738 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,738 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,780 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,780 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,822 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,822 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,863 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,863 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,900 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,900 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,938 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,938 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,980 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:40,980 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,012 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,012 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,048 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,048 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,089 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:20:41,089 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,150 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,150 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,185 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,185 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,226 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,226 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,262 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,262 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,297 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,297 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,330 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,330 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,364 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,364 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,395 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,395 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,426 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,426 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,456 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,456 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,486 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,486 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,518 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,518 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,554 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,554 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,594 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,594 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,623 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,623 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,652 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,652 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,686 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,686 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,719 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,719 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,755 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,755 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,792 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:11,792 views 11844 10368 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,303 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,303 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,359 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,359 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,390 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,390 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,423 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,423 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,455 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,455 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,485 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,485 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,516 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,516 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,548 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,548 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,578 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,578 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,609 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,609 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,641 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,641 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,673 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,673 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,708 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,708 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,739 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,739 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,775 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,775 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,804 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,804 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,836 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,836 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,867 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,867 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,898 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,898 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,931 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:21:43,931 views 12556 260 Error in home view: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+ERROR 2025-07-03 07:23:56,722 log 2572 10984 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\Toy Store\users\views.py", line 130, in login_view
+    return render(request, 'users/login.html', {'form': form})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login.html
+ERROR 2025-07-03 07:23:56,769 basehttp 2572 10984 "GET /accounts/login/ HTTP/1.1" 500 108620
+ERROR 2025-07-03 07:29:08,523 log 11128 12180 Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\Toy Store\users\views.py", line 130, in login_view
+    return render(request, 'users/login.html', {'form': form})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login.html
+ERROR 2025-07-03 07:29:08,561 basehttp 11128 12180 "GET /accounts/login/ HTTP/1.1" 500 107674
+ERROR 2025-07-03 07:29:42,791 log 11128 12180 Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\PycharmProjects\Toy Store\users\views.py", line 109, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+ERROR 2025-07-03 07:29:42,821 basehttp 11128 12180 "GET /accounts/register/ HTTP/1.1" 500 81262

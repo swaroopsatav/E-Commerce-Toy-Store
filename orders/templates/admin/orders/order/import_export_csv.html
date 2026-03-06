@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import/Export CSV</title>
+</head>
+<body>
+    <h2>Import CSV</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Export CSV</h2>
+    <a href="{% url 'orders:import_export_csv' %}"><button>Download CSV</button></a>
+</body>
+</html>

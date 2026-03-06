@@ -1,0 +1,66 @@
+{% extends "users/base.html" %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<div class="logout-container">
+    <h1>Logout</h1>
+    <p>Are you sure you want to log out?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn logout-btn">Logout</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f7fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .logout-container {
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .logout-container h1 {
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .logout-container p {
+        font-size: 16px;
+        color: #555555;
+        margin-bottom: 20px;
+    }
+
+    .btn.logout-btn {
+        background-color: #ff3b3b;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn.logout-btn:hover {
+        background-color: #e73333;
+    }
+</style>
+{% endblock %}

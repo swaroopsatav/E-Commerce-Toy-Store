@@ -1,0 +1,31 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Create New Category{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg p-4">
+                    <h3 class="text-center mb-4">Create a New Category</h3>
+
+                    <!-- Category Form -->
+                    <form method="POST" enctype="multipart/form-data" novalidate>
+                        {% csrf_token %}
+                        {{ category_form.as_p }}
+
+                        <!-- Image Upload Field -->
+                        <div class="mb-3">
+                            <label for="images" class="form-label">Upload Images</label>
+                            <input type="file" class="form-control" id="images" name="images" multiple required>
+                            <div class="form-text">You can upload multiple images for this category.</div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100">Create Category</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

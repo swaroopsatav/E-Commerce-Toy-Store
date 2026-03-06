@@ -1,0 +1,64 @@
+{% extends "checkout/base.html" %}
+
+{% block title %}Checkout{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Checkout</h2>
+
+{% if cart_items %}
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in cart_items %}
+            <tr>
+                <td>{{ item.product.name }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>${{ item.product.price }}</td>
+                <td>${{ item.total_price }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h4 class="text-end">Total: ${{ cart_total }}</h4>
+
+    <form method="post" action="{% url 'checkout:process_checkout' %}">
+        {% csrf_token %}
+
+        <h5 class="mt-4">Shipping Address</h5>
+        <div class="mb-3">
+            <label for="address" class="form-label">Select Address:</label>
+            <select name="address" id="address" class="form-select">
+                {% for address in user_addresses %}
+                    <option value="{{ address.id }}">{{ address.street }}, {{ address.city }}, {{ address.zip_code }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <h5 class="mt-4">Payment Method</h5>
+        <div class="mb-3">
+            <select name="payment_method" class="form-select">
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="cash_on_delivery">Cash on Delivery</option>
+            </select>
+        </div>
+
+        <div class="text-center mt-3">
+            <a href="{% url 'cart:cart' %}" class="btn btn-secondary">Back to Cart</a>
+            <button type="submit" class="btn btn-success">Place Order</button>
+        </div>
+    </form>
+
+{% else %}
+    <p class="text-center mt-4">Your cart is empty. <a href="{% url 'products' %}">Shop Now</a></p>
+{% endif %}
+
+{% endblock %}

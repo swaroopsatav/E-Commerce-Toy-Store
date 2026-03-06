@@ -1,0 +1,191 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Review Order - Checkout{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h2 mb-0">Review Order</h1>
+                <div class="d-flex gap-2">
+                    <a href="{% url 'checkout:payment_method' address.id %}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-1"></i> Back to Payment Method
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Order Details -->
+        <div class="col-lg-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Order Details</h5>
+
+                    <!-- Shipping Address -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Shipping Address</h6>
+                        <div class="address-card">
+                            <p class="mb-1">{{ address.full_name }}</p>
+                            <p class="mb-1">{{ address.address_line1 }}{% if address.address_line2 %}, {{ address.address_line2 }}{% endif %}</p>
+                            <p class="mb-1">{{ address.city }}, {{ address.state }} - {{ address.pincode }}</p>
+                            <p class="mb-1">{{ address.phone_number }}</p>
+                            <p class="mb-0">{{ address.country }}</p>
+                        </div>
+                    </div>
+
+                    <!-- Cart Items -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Your Cart</h6>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in cart.cart_items.all %}
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="{{ item.product.images.first.image.url|default:'/static/images/default-product.jpg' }}" 
+                                                         alt="{{ item.product.name }}" 
+                                                         class="rounded me-3" 
+                                                         style="width: 50px; height: 50px; object-fit: cover;">
+                                                    <div>
+                                                        <h6 class="mb-1">{{ item.product.name }}</h6>
+                                                        <small class="text-muted">{{ item.product.category.name }}</small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>₹{{ item.product.final_price }}</td>
+                                            <td>{{ item.quantity }}</td>
+                                            <td>₹{{ item.total_price }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Payment Method</h6>
+                        <div class="payment-method-card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="payment-icon me-3">
+                                        {% if payment_method == 'cash_on_delivery' %}
+                                            <i class="fas fa-money-bill-wave"></i>
+                                        {% elif payment_method == 'credit_card' %}
+                                            <i class="fas fa-credit-card"></i>
+                                        {% elif payment_method == 'debit_card' %}
+                                            <i class="fas fa-credit-card"></i>
+                                        {% elif payment_method == 'net_banking' %}
+                                            <i class="fas fa-university"></i>
+                                        {% endif %}
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">{{ payment_method|title|replace:'_',' ' }}</h6>
+                                        <small class="text-muted">
+                                            {% if payment_method == 'cash_on_delivery' %}
+                                                Pay when you receive your order
+                                            {% elif payment_method == 'credit_card' %}
+                                                Pay using your credit card
+                                            {% elif payment_method == 'debit_card' %}
+                                                Pay using your debit card
+                                            {% elif payment_method == 'net_banking' %}
+                                                Pay using net banking
+                                            {% endif %}
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form method="post" action="{% url 'checkout:review_order' address.id payment_method %}" class="needs-validation" novalidate>
+                        {% csrf_token %}
+                        
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terms" name="terms" required>
+                                <label class="form-check-label" for="terms">
+                                    I agree to the <a href="{% url 'pages:terms' %}" target="_blank">Terms and Conditions</a>
+                                </label>
+                                <div class="invalid-feedback">Please agree to the terms and conditions.</div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-shopping-cart me-2"></i>Place Order
+                            </button>
+                            <a href="{% url 'cart:cart_view' %}" class="btn btn-outline-secondary btn-lg">
+                                <i class="fas fa-arrow-left me-2"></i>Back to Cart
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Order Summary</h5>
+
+                    <!-- Price Summary -->
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <span class="h5">₹{{ cart.calculate_total_price }}</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Shipping</span>
+                        <span>₹50.00</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax (18%)</span>
+                        <span>₹{{ cart.calculate_total_price|multiply:0.18 }}</span>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="d-flex justify-content-between">
+                        <span class="h5">Total</span>
+                        <span class="h4 text-primary">₹{{ cart.calculate_total_price|multiply:1.18|add:50 }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.payment-method-card {
+    border: 1px solid #e9ecef;
+}
+
+.payment-icon i {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+.address-card {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+</style>
+{% endblock %}

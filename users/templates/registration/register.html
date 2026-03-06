@@ -1,0 +1,115 @@
+{% extends "users/base.html" %}
+{% load static %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <div class="form-container">
+        <h1>Register</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+
+            <div class="form-group">
+                <label for="id_username">Username:</label>
+                <input type="text" id="id_username" name="username" class="form-control">
+                <div class="error">{{ form.username.errors }}</div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_email">Email:</label>
+                <input type="email" id="id_email" name="email" class="form-control">
+                <div class="error">{{ form.email.errors }}</div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_password1">Password:</label>
+                <input type="password" id="id_password1" name="password1" class="form-control">
+                <div class="error">{{ form.password1.errors }}</div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_password2">Confirm Password:</label>
+                <input type="password" id="id_password2" name="password2" class="form-control">
+                <div class="error">{{ form.password2.errors }}</div>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f9fc;
+        color: #333;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .form-control:focus {
+        border-color: lightseagreen;
+        outline: none;
+        box-shadow: 0 0 5px rgba(32, 178, 170, 0.6);
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: lightseagreen;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #1b8d83;
+    }
+
+    .error {
+        color: red;
+        font-size: 0.875rem;
+    }
+</style>
+{% endblock %}

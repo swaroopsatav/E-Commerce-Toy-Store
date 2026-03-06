@@ -1,0 +1,292 @@
+{% extends 'cart/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Shopping Cart - Toy Store{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .table thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .table tbody tr {
+            background-color: #fff;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .btn-primary {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+        .text-end strong {
+            font-size: 1.2em;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+{% block content %}
+<div class="container-fluid py-4">
+    <!-- Cart Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h2 mb-0">Shopping Cart</h1>
+                <div>
+                    <span class="badge bg-primary me-2">{{ cart.items|length }} items</span>
+                    <a href="{% url 'products:product_list' %}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-1"></i> Continue Shopping
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Items -->
+    {% if cart.items %}
+        <div class="row">
+            <!-- Cart Items List -->
+            <div class="col-lg-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in cart.items %}
+                                        <tr class="cart-item">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="{{ item.product.images.first.image.url|default:'/static/images/default-product.jpg' }}" 
+                                                         alt="{{ item.product.name }}" 
+                                                         class="rounded me-3" 
+                                                         style="width: 80px; height: 80px; object-fit: cover;">
+                                                    <div>
+                                                        <h6 class="mb-1">{{ item.product.name }}</h6>
+                                                        <small class="text-muted">{{ item.product.category.name }}</small>
+                                                        {% if item.product.discount_price %}
+                                                            <span class="badge bg-danger ms-2">{{ item.product.discount_percentage }}% OFF</span>
+                                                        {% endif %}
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="price-container">
+                                                    <span class="h5 mb-0 text-primary">₹{{ item.product.final_price }}</span>
+                                                    {% if item.product.discount_price %}
+                                                        <span class="text-muted text-decoration-line-through ms-2">
+                                                            ₹{{ item.product.price }}
+                                                        </span>
+                                                    {% endif %}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <form action="{% url 'cart:cart_update' %}" method="post" class="d-inline">
+                                                    {% csrf_token %}
+                                                    <input type="hidden" name="product_id" value="{{ item.product.id }}">
+                                                    <div class="input-group">
+                                                        <button type="button" class="btn btn-outline-secondary btn-sm" onclick="this.nextElementSibling.value--; updateQuantity(this)">
+                                                            <i class="fas fa-minus"></i>
+                                                        </button>
+                                                        <input type="number" 
+                                                               name="quantity" 
+                                                               value="{{ item.quantity }}" 
+                                                               min="1" 
+                                                               max="{{ item.product.stock }}" 
+                                                               class="form-control form-control-sm text-center" 
+                                                               style="width: 80px;">
+                                                        <button type="button" class="btn btn-outline-secondary btn-sm" onclick="this.previousElementSibling.value++; updateQuantity(this)">
+                                                            <i class="fas fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </td>
+                                            <td>
+                                                <div class="price-container">
+                                                    <span class="h5 mb-0 text-primary">₹{{ item.total_price }}</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <form action="{% url 'cart:remove_from_cart' item.product.id %}" method="post" class="d-inline remove-form">
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="btn btn-danger btn-sm remove-btn">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="col-lg-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Order Summary</h5>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Subtotal</span>
+                            <span class="h5">₹{{ cart.total }}</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Shipping</span>
+                            <span>₹50.00</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Tax (18%)</span>
+                            <span>₹{{ cart.total|multiply:0.18 }}</span>
+                        </div>
+
+                        <hr class="my-3">
+
+                        <div class="d-flex justify-content-between mb-4">
+                            <span class="h5">Total</span>
+                            <span class="h4 text-primary">₹{{ cart.total|multiply:1.18|add:50 }}</span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <a href="{% url 'checkout:start' %}" class="btn btn-primary btn-lg">
+                                <i class="fas fa-shopping-cart me-2"></i>Proceed to Checkout
+                            </a>
+                            <button class="btn btn-outline-danger btn-lg" onclick="emptyCart()">
+                                <i class="fas fa-trash me-2"></i>Empty Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <div class="text-center py-5">
+            <div class="empty-cart-icon mb-4">
+                <i class="fas fa-shopping-cart fa-5x text-muted"></i>
+            </div>
+            <h3 class="mb-4">Your cart is empty</h3>
+            <p class="text-muted mb-4">Add some items to make me happy :)</p>
+            <a href="{% url 'products:product_list' %}" class="btn btn-primary btn-lg">
+                <i class="fas fa-arrow-left me-2"></i>Continue Shopping
+            </a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function updateQuantity(button) {
+    const form = button.closest('form');
+    const input = form.querySelector('input[type="number"]');
+    const max = parseInt(input.getAttribute('max'));
+    const value = parseInt(input.value);
+    
+    if (value < 1) {
+        input.value = 1;
+        return;
+    }
+    if (value > max) {
+        input.value = max;
+        return;
+    }
+    
+    form.submit();
+}
+
+function emptyCart() {
+    if (confirm('Are you sure you want to empty your cart?')) {
+        window.location.href = '{% url "cart:cart_empty" %}';
+    }
+}
+
+// Add smooth animations for cart updates
+$(document).ready(function() {
+    // Handle quantity updates
+    $('.remove-form').on('submit', function(e) {
+        const btn = $(this).find('.remove-btn');
+        const originalHtml = btn.html();
+        
+        btn.prop('disabled', true);
+        btn.html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>');
+        
+        setTimeout(() => {
+            btn.closest('tr').fadeOut(300, function() {
+                $(this).remove();
+            });
+        }, 1000);
+    });
+
+    // Handle cart updates
+    $('form').on('submit', function(e) {
+        const btn = $(this).find('button[type="submit"]');
+        const originalHtml = btn.html();
+        
+        btn.prop('disabled', true);
+        btn.html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>');
+        
+        setTimeout(() => {
+            btn.prop('disabled', false);
+            btn.html(originalHtml);
+        }, 1000);
+    });
+});
+</script>
+{% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

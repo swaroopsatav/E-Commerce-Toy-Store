@@ -1,0 +1,179 @@
+{% extends 'users/dashboard_base.html' %}
+
+{% block dashboard_content %}
+<div class="row mb-4">
+    <div class="col-md-12">
+        <h2 class="mb-3">Order #{{ order.order_number }}</h2>
+        <p class="text-muted">{{ order.created_at|date:"F j, Y" }} at {{ order.created_at|time:"H:i" }}</p>
+    </div>
+</div>
+
+<!-- Order Summary -->
+<div class="row mb-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Order Summary</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in order.order_items.all %}
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="{{ item.product.images.first.image.url|default:'/static/images/default-product.jpg' }}" 
+                                             alt="{{ item.product.name }}" 
+                                             class="rounded me-3" 
+                                             style="width: 50px; height: 50px; object-fit: cover;">
+                                        <div>
+                                            <h6 class="mb-1">{{ item.product.name }}</h6>
+                                            <small class="text-muted">{{ item.product.category.name }}</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>₹{{ item.price }}</td>
+                                <td>{{ item.quantity }}</td>
+                                <td>₹{{ item.price|multiply:item.quantity }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-end"><strong>Subtotal:</strong></td>
+                                <td>₹{{ order.subtotal }}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="text-end"><strong>Shipping:</strong></td>
+                                <td>₹{{ order.shipping_amount }}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="text-end"><strong>Tax (18%):</strong></td>
+                                <td>₹{{ order.tax_amount }}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                                <td><strong>₹{{ order.total_amount }}</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Status -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Order Status</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Order Information</h5>
+                        <p><strong>Order Number:</strong> {{ order.order_number }}</p>
+                        <p><strong>Order Date:</strong> {{ order.created_at|date:"F j, Y H:i" }}</p>
+                        <p><strong>Status:</strong> <span class="badge bg-{{ order.get_status_color }}">{{ order.get_status_display }}</span></p>
+                        <p><strong>Tracking Number:</strong> {{ order.tracking_number }}</p>
+                        <p><strong>Expected Delivery:</strong> {{ order.expected_delivery_date|date:"F j, Y" }}</p>
+                        <p><strong>Payment Method:</strong> {{ order.get_payment_method_display }}</p>
+                        <p><strong>Payment Status:</strong> <span class="badge bg-{{ order.get_payment_status_color }}">{{ order.get_payment_status_display }}</span></p>
+                        {% if order.status in 'pending processing' %}
+                        <a href="{% url 'checkout:order_tracking' order.id %}" class="btn btn-primary mt-2">
+                            <i class="fas fa-truck"></i> Track Order
+                        </a>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Shipping Information</h5>
+                        <p><strong>Shipping Address:</strong> {{ order.shipping_address.full_name }}</p>
+                        <p>{{ order.shipping_address.address_line1 }}</p>
+                        <p>{{ order.shipping_address.address_line2 }}</p>
+                        <p>{{ order.shipping_address.city }}, {{ order.shipping_address.state }} {{ order.shipping_address.pincode }}</p>
+                        <p>{{ order.shipping_address.country }}</p>
+                        <p><strong>Phone:</strong> {{ order.shipping_address.phone_number }}</p>
+                        <p><strong>Email:</strong> {{ order.shipping_address.email }}</p>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <h5>Order Timeline</h5>
+                    <div class="timeline">
+                        {% for update in order.tracking_updates.all|dictsortreversed:"created_at" %}
+                        <div class="timeline-item">
+                            <div class="timeline-badge bg-{{ update.order.get_status_color }}"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5 class="mb-0">{{ update.get_status_display }}</h5>
+                                    <small class="text-muted">{{ update.created_at|date:"F j, Y H:i" }}</small>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>{{ update.notes }}</p>
+                                    {% if update.location %}
+                                    <p class="text-muted">Location: {{ update.location }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shipping Address -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Shipping Address</h5>
+            </div>
+            <div class="card-body">
+                <p class="mb-1"><strong>{{ order.shipping_address.full_name }}</strong></p>
+                <p class="mb-1">{{ order.shipping_address.address_line_1 }}</p>
+                {% if order.shipping_address.address_line_2 %}
+                <p class="mb-1">{{ order.shipping_address.address_line_2 }}</p>
+                {% endif %}
+                <p class="mb-1">
+                    {{ order.shipping_address.city }}, 
+                    {{ order.shipping_address.state }}
+                    {{ order.shipping_address.pincode }}
+                </p>
+                <p class="mb-0">Phone: {{ order.shipping_address.phone_number }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Order Actions -->
+{% if order.status == 'pending' %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Order Actions</h5>
+            </div>
+            <div class="card-body">
+                <div class="btn-group w-100">
+                    <a href="{% url 'users:cancel_order' order.id %}" class="btn btn-danger w-100">
+                        <i class="fas fa-times me-2"></i>Cancel Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

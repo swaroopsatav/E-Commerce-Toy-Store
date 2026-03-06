@@ -1,0 +1,34 @@
+{% extends "products/base.html" %}
+
+{% block title %}Categories{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-5">Product Categories</h1>
+    </div>
+
+    {% if categories %}
+        <div class="row">
+            {% for category in categories %}
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <img src="{{ category.image.url|default:'/static/images/default-category.jpg' }}"
+                             class="card-img-top rounded"
+                             alt="{{ category.name }}"
+                             style="object-fit: cover; height: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{ category.name }}</h5>
+                            <a href="{{ category.get_absolute_url }}" class="btn btn-primary w-100">View Category</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-warning text-center mt-4" role="alert">
+            No categories found.
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,86 @@
+/* Custom styles for admin interface */
+
+/* Image preview styles */
+.image-preview {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+/* Category hierarchy display */
+.category-hierarchy {
+    padding-left: 20px;
+}
+
+/* Stock status badges */
+.badge {
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 4px;
+}
+
+.badge.bg-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Form field styling */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Image upload button */
+.image-upload-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.image-upload-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Category tree view */
+.category-tree {
+    margin-left: 20px;
+}
+
+.category-tree .parent-category {
+    font-weight: bold;
+}
+
+/* Product list styling */
+.product-list {
+    margin-bottom: 20px;
+}
+
+.product-list .product-name {
+    font-weight: bold;
+}
+
+/* Responsive table adjustments */
+@media (max-width: 768px) {
+    .image-preview {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    
+    .category-hierarchy {
+        padding-left: 15px;
+    }
+}

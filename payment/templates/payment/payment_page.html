@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+{% extends 'payment/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cash on Delivery - Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+        }
+
+        #payment-form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            font-size: 16px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h2 mb-0">Cash on Delivery Payment</h1>
+                <div class="d-flex gap-2">
+                    <a href="{% url 'cart:cart_view' %}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-1"></i> Back to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Payment Instructions -->
+        <div class="col-lg-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Payment Instructions</h5>
+                    <div class="alert alert-info mb-4">
+                        <h6 class="alert-heading mb-2">Cash on Delivery</h6>
+                        <p class="mb-0">
+                            You will pay the delivery person when you receive your order. Please have the exact amount ready.
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="mb-3">Order Details</h6>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in order.order_items.all %}
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="{{ item.product.images.first.image.url|default:'/static/images/default-product.jpg' }}" 
+                                                         alt="{{ item.product.name }}" 
+                                                         class="rounded me-3" 
+                                                         style="width: 50px; height: 50px; object-fit: cover;">
+                                                    <div>
+                                                        <h6 class="mb-1">{{ item.product.name }}</h6>
+                                                        <small class="text-muted">{{ item.product.category.name }}</small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>₹{{ item.price }}</td>
+                                            <td>{{ item.quantity }}</td>
+                                            <td>₹{{ item.price|multiply:item.quantity }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="mb-3">Shipping Address</h6>
+                        <div class="address-card">
+                            <p class="mb-1">{{ order.shipping_address.full_name }}</p>
+                            <p class="mb-1">{{ order.shipping_address.address_line1 }}{% if order.shipping_address.address_line2 %}, {{ order.shipping_address.address_line2 }}{% endif %}</p>
+                            <p class="mb-1">{{ order.shipping_address.city }}, {{ order.shipping_address.state }} - {{ order.shipping_address.pincode }}</p>
+                            <p class="mb-1">{{ order.shipping_address.phone_number }}</p>
+                            <p class="mb-0">{{ order.shipping_address.country }}</p>
+                        </div>
+                    </div>
+
+                    <form method="post" id="payment-form" action="{% url 'payment:process_payment' %}" class="needs-validation" novalidate>
+                        {% csrf_token %}
+                        <input type="hidden" name="order_id" value="{{ order.id }}">
+                        <input type="hidden" name="payment_method" value="cash_on_delivery">
+
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terms" name="terms" required>
+                                <label class="form-check-label" for="terms">
+                                    I agree to pay the delivery person when I receive the order
+                                </label>
+                                <div class="invalid-feedback">Please agree to the payment terms.</div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-warning mb-4">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Important:</strong>
+                            <ul class="mb-0">
+                                <li>Payment will be made in cash to the delivery person</li>
+                                <li>Exact amount must be ready when delivery arrives</li>
+                                <li>Keep this page open until payment is confirmed</li>
+                                <li>Check your order carefully before confirming</li>
+                            </ul>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg" id="confirm-payment-btn">
+                                <i class="fas fa-check-circle me-2"></i>Confirm Payment
+                            </button>
+                            <a href="{% url 'cart:cart_view' %}" class="btn btn-outline-secondary btn-lg">
+                                <i class="fas fa-arrow-left me-2"></i>Back to Cart
+                            </a>
+                        </div>
+                    </form>
+
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const form = document.getElementById('payment-form');
+                        const confirmBtn = document.getElementById('confirm-payment-btn');
+                        
+                        // Add loading state to button
+                        form.addEventListener('submit', function(e) {
+                            e.preventDefault();
+                            
+                            if (!form.checkValidity()) {
+                                e.stopPropagation();
+                                form.classList.add('was-validated');
+                                return;
+                            }
+                            
+                            // Add loading state
+                            confirmBtn.disabled = true;
+                            confirmBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Processing...';
+                            
+                            // Submit the form
+                            fetch(form.action, {
+                                method: 'POST',
+                                headers: {
+                                    'X-CSRFToken': '{{ csrf_token }}'
+                                },
+                                body: new FormData(form)
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.status === 'success') {
+                                    // Redirect to confirmation page
+                                    window.location.href = `{% url 'payment:payment_confirmation' %}?payment_id=${data.payment_id}`;
+                                } else {
+                                    // Show error message
+                                    alert(data.message);
+                                    confirmBtn.disabled = false;
+                                    confirmBtn.innerHTML = '<i class="fas fa-check-circle me-2"></i>Confirm Payment';
+                                }
+                            })
+                            .catch(error => {
+                                alert('An error occurred. Please try again.');
+                                confirmBtn.disabled = false;
+                                confirmBtn.innerHTML = '<i class="fas fa-check-circle me-2"></i>Confirm Payment';
+                            });
+                        });
+                    });
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Order Summary</h5>
+
+                    <!-- Price Summary -->
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <span class="h5">₹{{ order.cart.calculate_total_price }}</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Shipping</span>
+                        <span>₹{{ order.shipping_amount }}</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax (18%)</span>
+                        <span>₹{{ order.tax_amount }}</span>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="d-flex justify-content-between">
+                        <span class="h5">Total</span>
+                        <span class="h4 text-primary">₹{{ order.total_amount }}</span>
+                    </div>
+
+                    <!-- COD Instructions -->
+                    <div class="mt-4">
+                        <div class="alert alert-info">
+                            <h6 class="alert-heading mb-2">Cash on Delivery Instructions</h6>
+                            <ul class="mb-0">
+                                <li>Please have the exact amount ready when the delivery person arrives</li>
+                                <li>Payment must be made in cash only</li>
+                                <li>Keep your order confirmation email handy for reference</li>
+                                <li>Check the order carefully before making the payment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.address-card {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    vertical-align: middle;
+}
+</style>
+{% endblock %}
+</body>
+</html>

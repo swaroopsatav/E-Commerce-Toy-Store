@@ -1,0 +1,72 @@
+{% extends 'users/dashboard_base.html' %}
+
+{% block dashboard_content %}
+<div class="row mb-4">
+    <div class="col-md-12">
+        <h2 class="mb-3">Order History</h2>
+        <p class="text-muted">View all your past orders and track their status.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Date</th>
+                                <th>Total Items</th>
+                                <th>Total Amount</th>
+                                <th>Status</th>
+                                <th>Payment Method</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for order in orders %}
+                            <tr>
+                                <td>{{ order.order_number }}</td>
+                                <td>{{ order.created_at|date:"M d, Y" }}</td>
+                                <td>{{ order.order_items.count }}</td>
+                                <td>₹{{ order.total_amount }}</td>
+                                <td>
+                                    <span class="status-badge status-{{ order.status }}">
+                                        {{ order.get_status_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if order.payments.exists %}
+                                        {{ order.payments.first.get_payment_method_display }}
+                                    {% else %}
+                                        Pending Payment
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="{% url 'users:order_detail' order.id %}" class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i> View
+                                        </a>
+                                        {% if order.status == 'pending' %}
+                                            <a href="{% url 'users:cancel_order' order.id %}" class="btn btn-sm btn-outline-danger">
+                                                <i class="fas fa-times"></i> Cancel
+                                            </a>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                            </tr>
+                            {% empty %}
+                            <tr>
+                                <td colspan="7" class="text-center">No orders found</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

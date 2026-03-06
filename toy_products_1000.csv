@@ -1,0 +1,1001 @@
+id,name,description,price,stock,created_at,updated_at,is_featured,categories
+d8ec9bba-15d3-4748-a8d4-7450f5d6d592,Toy Kitchen Set,Encourages creativity and problem-solving.,247.83,328,2025-10-02 08:12:00,2025-09-28 13:08:00,True,Trading Cards
+3cc5b540-2a20-4e3b-a1e6-d4d19b9f6590,Hot Wheels Track,High-quality and durable.,249.01,233,2025-12-11 13:37:00,2025-01-10 16:56:00,True,"Dolls, Vehicles"
+858257fe-2471-4e1a-9b13-6be9edb1deec,Play-Doh Set,Encourages creativity and problem-solving.,124.75,69,2025-08-19 00:07:00,2025-09-12 15:49:00,False,"Board Games, Racing, Trading Cards"
+3d045768-54a5-4caf-930b-299fef7282b4,Fisher-Price Toy,Designed for hours of entertainment.,266.40,28,2025-09-08 14:03:00,2025-12-18 07:10:00,True,"Racing, Dolls"
+ab6a196a-3ceb-4af6-96ac-0eae6bde1f41,Pokemon Card Set,Easy to assemble and store.,201.62,93,2025-06-07 19:40:00,2025-09-18 11:53:00,False,"Family Games, Trading Cards, Board Games"
+9a83a072-b050-495c-8114-bc162ac3b93d,Transformers Figure,Great gift for children of all ages.,242.55,431,2025-01-16 23:09:00,2025-07-04 10:49:00,True,"Dolls, Trading Cards"
+74bd0ba3-0488-4f5f-acda-b35ffa8c3c2e,Robot Toy,Easy to assemble and store.,292.08,316,2025-08-24 08:52:00,2025-03-04 23:26:00,False,"Blasters, Vehicles"
+82ac979d-9180-4cba-a2e1-3153eddbd922,Puzzle Game,Safe and non-toxic materials.,28.46,433,2025-12-26 09:00:00,2025-10-13 17:37:00,False,Dolls
+5c199fad-79f6-4121-9282-c87d112ac1a0,Wooden Train Set,Easy to assemble and store.,147.36,304,2025-03-01 01:46:00,2025-02-04 10:48:00,False,Trading Cards
+af75c5cb-8d86-45ef-962b-409cb1b7264c,Barbie Dollhouse,High-quality and durable.,26.24,345,2025-05-04 07:36:00,2025-12-06 10:23:00,False,"Collectibles, Baby Toys, Trading Cards"
+94e39156-13e7-44ac-8a08-6527b253aa01,Plush Teddy Bear,High-quality and durable.,153.24,121,2025-10-27 17:04:00,2025-07-05 10:48:00,False,"Educational, Family Games, Dolls"
+c993362e-b869-4c74-90dd-d566443186d8,Science Experiment Kit,Designed for hours of entertainment.,30.27,358,2025-07-18 05:16:00,2025-02-16 01:11:00,True,"Vehicles, Collectibles"
+e39638fa-5605-4a5e-a444-9d1e5835a5c7,Monopoly Board Game,A fun and engaging toy for kids.,231.15,193,2025-07-06 01:19:00,2025-01-07 09:34:00,True,Blasters
+6ed3c123-8d27-40b7-b284-42a6d57c46d9,Superhero Action Figure,Perfect for imaginative play.,95.99,469,2025-09-12 10:58:00,2025-01-13 21:03:00,True,"Building Sets, Playsets"
+e835e73f-9d73-40e3-bc24-ad5cd614374b,Hot Wheels Track,Encourages creativity and problem-solving.,126.62,330,2025-12-07 12:12:00,2025-06-02 14:28:00,False,Blasters
+1be2cde1-087b-401a-890b-0638e1d50f28,NERF Blaster,Designed for hours of entertainment.,112.50,175,2025-10-01 17:12:00,2025-05-22 04:31:00,True,"Racing, Dolls"
+2e8fb50f-1667-4d78-b0b0-4cb2ee23039f,Toy Kitchen Set,High-quality and durable.,288.35,448,2025-08-14 08:18:00,2025-12-18 18:04:00,True,Playsets
+6d672ae4-47b4-44c2-a793-683c9bba4458,Robot Toy,Designed for hours of entertainment.,277.89,62,2025-06-25 09:50:00,2025-04-17 13:10:00,False,"Trading Cards, Building Sets, Vehicles"
+ba0f3183-a7f0-4886-a044-4efa937c48d7,Barbie Dollhouse,Includes various accessories for extended fun.,160.88,207,2025-08-19 18:38:00,2025-04-23 18:40:00,True,"Baby Toys, Building Sets, Vehicles"
+b78301e5-f9f1-4656-8be2-2ed71af8139f,Monopoly Board Game,Great gift for children of all ages.,87.45,367,2025-06-01 17:59:00,2025-06-14 06:17:00,False,"Action Figures, Arts & Crafts, Baby Toys"
+c8763af0-daf1-4d0f-8770-7658afed54aa,Puzzle Game,Includes various accessories for extended fun.,131.81,138,2025-12-24 17:53:00,2025-04-16 10:50:00,True,Racing
+101ae49c-4f4c-4437-9e27-f9f3d13a09c5,Monopoly Board Game,Perfect for imaginative play.,55.83,59,2025-07-24 09:13:00,2025-01-21 10:06:00,False,"Playsets, Building Sets, Vehicles"
+b28db5b0-2140-422b-ab51-84c3255fe10b,Robot Toy,A fun and engaging toy for kids.,83.42,305,2025-03-12 03:13:00,2025-05-14 14:57:00,False,"Dolls, Arts & Crafts, Baby Toys"
+da5d7f76-7d6d-4fa8-9fc9-66a668e15d40,Fisher-Price Toy,Great gift for children of all ages.,41.34,407,2025-09-08 09:46:00,2025-11-05 02:46:00,False,Baby Toys
+f3679dc2-d236-47ba-93d6-16d985a65720,Remote Control Car,Designed for hours of entertainment.,65.81,454,2025-05-18 09:50:00,2025-08-16 07:21:00,False,"Blasters, Building Sets, Action Figures"
+fc06e467-72d9-4082-949b-7c1b8162f338,NERF Blaster,Great gift for children of all ages.,45.08,437,2025-01-02 08:30:00,2025-06-23 00:54:00,False,"Vehicles, Board Games"
+9cf770d6-0587-4fdc-8cad-fca3752aa5d4,Hot Wheels Track,Easy to assemble and store.,224.27,123,2025-12-07 10:23:00,2025-04-05 11:24:00,False,"Action Figures, Arts & Crafts, Collectibles"
+7fc6d0d7-2f8a-4183-bb63-192163e11b58,Puzzle Game,Safe and non-toxic materials.,42.79,99,2025-08-15 06:06:00,2025-08-06 16:32:00,True,Family Games
+aa3fcdaf-0bbd-4b64-b7b7-9eaf3b0271df,Plush Teddy Bear,Safe and non-toxic materials.,227.44,167,2025-07-03 11:54:00,2025-01-26 13:50:00,False,Action Figures
+57b7a7ca-74b4-4454-8e96-0a817150d517,Dinosaur Toy,Designed for hours of entertainment.,77.07,150,2025-11-07 17:41:00,2025-09-17 19:45:00,True,Educational
+27ba64fa-5386-4330-9ffd-a261a2644022,Robot Toy,Perfect for imaginative play.,40.32,445,2025-06-12 09:05:00,2025-02-08 17:42:00,True,"Trading Cards, Action Figures, Racing"
+d37e310d-a8e1-4392-af00-72e8482330da,Barbie Dollhouse,High-quality and durable.,183.00,253,2025-02-28 01:25:00,2025-02-27 02:41:00,True,"Educational, Vehicles, Family Games"
+7623190c-1777-47e7-9f86-bba72687ab9a,Toy Kitchen Set,High-quality and durable.,243.56,122,2025-08-16 15:01:00,2025-07-24 22:45:00,True,"Action Figures, Blasters"
+8c0688bd-3aa5-4746-97fe-985b5af6b5de,Wooden Train Set,High-quality and durable.,276.27,200,2025-08-21 17:04:00,2025-10-03 09:06:00,False,"Trading Cards, Baby Toys"
+d4bf582a-fc21-4a6b-be31-3b51eb7be359,Pokemon Card Set,High-quality and durable.,161.14,231,2025-05-04 20:44:00,2025-03-08 21:19:00,False,"Family Games, Arts & Crafts"
+1f7db10f-86ae-4211-8ad9-d2dd5d3ce5c2,Magic Kit,Great gift for children of all ages.,100.11,325,2025-01-25 11:01:00,2025-06-22 04:14:00,False,"Collectibles, Action Figures, Building Sets"
+e846dac4-9c38-40a7-bf74-02ce8a172b20,Remote Control Car,Perfect for imaginative play.,71.14,460,2025-08-24 00:01:00,2025-05-16 19:52:00,False,"Playsets, Action Figures"
+900be45b-42ef-433b-b4d6-02cd1b74ecca,Barbie Dollhouse,Easy to assemble and store.,30.68,337,2025-10-11 17:09:00,2025-01-08 20:22:00,True,"Dolls, Playsets, Blasters"
+fe7adc5d-38d4-44e7-b682-971768de2e66,Plush Teddy Bear,Great gift for children of all ages.,82.91,500,2025-04-15 04:09:00,2025-08-26 13:48:00,True,"Collectibles, Arts & Crafts, Educational"
+68019dab-ede8-4e94-9a3a-381614b152aa,Pokemon Card Set,High-quality and durable.,179.67,231,2025-12-03 05:15:00,2025-01-15 10:01:00,True,"Dolls, Blasters, Playsets"
+2fca4a89-7030-4d58-a17e-28fc15724949,Puzzle Game,Includes various accessories for extended fun.,247.29,140,2025-09-04 20:24:00,2025-11-24 13:27:00,False,Playsets
+b1e1056d-fa39-404a-ad92-b09a0c247dc4,Dinosaur Toy,Great gift for children of all ages.,282.90,63,2025-04-16 08:33:00,2025-04-24 19:37:00,True,"Action Figures, Vehicles"
+3d505565-972a-49c3-b30d-438d1f2a8dcc,Magic Kit,High-quality and durable.,272.33,93,2025-06-10 09:02:00,2025-12-26 12:39:00,True,Building Sets
+ceec2413-53e4-4087-bb5e-9c3be7355bf6,Science Experiment Kit,Great gift for children of all ages.,245.17,468,2025-06-09 16:32:00,2025-01-08 19:52:00,False,"Action Figures, Family Games"
+83c630d2-de39-4254-ba70-c99aa35903e0,Wooden Train Set,Designed for hours of entertainment.,269.35,196,2025-11-21 12:13:00,2025-05-07 11:13:00,True,"Playsets, Action Figures, Blasters"
+0c900d3b-c32d-4c6f-a799-4239a4a753b2,Pokemon Card Set,Great gift for children of all ages.,258.81,222,2025-11-13 10:43:00,2025-12-12 13:42:00,True,"Building Sets, Arts & Crafts, Baby Toys"
+2c85c486-6615-4eed-af66-9a9d2e692d68,NERF Blaster,Includes various accessories for extended fun.,157.53,247,2025-01-12 21:13:00,2025-04-12 07:10:00,True,"Collectibles, Building Sets, Racing"
+3faafaba-a7ef-4aea-956d-12dd9e701c8f,Robot Toy,Includes various accessories for extended fun.,80.44,131,2025-12-10 01:11:00,2025-02-23 22:22:00,True,"Action Figures, Trading Cards"
+c6c6df29-68a0-4018-9aaf-8427b6b3667f,Science Experiment Kit,Safe and non-toxic materials.,82.05,168,2025-12-26 19:45:00,2025-07-17 20:07:00,True,"Educational, Trading Cards, Arts & Crafts"
+f4f5b5d9-d1f8-4002-91e4-6b2a4444a136,Wooden Train Set,Perfect for imaginative play.,52.48,35,2025-12-09 15:21:00,2025-03-20 03:11:00,False,Educational
+cd7e233f-6ae8-4cfd-8c62-fa85e181cde7,LEGO City Set,Easy to assemble and store.,81.96,233,2025-12-09 11:43:00,2025-06-25 00:45:00,False,"Collectibles, Action Figures"
+cf0b27e8-2abf-4f3c-887f-4e0f68469577,Hot Wheels Track,Easy to assemble and store.,28.00,81,2025-07-08 08:56:00,2025-10-14 09:49:00,True,"Playsets, Collectibles"
+b25a8150-db29-4f77-99ed-2d59c5d97264,Monopoly Board Game,Great gift for children of all ages.,147.95,398,2025-02-27 15:48:00,2025-10-25 06:43:00,False,"Collectibles, Playsets, Building Sets"
+f6533c5b-d74a-4c8d-8414-d640ff1f688e,Robot Toy,Designed for hours of entertainment.,228.90,286,2025-07-21 01:40:00,2025-08-26 06:47:00,True,"Dolls, Building Sets, Family Games"
+39b77e88-09ba-4d73-a26c-cfd3e70a20f3,Robot Toy,High-quality and durable.,32.22,42,2025-02-18 18:30:00,2025-05-06 18:06:00,True,"Vehicles, Family Games"
+990196c4-4cf8-4ada-a2aa-eff243583355,Remote Control Car,Perfect for imaginative play.,272.31,350,2025-12-07 21:29:00,2025-06-14 20:21:00,True,"Educational, Arts & Crafts"
+19be951e-01fa-4129-8385-8a40f9f3303b,Toy Kitchen Set,Safe and non-toxic materials.,264.16,275,2025-03-04 21:24:00,2025-06-06 23:57:00,True,Collectibles
+ddec2eb2-ce99-4177-992f-6ee5739875ca,Dinosaur Toy,Easy to assemble and store.,36.83,147,2025-02-10 23:29:00,2025-09-28 13:20:00,True,"Arts & Crafts, Blasters"
+6a58be22-1598-415d-acbe-90a02d5facf4,Barbie Dollhouse,Perfect for imaginative play.,175.39,62,2025-04-26 14:09:00,2025-06-01 13:16:00,True,Dolls
+b5387e7c-b947-4307-b03c-0c305056d0dd,Barbie Dollhouse,Includes various accessories for extended fun.,25.02,382,2025-03-11 03:40:00,2025-12-02 06:16:00,True,"Trading Cards, Racing"
+adee3454-9618-4981-99e5-ad51e88198b9,Toy Kitchen Set,Interactive and educational.,297.71,255,2025-11-01 08:08:00,2025-03-27 19:11:00,True,"Educational, Arts & Crafts"
+7f793718-4f36-46a2-ba50-34910bb17028,Transformers Figure,High-quality and durable.,286.76,163,2025-12-16 19:51:00,2025-06-16 04:34:00,True,"Blasters, Vehicles"
+0b354b3b-4781-4b1e-b7a9-eae2bd7e97f6,LEGO City Set,Easy to assemble and store.,168.11,90,2025-10-03 14:35:00,2025-03-02 07:04:00,True,Vehicles
+8352f71e-8893-4d78-bdf3-39fd474f23d2,Dinosaur Toy,Safe and non-toxic materials.,282.77,224,2025-08-28 01:21:00,2025-06-03 20:07:00,False,"Vehicles, Arts & Crafts, Baby Toys"
+f46b06a1-cbc6-4adc-87de-7511a6e99daa,Superhero Action Figure,Perfect for imaginative play.,81.94,225,2025-01-19 03:03:00,2025-02-18 09:18:00,True,"Arts & Crafts, Collectibles"
+cc64a1c3-5797-40d3-ac03-1fd06fa386d3,Toy Kitchen Set,A fun and engaging toy for kids.,74.49,278,2025-01-06 13:49:00,2025-01-10 02:44:00,True,"Building Sets, Arts & Crafts"
+3cc22124-e2a9-444f-bff4-b2f3f8e8016c,Monopoly Board Game,High-quality and durable.,274.93,280,2025-04-17 18:33:00,2025-11-01 19:30:00,True,"Vehicles, Arts & Crafts, Board Games"
+15b53c45-25a9-4913-ab73-13d628735975,Dinosaur Toy,Designed for hours of entertainment.,107.49,318,2025-10-06 06:31:00,2025-05-10 01:15:00,False,"Racing, Vehicles"
+46656c04-2d98-4b65-b00f-7a392f0a621e,Dinosaur Toy,Designed for hours of entertainment.,175.36,284,2025-05-06 08:25:00,2025-07-14 19:14:00,False,"Board Games, Playsets"
+e2d3dfe8-1f0b-43fc-ac94-ea4c7a1e7070,Play-Doh Set,Great gift for children of all ages.,105.97,322,2025-07-24 22:27:00,2025-11-25 15:26:00,False,Racing
+3b450644-8f18-41e1-9fa8-9205f5cf9517,Stuffed Animal,Encourages creativity and problem-solving.,161.70,45,2025-04-23 11:57:00,2025-01-02 08:00:00,False,"Racing, Board Games, Arts & Crafts"
+1cf21960-a139-4bc1-9469-3f724cd34cd9,Toy Kitchen Set,Interactive and educational.,286.32,461,2025-05-24 18:53:00,2025-03-25 10:18:00,False,Racing
+c6c33689-9671-4ee2-b715-a4883031aaf4,Barbie Dollhouse,High-quality and durable.,127.04,313,2025-03-13 04:50:00,2025-04-28 01:30:00,True,Blasters
+a1e26e77-3bac-4113-a24b-4750c5e16858,Monopoly Board Game,Perfect for imaginative play.,277.46,40,2025-02-12 02:07:00,2025-03-20 18:53:00,False,"Dolls, Action Figures, Playsets"
+5ec686c1-6885-4612-998c-2ce013e3772b,Dinosaur Toy,Easy to assemble and store.,194.68,399,2025-09-15 20:25:00,2025-08-21 17:35:00,False,"Blasters, Collectibles, Racing"
+629227d9-1af5-4af2-bcf3-d5a57c947c22,Barbie Dollhouse,Includes various accessories for extended fun.,279.24,347,2025-02-23 04:04:00,2025-03-05 06:08:00,False,"Vehicles, Baby Toys, Dolls"
+3a10114f-88ed-451f-afe0-1cfdfc4fbeb1,Magic Kit,A fun and engaging toy for kids.,204.88,193,2025-10-16 21:32:00,2025-01-22 22:52:00,False,"Trading Cards, Racing"
+05009618-1c86-4e42-bd6e-563899854006,Robot Toy,Interactive and educational.,162.18,455,2025-06-06 21:59:00,2025-05-01 06:40:00,False,"Collectibles, Vehicles"
+869d9304-6791-4d45-9925-533741d2655b,Superhero Action Figure,Easy to assemble and store.,171.56,316,2025-12-20 21:31:00,2025-12-07 06:19:00,False,Building Sets
+d8cd7fc3-86a3-4f5a-ab08-47fef7387b5b,Magic Kit,Designed for hours of entertainment.,275.58,192,2025-12-14 07:47:00,2025-01-04 14:50:00,True,"Dolls, Baby Toys"
+6ac5d8f5-f965-43f1-aedf-f9b1a338f590,Magic Kit,Includes various accessories for extended fun.,149.21,49,2025-05-01 22:47:00,2025-03-24 14:18:00,True,Vehicles
+b7a12e3e-0420-4564-812c-77e84883ad0a,Plush Teddy Bear,Perfect for imaginative play.,13.02,384,2025-12-04 19:53:00,2025-01-23 08:37:00,True,Playsets
+1c0846f3-09cd-4e90-92be-d39e72c0ca65,Puzzle Game,High-quality and durable.,294.02,161,2025-03-08 11:25:00,2025-07-18 07:38:00,False,Blasters
+4e6849ff-c31a-45c7-9170-c2d4f5646939,Superhero Action Figure,Interactive and educational.,276.71,240,2025-07-19 10:48:00,2025-04-16 00:15:00,False,"Baby Toys, Board Games, Playsets"
+1b404e39-f808-46ef-98e0-c020e53dc85a,Science Experiment Kit,High-quality and durable.,246.71,273,2025-10-12 14:32:00,2025-03-28 04:11:00,True,"Vehicles, Baby Toys"
+48fda36a-4549-4ec3-b511-7d572fc1dcec,Stuffed Animal,Interactive and educational.,56.86,195,2025-09-13 07:46:00,2025-06-23 12:45:00,False,Arts & Crafts
+91ccf22d-97c0-4f48-8799-142cd5a2cd2d,Dinosaur Toy,A fun and engaging toy for kids.,210.04,95,2025-09-20 09:51:00,2025-06-23 02:54:00,False,"Baby Toys, Collectibles, Vehicles"
+6b6cf6dd-0702-4ca9-9426-6ae25100b3aa,Monopoly Board Game,Perfect for imaginative play.,98.46,326,2025-02-13 18:18:00,2025-09-10 03:42:00,True,Family Games
+fbe204a0-bb7a-439a-bb3c-22ed920e7a66,Magic Kit,Perfect for imaginative play.,120.78,34,2025-11-16 11:37:00,2025-08-21 04:11:00,True,Playsets
+88974b81-064c-4205-a24d-028a6c2fca13,Plush Teddy Bear,High-quality and durable.,72.05,316,2025-10-14 15:20:00,2025-08-25 08:54:00,False,"Blasters, Family Games"
+e548060c-3a51-46b9-8445-3ffbc6566b4d,Fisher-Price Toy,Great gift for children of all ages.,199.49,59,2025-05-06 16:19:00,2025-09-18 12:52:00,False,Blasters
+6624abca-4c91-4381-821c-67d59fa30809,Fisher-Price Toy,Encourages creativity and problem-solving.,244.52,108,2025-02-02 16:28:00,2025-01-28 17:01:00,False,Action Figures
+6f89b746-d982-448c-a0a5-dca37b758d6e,Dinosaur Toy,High-quality and durable.,21.88,484,2025-05-03 03:47:00,2025-06-01 10:21:00,False,Trading Cards
+4d3f17fd-83a8-41f4-99dd-deaf456005b6,Plush Teddy Bear,Great gift for children of all ages.,59.49,158,2025-02-13 13:59:00,2025-05-17 08:40:00,True,"Board Games, Blasters"
+32cf22a9-df26-4236-9cc3-e167093f0f13,Pokemon Card Set,Safe and non-toxic materials.,177.67,141,2025-07-24 04:02:00,2025-01-09 22:27:00,False,"Collectibles, Baby Toys, Arts & Crafts"
+7be6c57a-c859-4c33-b5f4-c3d5a335c4af,Pokemon Card Set,Designed for hours of entertainment.,210.32,117,2025-11-15 05:10:00,2025-11-05 19:05:00,True,"Family Games, Arts & Crafts"
+c85ba063-b973-4b9e-ad53-53c9cf0ad3a0,LEGO City Set,Interactive and educational.,182.40,381,2025-12-01 09:23:00,2025-01-08 01:19:00,False,"Board Games, Blasters"
+71ac7ab2-825c-43f5-af92-9162431216fd,Robot Toy,Designed for hours of entertainment.,35.38,156,2025-01-17 11:59:00,2025-10-16 20:10:00,True,"Action Figures, Racing, Baby Toys"
+d98187eb-b522-46b7-b046-a403c2dd56b4,Monopoly Board Game,Designed for hours of entertainment.,268.14,346,2025-03-12 21:12:00,2025-06-24 07:39:00,True,"Educational, Arts & Crafts"
+dc1868bd-d2ae-4ce4-b040-d182482cdd31,Superhero Action Figure,Includes various accessories for extended fun.,109.39,298,2025-10-14 15:47:00,2025-02-05 17:36:00,True,"Family Games, Collectibles, Board Games"
+842cd929-f0ff-4b7a-9cfe-ed3136cb6d91,Hot Wheels Track,Perfect for imaginative play.,221.41,462,2025-06-20 00:14:00,2025-03-17 06:25:00,False,Building Sets
+09a31869-8c11-4833-8c0d-32be8a762d62,Transformers Figure,Encourages creativity and problem-solving.,154.99,251,2025-04-15 04:53:00,2025-01-15 09:07:00,False,Family Games
+9af6826f-3e0e-498e-9eb0-59e92ce98256,Magic Kit,Safe and non-toxic materials.,23.96,355,2025-12-27 23:33:00,2025-08-01 11:05:00,False,"Building Sets, Baby Toys, Trading Cards"
+05b43e9b-695f-4542-b564-21c5e9d0e3f4,Transformers Figure,Safe and non-toxic materials.,277.84,295,2025-08-06 15:26:00,2025-01-01 22:39:00,True,"Trading Cards, Building Sets"
+54f20853-3963-40ea-8059-512817565ccc,Transformers Figure,Easy to assemble and store.,214.35,285,2025-11-01 16:07:00,2025-03-26 01:51:00,False,"Arts & Crafts, Vehicles, Blasters"
+78dfc1b2-98dc-4677-8d2e-1380ec43f2f4,Toy Kitchen Set,A fun and engaging toy for kids.,27.14,177,2025-05-23 12:06:00,2025-02-15 02:10:00,False,Baby Toys
+b46a3665-fecf-4557-9520-e09992dd966b,Magic Kit,High-quality and durable.,13.34,364,2025-07-08 00:52:00,2025-02-10 12:58:00,True,"Building Sets, Board Games, Family Games"
+207e21ee-adc7-4e59-a7e6-01c5bededa4b,Fisher-Price Toy,Perfect for imaginative play.,93.77,279,2025-05-19 16:31:00,2025-10-05 02:55:00,True,Board Games
+1e9bb395-cafc-497f-a3b6-07e272e6e55d,Transformers Figure,Great gift for children of all ages.,204.94,157,2025-02-28 18:21:00,2025-02-24 03:08:00,False,"Baby Toys, Dolls"
+9dfb38e1-1111-4299-9dc2-e1865f6566a8,Pokemon Card Set,Interactive and educational.,51.07,56,2025-09-05 01:11:00,2025-07-14 06:04:00,True,"Vehicles, Blasters, Board Games"
+cb18f848-53e6-45d3-a8a6-1ff9b3e5ee23,Transformers Figure,High-quality and durable.,38.20,120,2025-07-15 16:42:00,2025-12-19 08:56:00,True,"Collectibles, Board Games, Family Games"
+b3df56ea-e5b8-457f-baf5-f29b1232bca5,Hot Wheels Track,Interactive and educational.,243.81,199,2025-11-13 00:52:00,2025-05-04 03:20:00,False,"Vehicles, Racing"
+4a9f207c-0af9-4924-81cf-6506b89a1400,Play-Doh Set,Easy to assemble and store.,244.31,421,2025-10-26 03:13:00,2025-08-25 23:54:00,True,"Vehicles, Board Games, Family Games"
+a54dcf6f-73e8-4cfd-90b0-425ea8a9f86a,Science Experiment Kit,Safe and non-toxic materials.,75.49,263,2025-02-03 10:55:00,2025-05-21 14:00:00,True,"Building Sets, Action Figures"
+659886fc-3540-465e-8f65-1d352fb7bf8b,Plush Teddy Bear,Encourages creativity and problem-solving.,77.38,278,2025-10-28 22:26:00,2025-04-13 23:22:00,False,"Blasters, Action Figures"
+fcc7de92-e1d6-4aee-bb43-84d72c22a739,Stuffed Animal,Includes various accessories for extended fun.,144.95,208,2025-03-06 11:51:00,2025-02-15 04:19:00,False,"Dolls, Arts & Crafts, Playsets"
+eb38309f-0e93-429f-8c2a-d20e13ee7a0f,Fisher-Price Toy,Encourages creativity and problem-solving.,183.53,65,2025-03-18 01:50:00,2025-11-27 09:46:00,False,"Family Games, Arts & Crafts, Building Sets"
+7289abfb-e2ec-40a6-a502-52bc002b0f7d,Transformers Figure,Encourages creativity and problem-solving.,147.22,88,2025-11-18 15:51:00,2025-10-08 22:38:00,False,"Collectibles, Building Sets"
+398ea852-860b-4458-bae2-dda857624f95,Remote Control Car,Includes various accessories for extended fun.,129.36,341,2025-07-03 20:26:00,2025-03-16 21:23:00,True,"Baby Toys, Trading Cards, Vehicles"
+5f2e5416-132f-45a9-90a7-74e0ca5d3b52,Plush Teddy Bear,Perfect for imaginative play.,172.88,234,2025-07-13 23:27:00,2025-08-21 17:45:00,False,"Action Figures, Family Games"
+7777bd26-1aeb-4137-a0a5-c171bf5c7b90,Wooden Train Set,Designed for hours of entertainment.,192.33,471,2025-07-25 23:26:00,2025-03-10 18:02:00,True,Arts & Crafts
+99a91e99-8b4c-43e8-a3a1-7cabb2d12ad8,Remote Control Car,Safe and non-toxic materials.,53.13,188,2025-06-03 05:32:00,2025-08-26 20:29:00,False,"Playsets, Racing, Building Sets"
+03c86b30-7078-4982-8e73-ebb18763ebaa,Monopoly Board Game,A fun and engaging toy for kids.,149.80,500,2025-04-15 01:25:00,2025-12-27 18:22:00,False,"Board Games, Action Figures"
+354bdc22-a0f8-4696-b8eb-d48d9a2f976a,Plush Teddy Bear,Easy to assemble and store.,230.95,441,2025-08-23 19:28:00,2025-12-04 14:55:00,False,Family Games
+570b7e49-d4f8-4c16-a5af-4f535adc005e,Puzzle Game,Easy to assemble and store.,223.43,137,2025-07-28 03:14:00,2025-01-07 02:33:00,False,Educational
+3c5f3779-4864-4a33-81e9-e7d1e63390c2,LEGO City Set,Safe and non-toxic materials.,250.93,154,2025-05-14 12:27:00,2025-12-28 01:05:00,True,Racing
+6f72c8e1-21f9-420b-8f35-c53eada9a265,Puzzle Game,A fun and engaging toy for kids.,125.31,356,2025-10-09 08:28:00,2025-03-13 11:53:00,False,"Board Games, Action Figures, Racing"
+f96fbfdf-b12d-4b17-8526-00edd4575a02,Stuffed Animal,Encourages creativity and problem-solving.,57.62,342,2025-02-11 19:53:00,2025-10-23 10:20:00,False,Building Sets
+2f715950-af5a-4984-a484-e37572f80fd9,Stuffed Animal,Interactive and educational.,82.90,281,2025-02-27 08:31:00,2025-01-20 11:03:00,False,Educational
+15fadbd0-d380-4430-83bf-8bc7e8a0d000,Toy Kitchen Set,Easy to assemble and store.,204.22,242,2025-06-16 11:56:00,2025-06-02 23:41:00,True,"Baby Toys, Trading Cards"
+ae6e8b98-6e55-490f-950e-838e4c25b66c,Wooden Train Set,Encourages creativity and problem-solving.,98.09,114,2025-12-02 17:35:00,2025-02-27 01:21:00,False,Baby Toys
+f86b2e6d-cdbc-443c-a287-71c13921c876,Magic Kit,Great gift for children of all ages.,175.52,106,2025-09-27 09:40:00,2025-12-16 11:10:00,False,"Trading Cards, Action Figures"
+8f645beb-bf8f-4d85-9a33-42539b33611e,Pokemon Card Set,Includes various accessories for extended fun.,127.04,402,2025-08-01 15:11:00,2025-04-14 16:06:00,False,Trading Cards
+79c25c3b-7b7b-4b47-8a85-bedc83a82f66,Robot Toy,High-quality and durable.,181.30,234,2025-05-07 22:33:00,2025-08-05 19:47:00,False,Educational
+dddb2bc9-86a1-4d2a-b991-45c4e20d649f,Puzzle Game,Encourages creativity and problem-solving.,287.38,104,2025-09-14 23:44:00,2025-09-27 02:10:00,False,"Baby Toys, Vehicles, Trading Cards"
+f5c42d29-5871-4196-8882-cac98b2236f4,Science Experiment Kit,Interactive and educational.,37.45,377,2025-04-01 23:30:00,2025-07-16 04:13:00,False,Blasters
+c404cd33-9cc0-436b-8fe3-ba9f25836773,Robot Toy,Interactive and educational.,98.13,389,2025-04-07 03:14:00,2025-06-27 00:24:00,True,"Collectibles, Arts & Crafts, Playsets"
+cf5e840e-d067-4031-8d6b-9e12d1a30d73,NERF Blaster,High-quality and durable.,131.87,400,2025-01-16 05:55:00,2025-08-26 17:14:00,True,"Action Figures, Playsets"
+ecc3c600-2b82-4feb-957b-196afdce8999,Fisher-Price Toy,Interactive and educational.,129.71,438,2025-08-05 02:44:00,2025-08-22 08:50:00,False,"Action Figures, Trading Cards, Vehicles"
+6464f066-5c1d-4fc1-8a3e-ad22f5d35e0e,LEGO City Set,Designed for hours of entertainment.,249.55,210,2025-12-04 21:42:00,2025-08-11 09:30:00,True,"Playsets, Arts & Crafts, Board Games"
+86a01e44-5a06-435f-99e1-fc953d84c519,Hot Wheels Track,Encourages creativity and problem-solving.,32.96,44,2025-05-01 14:41:00,2025-09-19 07:10:00,False,"Blasters, Trading Cards"
+e11e7588-f5fc-48bd-a028-2c46f2fcc16d,Fisher-Price Toy,Designed for hours of entertainment.,269.68,405,2025-05-06 22:14:00,2025-08-21 17:46:00,True,"Trading Cards, Building Sets"
+0274e79d-2595-4ab1-9fdb-fc36930de2d9,Wooden Train Set,A fun and engaging toy for kids.,218.92,81,2025-02-24 09:18:00,2025-11-02 12:48:00,True,"Arts & Crafts, Vehicles"
+80051f14-1dbe-4bd6-8b38-f709069c1146,Barbie Dollhouse,Includes various accessories for extended fun.,191.74,354,2025-07-02 20:13:00,2025-05-16 08:44:00,True,"Board Games, Vehicles"
+3a593da4-4924-4472-a324-55e0cd5cf28c,Dinosaur Toy,Perfect for imaginative play.,10.80,36,2025-03-15 09:25:00,2025-04-27 20:17:00,True,"Arts & Crafts, Board Games, Educational"
+67282eb0-bdc9-4206-bdd9-ba6cdc91484b,Stuffed Animal,A fun and engaging toy for kids.,40.60,456,2025-10-19 08:41:00,2025-12-18 13:01:00,False,"Collectibles, Racing"
+d5593ac4-cbfc-46d6-b941-08ceb62808c4,Science Experiment Kit,Interactive and educational.,33.95,369,2025-01-25 01:19:00,2025-08-17 12:33:00,False,"Board Games, Blasters"
+66a30597-dca4-4f6a-8607-7d8c67392659,Puzzle Game,Interactive and educational.,175.65,375,2025-04-01 15:41:00,2025-12-21 17:46:00,True,"Blasters, Arts & Crafts, Board Games"
+73e678e4-1d54-4e74-8360-46ce573acabd,Science Experiment Kit,Includes various accessories for extended fun.,42.33,79,2025-05-26 14:39:00,2025-09-04 01:13:00,False,"Baby Toys, Vehicles"
+8faeee66-5f8f-419b-8803-f5f03ba266f9,LEGO City Set,Includes various accessories for extended fun.,97.30,119,2025-01-20 20:33:00,2025-09-24 17:22:00,False,Blasters
+f672bef1-39a3-4612-9328-4c8045bb48ce,Puzzle Game,Designed for hours of entertainment.,294.47,48,2025-11-11 15:42:00,2025-12-10 00:08:00,False,"Racing, Vehicles, Family Games"
+7ed4c6fc-cf79-4a5e-96eb-2a0b6b18fad5,Plush Teddy Bear,High-quality and durable.,231.51,195,2025-02-03 05:09:00,2025-11-06 07:13:00,False,"Board Games, Vehicles"
+643f026f-6281-4ad9-b888-fad3e74c6030,Wooden Train Set,Perfect for imaginative play.,214.08,241,2025-09-09 11:36:00,2025-09-13 08:06:00,True,"Playsets, Board Games, Family Games"
+c6171d71-88ba-411e-8062-eb2013e44c69,Barbie Dollhouse,Perfect for imaginative play.,270.04,21,2025-09-14 02:14:00,2025-03-15 07:09:00,False,Arts & Crafts
+edc88000-86a6-431b-933b-5269ac69b888,Pokemon Card Set,Perfect for imaginative play.,76.21,281,2025-12-01 19:33:00,2025-12-19 05:38:00,True,Playsets
+acacdd91-0286-4a8f-a125-6892224a83f6,Plush Teddy Bear,A fun and engaging toy for kids.,177.90,218,2025-01-19 12:58:00,2025-04-04 13:07:00,False,Family Games
+99d34d96-6ec0-4ffd-9945-7c5d66fe6cf1,Play-Doh Set,Encourages creativity and problem-solving.,249.57,175,2025-01-07 11:14:00,2025-02-08 16:21:00,True,"Board Games, Action Figures, Building Sets"
+19b4ba94-94e3-47c2-b3c8-37a21daeb60f,Magic Kit,High-quality and durable.,81.60,141,2025-06-10 12:13:00,2025-11-11 01:27:00,False,Board Games
+798dd297-9cde-4718-8ec3-2106006df272,Fisher-Price Toy,Encourages creativity and problem-solving.,166.54,357,2025-08-25 13:54:00,2025-05-07 12:28:00,False,"Blasters, Playsets"
+edf2ce76-8af9-4b39-8c6d-d828167933fc,Fisher-Price Toy,Encourages creativity and problem-solving.,14.30,19,2025-12-18 03:12:00,2025-01-19 22:43:00,False,"Baby Toys, Action Figures, Building Sets"
+380d10b8-2103-4e15-9364-d7e4dfdfd45e,Dinosaur Toy,Easy to assemble and store.,210.58,61,2025-07-07 23:21:00,2025-03-06 05:02:00,False,"Educational, Dolls, Trading Cards"
+f91c77df-6e38-4cef-863e-4f7222074b04,Barbie Dollhouse,Easy to assemble and store.,44.48,499,2025-10-24 10:23:00,2025-10-28 20:30:00,False,Trading Cards
+b64bbe7c-fed4-4d77-9a3e-95570973017b,Fisher-Price Toy,Safe and non-toxic materials.,235.23,83,2025-07-11 11:33:00,2025-05-19 19:24:00,True,"Playsets, Arts & Crafts"
+74dc97aa-2184-4356-89dc-60b6fd1c28c8,Hot Wheels Track,A fun and engaging toy for kids.,20.67,415,2025-11-22 14:29:00,2025-01-05 04:21:00,True,"Vehicles, Action Figures, Family Games"
+b9fddf09-1f16-4245-9ce6-6ed3615350c8,Play-Doh Set,Easy to assemble and store.,255.34,124,2025-03-13 14:27:00,2025-12-17 08:09:00,True,"Educational, Family Games"
+d9364ca9-77d7-4dac-8c4c-6a3d8912e338,Remote Control Car,Easy to assemble and store.,104.58,163,2025-03-21 21:43:00,2025-05-22 10:25:00,False,Arts & Crafts
+5e1bdf54-8e8e-49ed-93bf-8534c0839a9d,Dinosaur Toy,Safe and non-toxic materials.,19.30,473,2025-01-07 16:38:00,2025-11-24 18:13:00,False,Board Games
+f7f11c92-2988-4970-8272-cb53ef934f93,Play-Doh Set,Includes various accessories for extended fun.,93.80,198,2025-02-12 18:30:00,2025-08-06 17:38:00,True,Board Games
+b8db99a2-e9a0-4391-b224-213a1bde567f,Barbie Dollhouse,Easy to assemble and store.,262.64,358,2025-01-14 21:05:00,2025-12-13 23:03:00,False,"Playsets, Blasters, Family Games"
+1640ac46-4984-4039-8b07-1e5ff94b4686,Fisher-Price Toy,A fun and engaging toy for kids.,258.32,366,2025-10-27 01:46:00,2025-08-20 08:13:00,False,"Playsets, Building Sets"
+b789409f-9071-4c32-8732-ee354721d30e,Play-Doh Set,Great gift for children of all ages.,108.03,474,2025-10-01 02:17:00,2025-12-15 21:45:00,True,"Vehicles, Trading Cards, Dolls"
+e48a7d39-1f2d-4ac2-9b0b-2421074e64cd,Puzzle Game,Safe and non-toxic materials.,288.43,239,2025-02-08 18:07:00,2025-09-19 17:42:00,True,"Dolls, Arts & Crafts, Playsets"
+f79eae41-55eb-4b1b-a57a-55235737c6ee,NERF Blaster,High-quality and durable.,34.23,478,2025-01-27 22:52:00,2025-07-19 22:49:00,True,"Baby Toys, Building Sets, Collectibles"
+f77e61fe-734d-40aa-a9b8-412b7ffff020,Fisher-Price Toy,Perfect for imaginative play.,13.21,453,2025-08-16 22:22:00,2025-01-13 05:21:00,False,"Blasters, Playsets"
+5c6b3273-d68b-44e1-bcde-f1838aa9f60c,Wooden Train Set,Great gift for children of all ages.,220.45,173,2025-05-11 19:58:00,2025-08-10 00:58:00,True,"Baby Toys, Collectibles, Board Games"
+0d4caac6-4b1a-402b-9ddc-37d7a558bb39,LEGO City Set,Safe and non-toxic materials.,32.45,329,2025-12-04 05:30:00,2025-12-03 02:50:00,True,"Playsets, Vehicles"
+e4d1e574-7dbe-4a66-af05-3280cb6f400e,Dinosaur Toy,Easy to assemble and store.,199.89,365,2025-06-03 14:25:00,2025-01-28 23:13:00,True,Action Figures
+df9a68f2-01a8-4286-bd00-95b644fd98c2,Play-Doh Set,Easy to assemble and store.,86.16,145,2025-03-10 12:30:00,2025-10-22 02:59:00,False,Building Sets
+e775cb7f-6332-4712-a9f1-b26f1decad1a,Transformers Figure,Great gift for children of all ages.,18.99,153,2025-09-16 20:00:00,2025-09-02 02:08:00,False,"Vehicles, Family Games, Baby Toys"
+4f2cf220-c7b1-491f-8958-dc4442b31117,LEGO City Set,Safe and non-toxic materials.,137.46,261,2025-01-23 04:49:00,2025-06-28 19:16:00,False,Collectibles
+1877a4fd-d96e-4c88-87f4-9882b1ec8923,Toy Kitchen Set,High-quality and durable.,61.04,353,2025-01-05 10:33:00,2025-06-25 17:08:00,True,"Educational, Racing"
+df1d00ab-4b42-4181-96be-75b4d4e3791d,Hot Wheels Track,Great gift for children of all ages.,265.88,290,2025-01-14 22:09:00,2025-12-11 03:52:00,False,Trading Cards
+c17b5c6f-b69d-426b-9240-8eb492ac8436,Transformers Figure,A fun and engaging toy for kids.,203.97,409,2025-12-12 23:56:00,2025-09-13 06:07:00,False,"Building Sets, Action Figures, Vehicles"
+1f304c09-d829-44a2-9c6f-e8d74cbd3b48,Robot Toy,A fun and engaging toy for kids.,256.84,473,2025-09-12 18:23:00,2025-07-07 01:33:00,True,"Baby Toys, Dolls, Playsets"
+cb7aaa64-66fa-420d-98b5-8864dc48fbe7,Plush Teddy Bear,Encourages creativity and problem-solving.,39.10,391,2025-02-11 22:24:00,2025-04-14 13:11:00,True,Trading Cards
+b9bac536-8202-4806-a62b-7d39af22df75,Pokemon Card Set,Safe and non-toxic materials.,58.71,376,2025-03-15 13:11:00,2025-08-05 20:00:00,False,Trading Cards
+ffc2e367-a5bc-44d5-b2f4-3181b782feb4,Dinosaur Toy,Encourages creativity and problem-solving.,100.06,424,2025-05-25 20:28:00,2025-06-01 01:22:00,True,Baby Toys
+e175dfce-1b7b-4e61-81e7-247ec167eb82,Barbie Dollhouse,Includes various accessories for extended fun.,264.73,345,2025-09-22 15:43:00,2025-06-18 17:26:00,False,"Family Games, Playsets"
+e433116f-893f-4c67-8df7-94eb95df70ba,Monopoly Board Game,Designed for hours of entertainment.,140.60,464,2025-08-20 08:46:00,2025-02-22 14:34:00,True,Collectibles
+81ef9878-2b4c-4653-a493-0a285e14164b,Wooden Train Set,Encourages creativity and problem-solving.,259.44,208,2025-06-18 14:19:00,2025-10-05 19:39:00,True,"Blasters, Collectibles"
+05130278-5a76-4ef7-a6d6-7f992bd4208a,Dinosaur Toy,Easy to assemble and store.,82.82,74,2025-10-02 15:37:00,2025-08-19 00:19:00,False,Arts & Crafts
+bfe528dd-8b38-4ee1-ad9c-60338f418420,Superhero Action Figure,A fun and engaging toy for kids.,88.45,287,2025-07-22 12:38:00,2025-02-02 11:00:00,True,"Dolls, Action Figures, Baby Toys"
+0bf44ba2-109b-4b7e-8c18-69dfa0ceef98,Wooden Train Set,Great gift for children of all ages.,250.46,373,2025-03-22 05:20:00,2025-02-08 13:25:00,True,"Blasters, Vehicles"
+25fdc28c-a8bc-49b6-866c-25f5e36eb83f,Monopoly Board Game,Includes various accessories for extended fun.,56.18,468,2025-03-04 08:22:00,2025-09-21 23:59:00,False,"Blasters, Educational"
+f6b43233-055f-485f-99b2-fe0d7a025e9c,Transformers Figure,Includes various accessories for extended fun.,208.24,404,2025-06-05 15:01:00,2025-02-04 08:26:00,False,"Trading Cards, Board Games"
+ab9c9316-9f89-4ce9-9251-fc8aae31a0a3,LEGO City Set,Interactive and educational.,163.61,294,2025-02-09 21:18:00,2025-02-19 16:09:00,False,"Family Games, Baby Toys"
+bae5bc84-b155-48f4-a970-4c6519605dcd,Robot Toy,Great gift for children of all ages.,60.01,321,2025-12-19 04:12:00,2025-05-28 09:06:00,False,Dolls
+6804a730-f70d-4781-96da-a8d51f98b5c9,Play-Doh Set,Great gift for children of all ages.,37.57,354,2025-08-14 02:59:00,2025-08-26 15:52:00,True,"Family Games, Arts & Crafts, Educational"
+27c6ca4b-2732-4366-9982-2dbb7d8b0613,Barbie Dollhouse,Includes various accessories for extended fun.,236.73,442,2025-02-14 02:27:00,2025-02-03 01:29:00,True,Playsets
+637f90b4-bfd1-44c3-b731-ca1cd5844f09,NERF Blaster,Safe and non-toxic materials.,125.64,68,2025-10-06 16:10:00,2025-03-09 11:39:00,True,"Dolls, Racing, Blasters"
+d8420699-7705-4aae-8edd-a6af5f50cc68,Hot Wheels Track,High-quality and durable.,296.05,98,2025-06-28 22:34:00,2025-11-28 23:52:00,True,"Family Games, Baby Toys, Dolls"
+88a7f6b4-bd97-4ffe-9154-4f3f7ddd4e9b,Plush Teddy Bear,A fun and engaging toy for kids.,184.32,20,2025-02-17 12:40:00,2025-07-24 03:11:00,True,Racing
+a7c8a69a-fac2-488f-8760-ec6b36d023b1,Transformers Figure,Safe and non-toxic materials.,100.78,102,2025-08-13 14:34:00,2025-04-15 21:43:00,False,Dolls
+8664083b-3f61-46f8-948c-d3684d079cc0,Superhero Action Figure,Interactive and educational.,134.55,234,2025-07-03 12:37:00,2025-04-01 10:37:00,True,"Playsets, Action Figures, Blasters"
+b3b7a52d-9268-4828-9817-bec510abfe9b,Play-Doh Set,Perfect for imaginative play.,145.05,105,2025-01-11 10:15:00,2025-07-12 07:05:00,False,"Board Games, Family Games"
+e8d5c7c6-d96c-425e-925c-af93d2390132,Remote Control Car,Perfect for imaginative play.,267.18,38,2025-01-01 10:09:00,2025-04-26 00:30:00,True,Arts & Crafts
+7392adc5-8234-4f20-9585-16fca11f521a,Pokemon Card Set,High-quality and durable.,97.44,361,2025-02-08 07:42:00,2025-01-23 03:47:00,True,Collectibles
+b9a2623f-0114-4850-87b4-30ddd1582fdd,Hot Wheels Track,Interactive and educational.,234.44,375,2025-09-28 09:29:00,2025-02-25 08:50:00,False,Board Games
+224945d6-b4bd-48d8-8d50-46ffd2a33e4f,Robot Toy,Includes various accessories for extended fun.,129.39,155,2025-06-26 11:57:00,2025-05-21 13:17:00,True,"Board Games, Building Sets, Dolls"
+d92e345b-fef1-41ba-9c1a-d4dd13963c1b,Magic Kit,Perfect for imaginative play.,87.59,438,2025-03-01 12:27:00,2025-05-19 05:52:00,False,"Trading Cards, Building Sets, Dolls"
+b61ba399-e005-4380-aeee-a6cdf0418838,Puzzle Game,Includes various accessories for extended fun.,290.33,243,2025-07-28 15:05:00,2025-09-20 02:06:00,True,Educational
+f5cac105-4fbe-4783-b6f3-32a2b121effa,Stuffed Animal,Great gift for children of all ages.,140.51,84,2025-12-14 18:34:00,2025-09-08 05:50:00,True,"Vehicles, Collectibles"
+6b0203ab-aca3-4a6b-86c1-88c8a07393ff,Play-Doh Set,Interactive and educational.,294.26,292,2025-02-02 03:31:00,2025-07-18 19:32:00,False,Educational
+b8d7d36e-9c09-47bd-9bd8-9b23d07cda6f,Stuffed Animal,Designed for hours of entertainment.,121.84,166,2025-05-06 21:39:00,2025-01-18 22:41:00,False,"Vehicles, Building Sets, Arts & Crafts"
+5b5287a6-7b0b-4e9d-92a4-621724cda1fb,Magic Kit,Includes various accessories for extended fun.,165.51,68,2025-05-20 16:29:00,2025-01-04 06:58:00,False,Board Games
+0294bc1e-d35c-47d4-b31e-60ffe778b426,NERF Blaster,Interactive and educational.,138.35,29,2025-02-21 14:51:00,2025-04-27 09:37:00,False,"Family Games, Board Games, Arts & Crafts"
+77371932-d735-4fef-b8b8-bff21c4e1a21,Hot Wheels Track,A fun and engaging toy for kids.,21.64,368,2025-08-14 03:45:00,2025-02-14 05:27:00,False,"Racing, Baby Toys, Blasters"
+5675465e-7749-42e6-b243-28e8545f0e60,Stuffed Animal,Perfect for imaginative play.,288.93,287,2025-10-21 12:45:00,2025-10-20 02:31:00,True,"Racing, Vehicles, Building Sets"
+79ed0c44-5fbf-4478-be32-5988fdb455a3,Stuffed Animal,Perfect for imaginative play.,163.80,82,2025-05-19 08:59:00,2025-12-25 13:13:00,False,"Playsets, Arts & Crafts, Trading Cards"
+f988dbac-54a1-4f1f-af91-d71bdc11674b,Science Experiment Kit,High-quality and durable.,220.13,413,2025-07-18 03:01:00,2025-09-13 21:04:00,False,"Arts & Crafts, Educational, Racing"
+9e03bdba-58b3-412c-9515-86b8b3517702,Plush Teddy Bear,Perfect for imaginative play.,197.57,269,2025-03-12 14:31:00,2025-06-21 17:23:00,False,"Baby Toys, Vehicles"
+76e0a8cd-8bae-44c1-a97f-43e4729e6785,Superhero Action Figure,Safe and non-toxic materials.,89.35,419,2025-05-06 06:33:00,2025-10-13 03:53:00,False,"Vehicles, Collectibles"
+4c8585b9-7bf6-4d0b-833d-d0480c87ab87,NERF Blaster,A fun and engaging toy for kids.,188.92,61,2025-11-20 07:39:00,2025-01-13 00:26:00,False,"Board Games, Baby Toys, Racing"
+3dba9507-e5bc-4abf-8ae1-848b7485cbba,Wooden Train Set,Interactive and educational.,180.73,166,2025-07-18 21:52:00,2025-08-28 12:57:00,False,"Family Games, Board Games"
+b29f9f65-2393-473c-a2e8-fc27f57a465c,Superhero Action Figure,Designed for hours of entertainment.,214.16,22,2025-04-20 18:34:00,2025-06-14 02:53:00,True,"Dolls, Action Figures"
+ddb5eb81-9b30-495d-ab3b-756e40adcf60,Transformers Figure,Interactive and educational.,161.97,399,2025-11-08 19:46:00,2025-04-26 09:35:00,False,"Dolls, Action Figures, Educational"
+a4de9e4b-1a7e-407a-a3ed-e6ff315affe7,Magic Kit,A fun and engaging toy for kids.,40.77,454,2025-02-07 19:28:00,2025-04-06 07:47:00,False,"Collectibles, Family Games, Trading Cards"
+6a01130c-8bf9-4b40-80bb-7a85647a6947,Science Experiment Kit,High-quality and durable.,103.45,248,2025-03-24 14:00:00,2025-01-01 06:39:00,True,"Family Games, Action Figures, Arts & Crafts"
+20994830-b9f1-4db9-bad6-f71c8f3e17f9,Barbie Dollhouse,High-quality and durable.,147.10,440,2025-06-08 15:00:00,2025-06-04 06:48:00,False,"Trading Cards, Educational"
+93762f69-312c-4fc4-a12f-31acf7ed695f,Hot Wheels Track,A fun and engaging toy for kids.,272.80,319,2025-09-06 18:19:00,2025-02-03 11:46:00,False,"Trading Cards, Collectibles, Board Games"
+d8194529-2099-45be-8e26-05e188963cbb,Puzzle Game,Safe and non-toxic materials.,185.64,129,2025-05-07 19:21:00,2025-10-06 17:29:00,False,"Building Sets, Trading Cards"
+770372d6-8491-4b08-b78c-a8ebdc5d412e,Stuffed Animal,Designed for hours of entertainment.,262.66,498,2025-10-03 14:45:00,2025-02-07 03:19:00,True,"Action Figures, Collectibles"
+f6a79d1c-349b-4ef3-8056-17c4035c8dcf,LEGO City Set,Designed for hours of entertainment.,162.56,216,2025-08-14 21:44:00,2025-08-10 16:29:00,True,Dolls
+d0d0d984-5231-4aef-b123-dd30ab79d59a,Puzzle Game,Encourages creativity and problem-solving.,213.87,409,2025-05-10 06:42:00,2025-08-08 18:59:00,True,Action Figures
+439ff915-2c0d-47fd-bcba-9d4bb6cd6fe7,Puzzle Game,Great gift for children of all ages.,243.56,135,2025-12-14 18:15:00,2025-06-17 07:05:00,True,"Building Sets, Family Games, Educational"
+d47014a4-8e22-4630-a8a6-27268bc9f834,Transformers Figure,Easy to assemble and store.,69.00,127,2025-07-07 13:00:00,2025-05-25 17:39:00,True,"Racing, Dolls, Building Sets"
+60c7958b-e5a4-4fb9-8001-13fe8be558c4,Robot Toy,A fun and engaging toy for kids.,33.82,15,2025-07-26 00:09:00,2025-11-11 10:09:00,True,"Dolls, Board Games"
+3b5c7bba-e2cd-44f3-a3a1-abca9c996672,Superhero Action Figure,High-quality and durable.,136.81,176,2025-11-04 20:49:00,2025-08-24 11:34:00,True,Arts & Crafts
+d7e49b4d-5784-4024-bb8b-834bc74e8394,Transformers Figure,High-quality and durable.,77.99,150,2025-09-18 22:28:00,2025-05-01 09:05:00,True,"Playsets, Building Sets, Family Games"
+35af4935-3235-4a33-8b6e-681a7dc542a7,Magic Kit,Great gift for children of all ages.,16.22,171,2025-01-27 12:08:00,2025-12-06 22:50:00,False,"Collectibles, Action Figures, Baby Toys"
+1776e010-bf5d-45fe-aa11-0c27aa5568a1,Remote Control Car,Easy to assemble and store.,75.39,367,2025-06-23 23:14:00,2025-02-07 03:22:00,False,"Trading Cards, Action Figures, Vehicles"
+b46b5296-bfb6-4ade-858d-5a6556f8309a,Superhero Action Figure,Perfect for imaginative play.,65.41,468,2025-07-22 09:43:00,2025-04-01 16:18:00,True,"Family Games, Educational"
+3d72d7d6-e884-4ae9-abaf-2011e57f2788,LEGO City Set,Encourages creativity and problem-solving.,193.75,90,2025-02-22 20:12:00,2025-01-13 06:00:00,False,"Family Games, Blasters"
+6f4b26e4-ea69-4842-8899-4399a678f0db,Wooden Train Set,Great gift for children of all ages.,107.78,107,2025-05-25 11:23:00,2025-10-03 07:19:00,True,"Vehicles, Arts & Crafts, Educational"
+b9717391-df44-478d-bc12-d709659bed62,Superhero Action Figure,Perfect for imaginative play.,299.01,220,2025-01-05 00:55:00,2025-12-06 19:44:00,True,"Action Figures, Family Games"
+cb5c0872-50da-498c-b16c-fb20c5b9b84b,Plush Teddy Bear,Safe and non-toxic materials.,258.62,109,2025-06-08 00:11:00,2025-09-08 00:06:00,False,Trading Cards
+1c25792f-d162-4df5-ad72-f89a33d90301,Plush Teddy Bear,Includes various accessories for extended fun.,116.81,304,2025-01-19 05:58:00,2025-05-08 14:25:00,True,"Family Games, Educational, Arts & Crafts"
+61422852-a218-4181-85e4-503a5832f970,Barbie Dollhouse,Designed for hours of entertainment.,242.62,461,2025-09-22 01:41:00,2025-06-02 19:38:00,False,"Dolls, Educational, Vehicles"
+279f2299-2105-4cfd-8d43-6bda18628cae,Stuffed Animal,Safe and non-toxic materials.,106.40,285,2025-06-15 21:46:00,2025-09-07 10:54:00,True,"Vehicles, Collectibles, Arts & Crafts"
+13c8b3ea-46f7-453b-9123-1b658de29b9c,Superhero Action Figure,A fun and engaging toy for kids.,6.10,345,2025-08-02 21:54:00,2025-06-02 17:37:00,True,"Building Sets, Collectibles, Action Figures"
+5cb73e5a-e02b-4e19-b0ca-9d0a38b1deeb,NERF Blaster,Easy to assemble and store.,59.91,38,2025-11-16 22:36:00,2025-03-05 18:33:00,False,Trading Cards
+4df89e82-0398-4ecf-a939-a089694006fa,Dinosaur Toy,A fun and engaging toy for kids.,282.85,188,2025-01-16 14:08:00,2025-08-13 03:42:00,True,"Dolls, Arts & Crafts, Blasters"
+fdc8341a-4a6a-43a8-b8cc-135d9487d8c4,Transformers Figure,Easy to assemble and store.,108.46,499,2025-04-22 20:26:00,2025-03-21 07:02:00,True,"Dolls, Board Games"
+bd713cf4-d451-4ec3-8a38-695b51e9bc17,Stuffed Animal,Perfect for imaginative play.,186.02,183,2025-07-23 00:14:00,2025-07-21 11:06:00,True,"Board Games, Dolls, Collectibles"
+f0dd6481-41d4-43f8-88fd-42c1397f29d4,Toy Kitchen Set,A fun and engaging toy for kids.,213.19,122,2025-02-15 22:21:00,2025-09-10 23:41:00,True,Vehicles
+457f395f-1a19-49e6-b454-600207ea64da,Play-Doh Set,High-quality and durable.,277.78,113,2025-04-22 20:42:00,2025-11-11 05:13:00,False,Board Games
+bb923f46-3d12-44d1-94a8-a15a86f8ee57,Plush Teddy Bear,Includes various accessories for extended fun.,25.26,175,2025-12-04 21:31:00,2025-01-18 12:29:00,False,"Trading Cards, Building Sets"
+9cd9b7b4-4acc-4d4b-a1de-0c3d3f9dba55,Toy Kitchen Set,High-quality and durable.,160.59,97,2025-06-02 02:06:00,2025-05-27 17:14:00,False,Trading Cards
+6c89a765-bed1-4c77-9720-6355f86a41a8,Wooden Train Set,Great gift for children of all ages.,91.28,129,2025-12-13 13:14:00,2025-08-01 03:36:00,False,Educational
+7b55a043-e547-4ba1-80a0-0607f0d6f2a4,Stuffed Animal,Encourages creativity and problem-solving.,64.92,338,2025-10-08 13:04:00,2025-03-01 04:54:00,False,"Playsets, Arts & Crafts, Action Figures"
+8fe83bab-7490-4d73-9241-6bb51e78e27d,Pokemon Card Set,Includes various accessories for extended fun.,138.51,111,2025-01-14 14:49:00,2025-12-01 09:33:00,False,Collectibles
+dc80216f-eb61-45c8-a8f4-b8a4d0cd1608,Transformers Figure,Easy to assemble and store.,203.02,110,2025-02-14 03:24:00,2025-06-25 21:18:00,True,"Baby Toys, Trading Cards, Board Games"
+6e5e4028-0648-416e-876c-06253216bff2,Robot Toy,Safe and non-toxic materials.,52.16,81,2025-06-11 16:17:00,2025-06-20 08:51:00,False,Action Figures
+bfd87209-894c-4139-b874-653e923c2770,Puzzle Game,A fun and engaging toy for kids.,99.68,65,2025-10-22 22:40:00,2025-12-12 21:20:00,True,"Baby Toys, Trading Cards"
+00077fac-27b6-4f9d-9260-499f485c0852,Monopoly Board Game,Safe and non-toxic materials.,100.10,314,2025-05-17 20:36:00,2025-07-12 06:19:00,False,"Vehicles, Arts & Crafts, Racing"
+7f913bc9-073f-48de-96fa-fd6998584b5a,Magic Kit,Designed for hours of entertainment.,171.57,185,2025-07-22 22:58:00,2025-01-11 04:36:00,True,"Family Games, Blasters"
+473b3470-0f83-4c2c-ad2a-ba932ac91e1d,Dinosaur Toy,Perfect for imaginative play.,276.75,410,2025-04-09 20:42:00,2025-02-21 18:12:00,False,Building Sets
+a5498b05-a89a-4dfd-bc13-f6013a03308c,Fisher-Price Toy,A fun and engaging toy for kids.,220.77,71,2025-11-26 12:58:00,2025-02-02 05:01:00,True,"Racing, Vehicles, Trading Cards"
+b37ac783-7cdc-4424-b899-937e926b97be,Toy Kitchen Set,Designed for hours of entertainment.,296.81,222,2025-06-28 18:06:00,2025-05-11 13:19:00,False,Collectibles
+26cb6893-5e35-4f43-819d-0b077fa1b53f,Toy Kitchen Set,High-quality and durable.,149.70,325,2025-09-13 04:23:00,2025-01-27 01:32:00,True,"Racing, Vehicles"
+d34e0f81-c166-4a63-84a4-b21f7544f0f5,Superhero Action Figure,High-quality and durable.,251.26,115,2025-07-27 20:00:00,2025-06-07 00:18:00,True,"Trading Cards, Building Sets"
+b428538b-33fd-4afe-bac4-18276f8c105d,Robot Toy,Perfect for imaginative play.,193.10,418,2025-02-17 17:23:00,2025-07-16 23:56:00,True,"Dolls, Educational"
+052efb26-964b-459e-8be9-b545f6adb02f,Stuffed Animal,Includes various accessories for extended fun.,25.02,290,2025-03-28 09:35:00,2025-11-17 17:36:00,True,"Action Figures, Dolls, Educational"
+e90b1d0d-6645-48d3-bb8d-aa437a10b91a,Hot Wheels Track,Includes various accessories for extended fun.,32.66,476,2025-11-18 17:31:00,2025-04-07 04:24:00,True,"Building Sets, Dolls"
+1828c692-d19a-4cfd-9aee-b554bc80149f,Fisher-Price Toy,Perfect for imaginative play.,241.58,452,2025-07-02 20:02:00,2025-01-21 23:39:00,False,"Building Sets, Blasters"
+39df7967-886a-4b9e-a0c9-a3c780209c3d,Hot Wheels Track,Designed for hours of entertainment.,215.47,288,2025-12-02 01:54:00,2025-12-26 20:32:00,True,"Collectibles, Baby Toys, Playsets"
+158efb2c-bf67-43c4-bf84-6fd0a966e02e,Puzzle Game,Interactive and educational.,228.47,205,2025-09-18 02:13:00,2025-05-06 10:59:00,False,"Vehicles, Collectibles"
+c2ec6683-e8ab-4553-8dcb-caa589666665,Barbie Dollhouse,Designed for hours of entertainment.,161.76,420,2025-10-17 11:51:00,2025-10-12 10:27:00,False,Building Sets
+9e8652f3-358f-447b-a473-e89d624a8fb4,Fisher-Price Toy,Encourages creativity and problem-solving.,14.54,46,2025-02-12 12:40:00,2025-02-25 22:10:00,False,Blasters
+dd5213b0-e019-4839-b027-c25ad0b7e7ff,Remote Control Car,High-quality and durable.,219.93,440,2025-08-02 18:06:00,2025-03-24 10:55:00,True,"Playsets, Action Figures"
+36ace00c-474b-4691-b449-07d56a68baf4,Wooden Train Set,Includes various accessories for extended fun.,126.48,357,2025-02-09 23:56:00,2025-03-19 23:23:00,False,"Dolls, Action Figures, Building Sets"
+1fdd6fe1-dce7-4cd6-92f4-a018e0fd3547,Fisher-Price Toy,Easy to assemble and store.,290.49,41,2025-06-01 00:25:00,2025-12-21 11:20:00,False,"Trading Cards, Family Games"
+2072283a-c015-4996-b18f-7f4dd9b30068,Barbie Dollhouse,Great gift for children of all ages.,150.94,445,2025-11-19 05:34:00,2025-03-17 12:59:00,True,Collectibles
+d42afce1-48e3-4972-a774-e27bfb1b1900,Dinosaur Toy,Great gift for children of all ages.,97.04,92,2025-09-05 07:18:00,2025-08-23 21:35:00,False,"Arts & Crafts, Racing"
+05bd61a1-fce2-4bdc-ae61-4ebdf2763ae3,Stuffed Animal,High-quality and durable.,204.13,263,2025-02-04 13:38:00,2025-02-14 07:13:00,True,"Board Games, Blasters"
+f2fc06d6-6aa6-46fc-9bfe-f5b1a55ce279,Wooden Train Set,A fun and engaging toy for kids.,62.62,253,2025-05-15 23:22:00,2025-10-11 16:09:00,False,"Racing, Vehicles, Family Games"
+75c243ab-3722-460e-9375-e5858ca88b2f,Magic Kit,Includes various accessories for extended fun.,248.99,32,2025-09-25 19:30:00,2025-11-05 13:29:00,True,"Family Games, Playsets, Action Figures"
+7830b64c-b0e9-42ce-ae1f-2971faf42715,Monopoly Board Game,Great gift for children of all ages.,248.26,240,2025-01-22 15:41:00,2025-09-28 02:42:00,False,"Baby Toys, Playsets"
+00cc2b97-d2c0-4ad8-8832-d243d575fc85,Remote Control Car,High-quality and durable.,137.09,492,2025-02-05 17:54:00,2025-06-25 14:02:00,False,"Family Games, Arts & Crafts"
+d56c83fa-b8ba-406f-9d61-247daaf1ff89,Science Experiment Kit,A fun and engaging toy for kids.,25.17,417,2025-09-15 02:56:00,2025-06-05 02:07:00,True,Building Sets
+41e1d1fa-1b5e-4bd0-8779-59100a556966,Stuffed Animal,Interactive and educational.,210.68,379,2025-10-06 04:56:00,2025-06-03 18:36:00,False,"Trading Cards, Building Sets"
+2066744b-34fe-41b3-8b4e-d24ebc8cd60f,Science Experiment Kit,Encourages creativity and problem-solving.,25.66,54,2025-04-10 23:26:00,2025-04-24 22:59:00,True,Blasters
+c9c5ec5e-16e5-449c-a318-f51cca338669,Superhero Action Figure,Safe and non-toxic materials.,179.49,381,2025-12-26 12:32:00,2025-03-01 17:17:00,True,"Board Games, Arts & Crafts, Racing"
+40af0d2c-2fc4-4e3d-810a-c17a3d7c60b0,Pokemon Card Set,High-quality and durable.,146.78,413,2025-12-12 11:04:00,2025-08-27 21:52:00,True,"Blasters, Family Games"
+23945ab1-5924-4704-935c-4615a0b717a0,Dinosaur Toy,High-quality and durable.,293.14,211,2025-11-19 09:48:00,2025-02-10 03:04:00,True,Action Figures
+99c50e4f-6756-445d-b4a1-21eafb5bf888,Play-Doh Set,Includes various accessories for extended fun.,44.89,208,2025-09-07 22:44:00,2025-04-09 12:36:00,True,"Educational, Dolls, Playsets"
+49a26a50-fde3-4e4f-b26b-bb5a2024617e,Pokemon Card Set,Includes various accessories for extended fun.,81.48,400,2025-09-18 21:03:00,2025-07-03 11:09:00,False,"Racing, Blasters"
+0a762b38-a71e-41f4-bc8b-e8488462ffac,Monopoly Board Game,A fun and engaging toy for kids.,241.98,40,2025-12-22 08:37:00,2025-12-12 22:06:00,False,"Arts & Crafts, Board Games"
+aafb933f-cd36-4fa7-b553-5b8d30aed770,Fisher-Price Toy,High-quality and durable.,205.73,446,2025-03-03 04:38:00,2025-03-13 15:04:00,True,Playsets
+484d0dd6-b5cb-43f1-b9d2-d7b2db496ab0,Plush Teddy Bear,High-quality and durable.,189.48,110,2025-07-18 22:02:00,2025-01-16 02:13:00,False,"Arts & Crafts, Board Games, Educational"
+5501acfd-48dd-42b9-a250-d9262b0a16ec,Stuffed Animal,Perfect for imaginative play.,92.33,499,2025-02-14 15:19:00,2025-10-19 15:09:00,True,"Dolls, Educational"
+8f37f35c-25c2-4f4c-be34-ede62a45996f,Superhero Action Figure,Includes various accessories for extended fun.,222.73,349,2025-02-19 00:26:00,2025-09-03 14:58:00,True,Baby Toys
+506d054a-c14f-44f4-b118-2b9af7e5cc33,Monopoly Board Game,Includes various accessories for extended fun.,163.32,424,2025-10-07 00:28:00,2025-06-07 18:15:00,True,"Family Games, Playsets, Board Games"
+7a36eae2-d62b-4b97-a23e-b19aede6e7f2,Pokemon Card Set,High-quality and durable.,196.31,325,2025-06-12 13:57:00,2025-09-10 09:35:00,False,"Educational, Family Games, Board Games"
+82ce0503-1367-463f-adcb-58d27995fb49,Dinosaur Toy,Encourages creativity and problem-solving.,31.97,340,2025-09-03 20:05:00,2025-01-11 21:12:00,True,"Baby Toys, Family Games, Dolls"
+0fb79b54-0c32-474e-a9f2-cf8e0185e328,LEGO City Set,Includes various accessories for extended fun.,254.85,413,2025-02-12 15:24:00,2025-01-15 15:01:00,False,Vehicles
+5186d9f8-88f1-409b-a3a3-ec879af7a36f,Magic Kit,Designed for hours of entertainment.,289.07,353,2025-03-10 21:14:00,2025-11-20 03:46:00,False,Board Games
+22b9ca9b-ecd0-426c-af58-bb6accb1b62c,Toy Kitchen Set,Interactive and educational.,36.17,475,2025-04-21 04:47:00,2025-10-24 11:06:00,False,"Educational, Action Figures, Board Games"
+743967bc-4221-4004-8b4b-8239468b7087,Dinosaur Toy,Great gift for children of all ages.,169.05,182,2025-03-25 23:24:00,2025-09-13 00:41:00,False,Baby Toys
+ddd44f6b-39df-4c7d-b8fc-9da2386f2e8f,Hot Wheels Track,Easy to assemble and store.,236.52,273,2025-05-27 00:54:00,2025-04-28 17:11:00,False,"Racing, Family Games"
+82b9770e-7437-4e5f-9543-514d3bfac825,Pokemon Card Set,Great gift for children of all ages.,257.16,378,2025-07-09 08:38:00,2025-07-24 22:12:00,True,Educational
+099c8c77-ef7e-468f-83c7-b89e0c171a0e,Superhero Action Figure,Safe and non-toxic materials.,88.18,353,2025-02-18 16:41:00,2025-03-26 04:00:00,True,Vehicles
+9a507bde-7098-4082-b114-be3adebaebc8,Barbie Dollhouse,Includes various accessories for extended fun.,21.76,43,2025-07-12 23:59:00,2025-02-04 09:31:00,True,"Baby Toys, Board Games, Trading Cards"
+4c83e7bf-f0f1-4190-a224-b2e65c910afc,Toy Kitchen Set,Designed for hours of entertainment.,209.57,350,2025-07-14 06:44:00,2025-05-11 16:19:00,True,"Arts & Crafts, Blasters, Action Figures"
+bf62ecf3-7edc-4d30-87c3-627e15e0f306,Remote Control Car,Safe and non-toxic materials.,198.12,22,2025-05-12 16:31:00,2025-12-19 17:11:00,True,"Family Games, Arts & Crafts, Vehicles"
+8c59066c-117b-4fbb-83ff-2096d01dedf9,LEGO City Set,Great gift for children of all ages.,153.09,425,2025-08-07 01:57:00,2025-10-13 22:25:00,False,Playsets
+9e7546ba-dd02-42e4-b0fa-f8f1ef854b42,Puzzle Game,Safe and non-toxic materials.,233.40,486,2025-08-19 06:33:00,2025-04-07 02:40:00,False,"Baby Toys, Arts & Crafts"
+b5b9f542-fd4f-4ca9-82de-8922cb305064,Monopoly Board Game,Encourages creativity and problem-solving.,261.85,405,2025-04-15 17:49:00,2025-01-01 03:59:00,True,Action Figures
+3d57e1cd-534e-410f-baf4-ad6c2f1c47fa,Play-Doh Set,Includes various accessories for extended fun.,150.30,324,2025-07-04 03:27:00,2025-11-20 14:31:00,True,Vehicles
+e400fcd3-7f9b-4578-9f5a-4801d815ec6f,Pokemon Card Set,Perfect for imaginative play.,52.26,32,2025-04-20 10:01:00,2025-09-24 05:33:00,True,"Collectibles, Playsets, Board Games"
+589458bf-8db0-4d2a-bd1d-b5c6f260105b,Puzzle Game,High-quality and durable.,68.84,434,2025-01-20 16:35:00,2025-10-05 22:19:00,True,"Educational, Family Games, Board Games"
+f52701ed-f378-4fd8-96c8-11bca15dec39,Robot Toy,Encourages creativity and problem-solving.,169.36,159,2025-04-22 00:51:00,2025-08-04 20:18:00,False,"Blasters, Action Figures, Playsets"
+22dcfd60-9c27-4a8c-84ae-af376cb65e1a,Pokemon Card Set,Great gift for children of all ages.,215.85,161,2025-08-26 02:27:00,2025-03-25 17:55:00,False,Arts & Crafts
+3b93d3a3-ff4c-4e9f-8d8c-011aefd5c703,Stuffed Animal,Designed for hours of entertainment.,105.17,338,2025-03-28 21:27:00,2025-04-06 09:34:00,False,Family Games
+d5833632-6f7f-4114-9f7f-7df6eabf225e,Wooden Train Set,A fun and engaging toy for kids.,174.50,349,2025-04-12 05:47:00,2025-07-03 04:39:00,False,"Baby Toys, Trading Cards"
+4dece379-8f1d-4f0f-8934-e3421775339e,Pokemon Card Set,Designed for hours of entertainment.,293.14,112,2025-02-16 00:43:00,2025-03-23 21:29:00,False,"Blasters, Family Games, Action Figures"
+177ce9a4-8e9a-49b5-9aec-31fb59ebf2a0,Toy Kitchen Set,Great gift for children of all ages.,97.25,444,2025-09-22 23:53:00,2025-08-03 11:25:00,False,"Racing, Vehicles, Action Figures"
+4eab5bbd-ad23-4ace-8b5e-2c976d968b2a,Toy Kitchen Set,Easy to assemble and store.,227.66,480,2025-09-26 22:06:00,2025-07-18 16:14:00,True,"Board Games, Educational"
+e5c7bdad-a538-4033-9179-3947c6e975df,Pokemon Card Set,Perfect for imaginative play.,65.90,131,2025-09-20 15:12:00,2025-05-11 17:42:00,False,"Baby Toys, Arts & Crafts, Dolls"
+ee187f8d-32ca-4b9c-aaf6-d00b901a4134,Toy Kitchen Set,High-quality and durable.,97.97,322,2025-11-03 05:35:00,2025-08-25 16:59:00,True,"Blasters, Family Games"
+0fb417ff-b755-4ce6-9c09-b5fca5c49788,Plush Teddy Bear,Includes various accessories for extended fun.,264.37,477,2025-04-14 00:58:00,2025-07-28 00:14:00,False,Arts & Crafts
+d8d40378-df83-430c-bdb6-045da8f9f107,Stuffed Animal,A fun and engaging toy for kids.,248.86,346,2025-10-18 01:11:00,2025-04-04 19:39:00,False,"Building Sets, Collectibles, Playsets"
+bb6ca94a-52d3-4301-a758-0e0fec470bab,Hot Wheels Track,Interactive and educational.,28.73,17,2025-09-12 19:47:00,2025-10-14 13:17:00,True,"Collectibles, Family Games, Trading Cards"
+cecf7642-e057-4fa1-bdcc-c8d06d057837,Barbie Dollhouse,Great gift for children of all ages.,93.68,434,2025-07-12 05:44:00,2025-09-16 02:15:00,True,"Racing, Playsets"
+16cc4614-e394-4679-adaa-cb6ec17d0e57,Remote Control Car,Designed for hours of entertainment.,166.47,159,2025-03-23 07:22:00,2025-12-09 03:53:00,True,"Trading Cards, Dolls"
+88d178e3-46a3-4d1b-a132-3ffc5e6c6bc0,Remote Control Car,High-quality and durable.,87.55,132,2025-09-22 00:42:00,2025-10-09 11:15:00,True,"Vehicles, Racing, Educational"
+8d23b81f-eac2-44fb-a852-6db62d555dfe,Plush Teddy Bear,Includes various accessories for extended fun.,142.00,326,2025-10-22 08:22:00,2025-09-04 02:51:00,False,Blasters
+5e6b5181-661b-4891-bdc4-fbce27eeb276,Superhero Action Figure,Safe and non-toxic materials.,122.71,443,2025-09-02 09:44:00,2025-09-28 02:49:00,True,"Racing, Dolls, Arts & Crafts"
+59336a97-0f4a-4a3d-85f5-a2cdaa7358cd,Science Experiment Kit,High-quality and durable.,240.46,366,2025-05-07 14:47:00,2025-06-26 19:10:00,False,Playsets
+e3386657-a5da-41b2-8efd-8910704ca425,Dinosaur Toy,High-quality and durable.,161.76,240,2025-02-16 19:33:00,2025-03-23 17:20:00,True,Collectibles
+f08737f8-929c-495c-985d-bec436d404f2,Play-Doh Set,A fun and engaging toy for kids.,20.47,129,2025-07-13 06:03:00,2025-11-06 21:56:00,False,"Arts & Crafts, Action Figures, Building Sets"
+d623432f-a127-4fda-9cbc-2662f36f9d18,Robot Toy,Includes various accessories for extended fun.,263.40,173,2025-08-25 20:48:00,2025-01-24 11:16:00,True,"Dolls, Playsets, Vehicles"
+9e4ec5b5-4512-4a8d-a919-ccbd2b27168a,Stuffed Animal,Designed for hours of entertainment.,176.58,359,2025-04-15 17:32:00,2025-01-18 17:46:00,True,Racing
+8f655e2c-942b-4c6e-9ae1-c3dfd6d668e8,Play-Doh Set,Perfect for imaginative play.,65.77,122,2025-10-20 08:01:00,2025-05-20 00:09:00,False,"Action Figures, Building Sets"
+670d3e6d-0cd9-4633-9d63-57dcba994466,Remote Control Car,Great gift for children of all ages.,50.34,90,2025-12-22 13:43:00,2025-08-05 23:13:00,True,"Action Figures, Family Games, Baby Toys"
+eb68eae6-60e7-4779-99f6-e6ff42145f03,Remote Control Car,Perfect for imaginative play.,261.55,499,2025-04-06 04:34:00,2025-11-06 21:35:00,True,"Action Figures, Trading Cards, Baby Toys"
+12746674-a439-4e53-b2c7-dc3759d01467,Plush Teddy Bear,Perfect for imaginative play.,38.83,231,2025-09-28 15:51:00,2025-03-15 16:34:00,False,"Trading Cards, Educational, Baby Toys"
+39aa1e48-68b7-4b95-9f45-3c73adc54548,Magic Kit,High-quality and durable.,100.48,114,2025-08-06 15:12:00,2025-09-21 08:25:00,False,"Educational, Collectibles, Playsets"
+75d3e8a5-631a-4d6e-8481-444de568ff60,Pokemon Card Set,Designed for hours of entertainment.,270.22,459,2025-10-01 18:15:00,2025-03-22 08:01:00,False,Playsets
+7574bda0-f55f-422f-86a1-c2c9f0c6f247,Science Experiment Kit,Interactive and educational.,73.45,149,2025-10-23 04:07:00,2025-02-12 23:36:00,True,Collectibles
+e1a1b2c9-996c-4d45-8778-160808b26bf6,Science Experiment Kit,Easy to assemble and store.,245.00,325,2025-12-14 09:15:00,2025-01-06 16:30:00,True,Arts & Crafts
+856e935f-3aff-4ae9-a5c9-0e1358344dcf,Hot Wheels Track,Perfect for imaginative play.,279.94,430,2025-01-14 10:48:00,2025-10-11 21:33:00,True,Racing
+d3cb18d9-0d67-4df9-8488-6baf7e3aa121,NERF Blaster,Easy to assemble and store.,31.13,50,2025-03-28 06:46:00,2025-06-19 07:33:00,True,"Vehicles, Action Figures"
+b344eda0-bf20-46c7-b255-0c8983cb3ebd,Hot Wheels Track,Easy to assemble and store.,139.25,154,2025-10-27 09:00:00,2025-10-10 23:22:00,True,"Playsets, Building Sets, Board Games"
+a902621c-302b-4ea5-86e5-bf7897d13a04,Puzzle Game,Designed for hours of entertainment.,40.09,428,2025-01-03 21:56:00,2025-01-26 15:40:00,False,Building Sets
+121775f6-e9a2-47a4-a9de-5ee928db557f,Wooden Train Set,High-quality and durable.,169.62,268,2025-02-19 08:41:00,2025-05-23 14:02:00,False,Dolls
+7963c305-3cea-429f-8cab-df40ffedd5d3,Toy Kitchen Set,Easy to assemble and store.,280.82,473,2025-11-01 16:27:00,2025-04-22 02:07:00,True,"Board Games, Educational"
+ce7946c8-68c0-4887-b42d-9eb1460bd1b8,Barbie Dollhouse,Great gift for children of all ages.,63.52,370,2025-10-08 05:04:00,2025-09-18 14:40:00,False,Trading Cards
+819ca2b0-e981-42b8-88cb-03fca767883c,Dinosaur Toy,Perfect for imaginative play.,34.18,397,2025-01-09 23:09:00,2025-08-23 22:31:00,True,"Educational, Playsets"
+0e2f2821-123e-40ce-aec3-e7a7c7a2a4f7,Magic Kit,Safe and non-toxic materials.,178.60,96,2025-04-16 12:01:00,2025-05-26 03:27:00,True,Vehicles
+d72e9989-4c74-4c4d-a86e-3d1cd2cafcba,Plush Teddy Bear,Includes various accessories for extended fun.,259.72,88,2025-06-05 20:24:00,2025-03-27 10:57:00,True,"Vehicles, Racing"
+81d3d397-8996-4f21-b466-fa40cb7c6d86,Science Experiment Kit,Perfect for imaginative play.,145.71,286,2025-05-10 05:47:00,2025-06-17 09:49:00,False,Playsets
+53531969-eee5-4c81-bf3c-69ddde905ffb,Remote Control Car,Designed for hours of entertainment.,95.68,103,2025-07-19 16:41:00,2025-12-09 23:01:00,True,"Arts & Crafts, Building Sets"
+15c07e38-30cd-4ad3-9662-f1f472b0e139,Toy Kitchen Set,Encourages creativity and problem-solving.,174.92,236,2025-07-17 05:28:00,2025-04-09 20:10:00,True,Playsets
+b44f012e-44e8-4138-8e32-ca9aaad6216f,Superhero Action Figure,Easy to assemble and store.,276.58,165,2025-10-11 10:50:00,2025-05-16 12:51:00,False,"Board Games, Baby Toys"
+28b8da85-1f8c-4756-9af4-e2c874acb4a5,Superhero Action Figure,Great gift for children of all ages.,46.15,60,2025-04-10 20:50:00,2025-09-09 10:03:00,False,"Family Games, Dolls, Racing"
+6ed85604-dbc1-44fc-a684-a82d0c85a42f,Transformers Figure,Includes various accessories for extended fun.,154.92,54,2025-01-05 13:43:00,2025-10-27 10:43:00,False,"Arts & Crafts, Board Games, Blasters"
+b59a5eb6-9944-42a4-98d2-7eb965a56c80,Dinosaur Toy,Designed for hours of entertainment.,117.38,312,2025-11-22 21:40:00,2025-04-04 12:35:00,True,"Trading Cards, Racing, Baby Toys"
+583fd82a-4991-49ca-b1f5-a2bd173e2a2c,Dinosaur Toy,Perfect for imaginative play.,233.32,240,2025-11-12 06:34:00,2025-04-13 17:46:00,False,"Blasters, Family Games, Board Games"
+e08b8b4d-3ad5-43a6-ba3f-6871a37a3154,NERF Blaster,High-quality and durable.,152.67,128,2025-06-18 03:02:00,2025-04-25 00:01:00,False,"Blasters, Racing, Playsets"
+1ed0a16d-0293-43fb-b5ba-ccab8ee97b4c,Superhero Action Figure,Perfect for imaginative play.,28.75,42,2025-06-15 01:16:00,2025-01-24 03:36:00,False,Dolls
+34296704-a1e0-476c-bc5c-2fe8a3c2c14b,Toy Kitchen Set,Perfect for imaginative play.,63.52,189,2025-02-26 01:09:00,2025-01-17 17:13:00,True,"Collectibles, Educational, Dolls"
+3c3df2ef-39ce-47e9-8840-d9148faa732a,Monopoly Board Game,Safe and non-toxic materials.,292.51,297,2025-03-27 04:56:00,2025-06-08 07:58:00,True,Racing
+cd5aa0b4-da9c-4384-83c5-2bcda374cbae,Dinosaur Toy,Great gift for children of all ages.,78.25,54,2025-01-10 22:20:00,2025-10-05 03:42:00,False,"Action Figures, Board Games"
+a6272170-485d-4884-885d-da09311f3b6b,Plush Teddy Bear,Easy to assemble and store.,34.14,464,2025-04-14 07:18:00,2025-05-28 20:43:00,False,"Blasters, Action Figures"
+241c00fc-59cc-4c17-b79c-916fc3819bd0,Science Experiment Kit,Encourages creativity and problem-solving.,283.55,43,2025-03-12 00:19:00,2025-11-12 04:38:00,True,"Vehicles, Dolls"
+904a345a-06aa-4609-ba8d-411b1369dd51,Remote Control Car,Includes various accessories for extended fun.,257.15,282,2025-12-25 00:43:00,2025-11-23 00:04:00,True,"Playsets, Baby Toys"
+9446a6da-ff58-4eb8-9da4-21c039b6e476,Transformers Figure,Designed for hours of entertainment.,56.85,163,2025-03-22 15:40:00,2025-11-25 23:54:00,True,Educational
+7c3ab4a3-466f-4ad7-9119-e113bf26ebdf,Play-Doh Set,Includes various accessories for extended fun.,154.99,148,2025-07-08 03:46:00,2025-06-08 19:27:00,True,"Baby Toys, Trading Cards"
+f95696a6-9d52-4faf-9cea-ed0c69a8eb34,Barbie Dollhouse,High-quality and durable.,55.17,395,2025-03-23 14:13:00,2025-10-25 23:07:00,True,"Racing, Family Games"
+c38ddaee-ad99-450f-9313-7a444d76a79c,Barbie Dollhouse,Easy to assemble and store.,259.61,47,2025-05-06 23:44:00,2025-06-03 11:52:00,False,"Arts & Crafts, Racing"
+dee7c151-88b3-4f94-adf2-7fe37fff9229,Wooden Train Set,Perfect for imaginative play.,45.93,496,2025-01-04 11:15:00,2025-08-24 06:49:00,False,"Baby Toys, Building Sets"
+2bb9cb41-6d80-4a88-bae6-30ebc6c3e86c,Toy Kitchen Set,Designed for hours of entertainment.,99.42,80,2025-08-25 09:29:00,2025-06-21 09:55:00,True,"Arts & Crafts, Racing"
+f55c7703-3b71-47fb-ba3e-52a376b45703,NERF Blaster,Safe and non-toxic materials.,138.73,48,2025-09-03 16:30:00,2025-09-09 12:24:00,True,Board Games
+1a10d65f-a98c-4e33-89d8-c7cce1ca2a28,Dinosaur Toy,A fun and engaging toy for kids.,87.49,493,2025-02-21 06:19:00,2025-10-23 23:53:00,True,"Blasters, Building Sets, Educational"
+adb30ef1-17fc-4b7e-b6ed-efb91fdc82c4,Wooden Train Set,Perfect for imaginative play.,224.60,100,2025-06-08 05:07:00,2025-03-05 14:08:00,False,Baby Toys
+b9d8fa7b-e28d-4750-b8c2-db130f3ccd4d,Transformers Figure,Great gift for children of all ages.,292.06,136,2025-07-13 14:42:00,2025-04-28 21:03:00,True,"Building Sets, Playsets, Racing"
+e6f7e0a0-038b-4a88-9ccd-9b8b6d10a356,Fisher-Price Toy,A fun and engaging toy for kids.,122.60,369,2025-03-17 22:37:00,2025-11-20 18:01:00,False,"Educational, Trading Cards"
+91086b03-bbee-40bc-b120-a91008c7d905,Toy Kitchen Set,Interactive and educational.,40.93,411,2025-07-26 13:27:00,2025-08-18 11:07:00,True,Board Games
+5780f3c5-01cb-492d-8ad0-f7a77845955b,Science Experiment Kit,Encourages creativity and problem-solving.,78.64,15,2025-07-13 08:06:00,2025-04-01 07:43:00,False,Playsets
+7d191182-575d-4526-a5d3-4a919357bb3e,Barbie Dollhouse,Interactive and educational.,152.16,435,2025-09-18 12:39:00,2025-01-17 14:56:00,False,"Collectibles, Playsets"
+ed6ddcba-7114-465c-b9c5-4314d05413e7,LEGO City Set,High-quality and durable.,258.06,296,2025-10-06 16:22:00,2025-01-04 10:46:00,False,Building Sets
+7cb120d5-6dcf-40ae-b9b7-392162cd233d,Wooden Train Set,High-quality and durable.,55.15,154,2025-09-01 12:32:00,2025-03-21 10:51:00,True,"Board Games, Racing"
+345a09c2-e0ff-4a1e-9da9-f15358497936,Puzzle Game,Designed for hours of entertainment.,70.92,342,2025-10-05 19:50:00,2025-09-09 10:15:00,False,"Blasters, Collectibles"
+3e0e9e27-7e0c-4148-8ec8-c11836185173,Play-Doh Set,Great gift for children of all ages.,221.33,97,2025-02-15 16:48:00,2025-02-21 20:32:00,True,Vehicles
+0a4c0e1d-41c2-4ba8-9a04-46b94d2ee7d5,Play-Doh Set,Designed for hours of entertainment.,66.63,102,2025-09-19 16:12:00,2025-09-28 07:59:00,False,Vehicles
+e94b4a77-cdd8-46c7-b217-31bfcb129c5c,Fisher-Price Toy,High-quality and durable.,174.68,59,2025-06-04 12:14:00,2025-09-27 21:19:00,False,Family Games
+bd5bf91b-54bf-4e7f-8934-ed26577ade2b,Magic Kit,Encourages creativity and problem-solving.,244.98,257,2025-03-17 09:07:00,2025-06-14 01:49:00,False,"Playsets, Blasters"
+24ee3874-0384-4edc-aa98-6771ff68f998,Toy Kitchen Set,Easy to assemble and store.,138.07,400,2025-02-24 00:03:00,2025-10-19 07:11:00,True,"Collectibles, Action Figures"
+ee7ce7f3-0a5c-4f73-816c-fbab481f8060,Monopoly Board Game,Interactive and educational.,86.53,334,2025-03-25 16:19:00,2025-08-13 06:32:00,True,Trading Cards
+5d4d6357-0ef4-4b7f-9e7d-6c39a1ca8b6e,Plush Teddy Bear,Easy to assemble and store.,256.64,229,2025-06-11 10:49:00,2025-10-20 19:37:00,True,"Blasters, Building Sets, Vehicles"
+21415697-7794-4ec0-9477-79f3b837c2ee,Plush Teddy Bear,Encourages creativity and problem-solving.,99.17,278,2025-05-21 15:23:00,2025-05-20 12:24:00,True,Educational
+35271eb2-87f0-4eca-a7c5-fc59a477314b,Toy Kitchen Set,Encourages creativity and problem-solving.,244.75,113,2025-06-20 14:06:00,2025-11-03 21:40:00,True,"Vehicles, Racing, Baby Toys"
+3bcf0aff-366c-4bf2-9986-08e757169090,Puzzle Game,Easy to assemble and store.,212.63,255,2025-06-21 10:00:00,2025-08-17 05:45:00,True,Building Sets
+a71d699d-f5bb-4796-8d7b-d9ee582273f4,Fisher-Price Toy,Easy to assemble and store.,15.40,420,2025-03-27 07:51:00,2025-08-28 23:11:00,False,Board Games
+db8209cb-a151-43db-a500-0129717003c3,Stuffed Animal,Perfect for imaginative play.,217.77,192,2025-01-23 21:43:00,2025-02-22 19:13:00,False,"Trading Cards, Family Games, Collectibles"
+17618c72-8045-47cc-abf6-e8f440717acd,LEGO City Set,Easy to assemble and store.,103.78,121,2025-04-14 23:35:00,2025-08-16 16:00:00,False,Playsets
+e1d834f1-5040-4dfe-83cb-d2f982d2d193,Magic Kit,Encourages creativity and problem-solving.,205.09,45,2025-03-13 09:11:00,2025-01-03 15:55:00,True,"Collectibles, Board Games, Trading Cards"
+0799acbe-e19d-491c-97f3-a48684a110e2,NERF Blaster,A fun and engaging toy for kids.,47.33,156,2025-12-10 23:27:00,2025-05-19 20:54:00,True,"Action Figures, Arts & Crafts, Baby Toys"
+36138b5e-f6e8-4eb9-b4cc-e4443342e78a,Puzzle Game,Easy to assemble and store.,243.37,140,2025-06-17 02:52:00,2025-03-21 20:00:00,False,"Action Figures, Baby Toys, Blasters"
+6c20b296-cc16-4a43-bfae-6150ad92cdb9,Barbie Dollhouse,High-quality and durable.,111.11,27,2025-10-25 04:52:00,2025-12-26 04:32:00,True,"Educational, Board Games"
+ed658c21-1bcf-4c7f-b5e1-b57033938731,Wooden Train Set,Perfect for imaginative play.,283.61,151,2025-11-06 10:15:00,2025-11-06 09:08:00,False,Board Games
+6778fa4d-1f2a-49e0-bcef-330ff81b36be,Plush Teddy Bear,Safe and non-toxic materials.,146.97,409,2025-05-07 22:27:00,2025-01-23 00:51:00,False,"Family Games, Trading Cards, Baby Toys"
+aaa95ebc-9026-4b82-9696-1a1a80592daa,Transformers Figure,Perfect for imaginative play.,287.67,424,2025-12-21 10:59:00,2025-05-28 04:46:00,False,"Baby Toys, Family Games, Board Games"
+3bef20d4-693f-4221-b675-48683d4966e2,Pokemon Card Set,Safe and non-toxic materials.,111.56,216,2025-06-08 13:20:00,2025-02-03 12:08:00,False,"Collectibles, Family Games, Building Sets"
+b490966f-df79-4ad0-b7a0-109b8f6c7387,Magic Kit,Perfect for imaginative play.,47.58,80,2025-09-11 13:58:00,2025-07-27 13:06:00,False,Board Games
+c9effcf3-2fc4-41c1-9593-d29cff412427,Robot Toy,Perfect for imaginative play.,231.09,130,2025-04-04 00:39:00,2025-01-22 17:34:00,True,Playsets
+0535e733-cc53-4a7b-bfd5-d0a3f6591528,Transformers Figure,Perfect for imaginative play.,46.72,169,2025-07-06 09:22:00,2025-11-13 11:38:00,False,"Racing, Vehicles, Dolls"
+e7e30c84-ce36-4b97-9099-474d1cf34f5a,Hot Wheels Track,A fun and engaging toy for kids.,209.79,455,2025-12-21 07:54:00,2025-07-24 20:52:00,True,"Blasters, Building Sets, Baby Toys"
+6f14eb12-c0ac-4031-bd6e-35ed50f7527a,Robot Toy,Designed for hours of entertainment.,72.41,368,2025-05-26 00:50:00,2025-08-25 08:05:00,False,"Building Sets, Family Games"
+e8789df1-7a30-4335-adcb-19c29e2838ce,Robot Toy,Perfect for imaginative play.,214.88,365,2025-09-15 22:15:00,2025-11-18 23:47:00,False,Educational
+00e2f0cd-5db0-4942-bbe7-d30a9f5f1514,Puzzle Game,Encourages creativity and problem-solving.,200.41,198,2025-07-17 23:49:00,2025-02-12 00:45:00,False,Building Sets
+f09124a7-4a40-401f-8103-d749e9a5bbb7,Hot Wheels Track,Includes various accessories for extended fun.,52.78,34,2025-12-15 20:52:00,2025-02-25 09:20:00,False,"Racing, Educational"
+eb4bb413-fb17-4cd9-a9aa-51dfa4b0f6f8,Monopoly Board Game,Encourages creativity and problem-solving.,275.63,298,2025-09-08 07:08:00,2025-12-06 10:14:00,False,Blasters
+b8057965-8f83-456a-baf1-9212f1db8437,Hot Wheels Track,Safe and non-toxic materials.,29.17,325,2025-04-22 15:52:00,2025-12-06 01:32:00,False,"Building Sets, Family Games"
+4af223ef-fe52-449c-992e-9be67eb284af,Robot Toy,A fun and engaging toy for kids.,243.69,241,2025-03-19 20:07:00,2025-03-08 00:23:00,True,Blasters
+caab1439-61b3-4404-b65a-ba033914205a,Stuffed Animal,Great gift for children of all ages.,94.31,122,2025-03-08 01:42:00,2025-03-09 20:40:00,False,Baby Toys
+16061877-19d6-49e8-b905-c1b56c384ce7,Fisher-Price Toy,Perfect for imaginative play.,20.84,51,2025-04-28 02:23:00,2025-05-13 07:06:00,False,"Blasters, Baby Toys, Building Sets"
+ce8524ae-1b0c-47f5-bfc2-d82850a6d5fa,Toy Kitchen Set,Perfect for imaginative play.,204.88,282,2025-03-16 17:36:00,2025-05-11 09:01:00,False,"Arts & Crafts, Playsets"
+0a757fc7-9b6d-4a0c-88be-51b902b8fb2f,Pokemon Card Set,Encourages creativity and problem-solving.,250.93,137,2025-08-25 06:26:00,2025-02-23 01:34:00,False,Arts & Crafts
+27063921-48cd-4b74-b445-d98c9591d55c,Fisher-Price Toy,High-quality and durable.,65.30,383,2025-06-04 13:15:00,2025-10-14 16:22:00,True,Racing
+8e179507-b327-452e-ae77-8bf092d7fc0e,Robot Toy,Includes various accessories for extended fun.,284.06,58,2025-10-27 00:38:00,2025-05-08 22:25:00,True,"Racing, Educational"
+f8f24ef7-5371-420f-b303-d587249ec41b,Monopoly Board Game,Designed for hours of entertainment.,47.57,313,2025-03-13 15:07:00,2025-12-06 02:39:00,False,Action Figures
+88304309-d23f-424a-a6e2-08406b54b7b6,Dinosaur Toy,Includes various accessories for extended fun.,126.38,144,2025-02-01 22:05:00,2025-02-01 20:54:00,False,"Collectibles, Racing, Blasters"
+3eaafbb5-76b6-457e-8786-7c28de12c438,Fisher-Price Toy,Perfect for imaginative play.,57.58,322,2025-06-09 15:22:00,2025-08-04 03:39:00,False,"Family Games, Collectibles, Vehicles"
+3dc4d5e8-e0a9-421d-af6a-b52f71d5bca0,Plush Teddy Bear,A fun and engaging toy for kids.,116.98,373,2025-01-22 13:20:00,2025-02-07 11:47:00,True,"Playsets, Trading Cards, Blasters"
+3563bdd9-6e51-48d5-a643-0fc308c60b91,Barbie Dollhouse,Includes various accessories for extended fun.,218.31,329,2025-11-11 04:18:00,2025-08-11 17:47:00,False,"Building Sets, Dolls, Family Games"
+bf0cb408-3792-41c8-b717-6a5e074a9c5f,Stuffed Animal,A fun and engaging toy for kids.,276.64,57,2025-01-01 08:57:00,2025-08-27 19:03:00,True,Racing
+c8ecd354-6eb8-476b-868a-228f63070903,Fisher-Price Toy,Great gift for children of all ages.,190.40,385,2025-06-17 14:58:00,2025-01-13 10:00:00,True,"Family Games, Playsets"
+f40c8036-7b7a-44c6-85a4-a7944f171d48,Hot Wheels Track,Interactive and educational.,22.54,71,2025-04-17 07:51:00,2025-01-03 09:35:00,True,"Action Figures, Trading Cards"
+61375a77-6894-41b1-b727-b58444054761,Wooden Train Set,Interactive and educational.,46.08,11,2025-09-10 17:23:00,2025-10-24 18:00:00,True,Collectibles
+2c874acc-0740-4d2e-be0c-3e2b4d614952,Pokemon Card Set,Encourages creativity and problem-solving.,199.82,229,2025-02-28 12:39:00,2025-07-12 16:57:00,False,Racing
+bf4c32ce-92e3-4810-b27e-262fda46f394,Toy Kitchen Set,Designed for hours of entertainment.,236.53,158,2025-10-02 19:57:00,2025-11-22 19:59:00,False,"Playsets, Action Figures, Arts & Crafts"
+57108a98-e252-411e-b7be-43dbc11aec46,Toy Kitchen Set,Perfect for imaginative play.,140.91,69,2025-05-01 00:34:00,2025-01-19 11:45:00,True,Building Sets
+8d93bb95-71f8-4e85-ae28-e75342c46241,LEGO City Set,Encourages creativity and problem-solving.,269.12,306,2025-07-27 13:07:00,2025-07-27 21:47:00,False,"Playsets, Trading Cards, Family Games"
+398cf18b-f9ee-4e6c-a275-771b4a866ef4,Plush Teddy Bear,Encourages creativity and problem-solving.,275.34,268,2025-04-24 01:22:00,2025-02-16 23:14:00,False,"Board Games, Racing, Blasters"
+740188e2-2586-4b3d-9a8e-4f6d9d783b4c,Pokemon Card Set,Great gift for children of all ages.,150.37,301,2025-06-01 02:48:00,2025-05-28 12:51:00,False,"Dolls, Family Games"
+f4efeaca-8178-47ba-b742-878007a335f5,LEGO City Set,Easy to assemble and store.,266.32,206,2025-10-14 01:33:00,2025-05-26 05:07:00,True,"Racing, Playsets"
+666f117b-e36b-45da-a126-7b296e422a94,Toy Kitchen Set,A fun and engaging toy for kids.,269.75,458,2025-09-28 18:59:00,2025-11-12 22:26:00,True,"Building Sets, Dolls, Racing"
+52016435-3ccb-41d3-a41b-6b42a8ca45a4,Magic Kit,Safe and non-toxic materials.,279.34,271,2025-06-05 08:56:00,2025-10-10 08:58:00,True,"Blasters, Racing"
+56a94ce9-a20c-4f5c-ae9b-5a4dc82ef7e0,Puzzle Game,Encourages creativity and problem-solving.,56.77,88,2025-04-25 19:18:00,2025-03-09 20:27:00,False,"Racing, Blasters, Family Games"
+530d1cc5-f11f-4c6f-b38f-42456cf7a46c,Dinosaur Toy,Easy to assemble and store.,105.18,425,2025-07-22 01:40:00,2025-09-08 20:26:00,True,Building Sets
+ae395791-32e8-4a63-a03d-03f726e93b05,Robot Toy,Perfect for imaginative play.,198.73,268,2025-07-07 18:51:00,2025-03-27 10:55:00,True,Collectibles
+6fa1cb0b-f7e9-46e2-a534-baaa5fe74cc8,Dinosaur Toy,Easy to assemble and store.,246.39,417,2025-06-24 22:28:00,2025-07-19 03:31:00,True,"Blasters, Collectibles, Vehicles"
+e62892b6-8e9f-4846-8330-85a92c561ac9,Transformers Figure,Designed for hours of entertainment.,107.83,68,2025-11-05 16:47:00,2025-04-26 18:35:00,True,"Family Games, Building Sets"
+a4814e6a-b384-439a-8d0d-541c1ab69aec,Fisher-Price Toy,Includes various accessories for extended fun.,91.48,217,2025-08-28 15:18:00,2025-10-06 21:38:00,False,"Trading Cards, Dolls, Baby Toys"
+f7e99589-008f-4414-bacd-4a316f5c9542,Toy Kitchen Set,Easy to assemble and store.,250.03,16,2025-01-17 16:02:00,2025-05-16 02:45:00,False,"Board Games, Baby Toys"
+bf07bfd8-1060-48ae-a04b-aed37b0e3936,Play-Doh Set,A fun and engaging toy for kids.,7.48,392,2025-04-22 04:57:00,2025-09-26 16:18:00,False,"Action Figures, Educational, Playsets"
+3789846a-c5be-495e-8289-16d928517daa,Stuffed Animal,Safe and non-toxic materials.,28.09,303,2025-10-09 18:58:00,2025-10-15 14:12:00,False,"Building Sets, Action Figures"
+8e69d481-a546-4a1e-96c3-0c4a76b32ce4,Remote Control Car,High-quality and durable.,23.06,40,2025-02-20 15:41:00,2025-12-07 23:44:00,True,"Trading Cards, Baby Toys"
+3cce9ba5-a64b-4bc9-a5bc-e3e50b074b6a,Dinosaur Toy,Interactive and educational.,116.59,31,2025-08-28 06:27:00,2025-12-14 14:03:00,False,"Dolls, Arts & Crafts"
+b3fe6e99-d497-45b1-8266-9e7142954ba9,Superhero Action Figure,Interactive and educational.,142.91,453,2025-08-21 06:02:00,2025-12-03 12:55:00,False,"Dolls, Vehicles"
+9fe4d8d4-16a5-4de7-8cfd-96abc1f22239,Play-Doh Set,Great gift for children of all ages.,51.05,435,2025-08-26 02:42:00,2025-03-25 05:17:00,False,"Playsets, Dolls, Arts & Crafts"
+f46f8888-c9d2-42b6-a725-fb73f24a10cb,Hot Wheels Track,A fun and engaging toy for kids.,295.95,19,2025-10-21 22:06:00,2025-08-19 19:32:00,False,Baby Toys
+e066d215-af2f-44bc-8b8f-545a335b3b7d,Magic Kit,Safe and non-toxic materials.,267.46,344,2025-02-07 07:19:00,2025-06-20 23:43:00,False,"Playsets, Educational"
+0cd680bb-a5f4-433d-8dc2-79728ad4c343,LEGO City Set,Designed for hours of entertainment.,272.37,45,2025-11-08 02:47:00,2025-01-12 18:43:00,True,"Action Figures, Educational"
+25029284-f782-4c39-9c3f-b928d9a7d388,Magic Kit,High-quality and durable.,226.23,328,2025-02-17 00:14:00,2025-04-05 23:49:00,True,"Playsets, Blasters, Building Sets"
+d7634a7f-52e9-4236-b6e6-323c28d1e514,Robot Toy,Easy to assemble and store.,81.08,194,2025-01-17 19:02:00,2025-07-12 11:19:00,False,"Vehicles, Trading Cards"
+d20b10e4-c67b-4c0d-9867-5256418738cf,Barbie Dollhouse,A fun and engaging toy for kids.,296.50,159,2025-06-07 02:43:00,2025-12-28 10:02:00,False,"Action Figures, Baby Toys, Educational"
+1b4d24c6-2272-4884-8527-7229e974ef5c,Hot Wheels Track,Includes various accessories for extended fun.,108.39,352,2025-02-24 22:54:00,2025-12-07 03:24:00,False,Board Games
+d431ebdf-c8b3-4770-89bb-e05b3ec0b401,Monopoly Board Game,Designed for hours of entertainment.,76.03,475,2025-01-19 04:52:00,2025-05-02 11:00:00,False,"Vehicles, Action Figures, Playsets"
+88bc75cf-f8a0-4646-98d9-cccaa4985676,Stuffed Animal,Designed for hours of entertainment.,297.19,94,2025-10-03 20:05:00,2025-08-02 18:51:00,True,"Action Figures, Trading Cards"
+6204cde9-bf78-411d-9153-a963311e5d96,Toy Kitchen Set,Safe and non-toxic materials.,93.16,269,2025-06-22 11:26:00,2025-06-14 00:09:00,False,Racing
+760e8d81-b97f-4c41-979b-29696627e7e8,Hot Wheels Track,Interactive and educational.,226.85,459,2025-06-15 03:14:00,2025-07-25 16:03:00,True,Trading Cards
+2a818561-d4cf-4c9f-a084-abfccc563578,Dinosaur Toy,Includes various accessories for extended fun.,59.16,451,2025-11-08 03:24:00,2025-09-10 22:33:00,False,Blasters
+18994539-66e7-4678-bbfb-99c311e5ed7b,Plush Teddy Bear,Includes various accessories for extended fun.,162.74,79,2025-04-25 00:00:00,2025-10-11 01:35:00,False,"Blasters, Collectibles, Family Games"
+69b76818-a491-4987-8f68-3e14bee4eb73,Barbie Dollhouse,High-quality and durable.,212.26,426,2025-01-20 20:14:00,2025-02-23 20:24:00,False,"Dolls, Vehicles, Action Figures"
+781a0c05-9937-4eb2-ac76-f50b7b3f85b0,Hot Wheels Track,Safe and non-toxic materials.,264.25,143,2025-12-13 10:33:00,2025-11-19 02:58:00,False,"Baby Toys, Board Games"
+cf7d8a2e-5a68-41a6-8170-ff552d07bc79,Science Experiment Kit,Interactive and educational.,87.52,287,2025-07-10 14:14:00,2025-07-24 11:35:00,True,"Blasters, Dolls"
+975f9b19-7ecd-4082-83cf-fff4545369f0,Magic Kit,Safe and non-toxic materials.,215.50,419,2025-01-05 01:12:00,2025-01-02 17:29:00,False,"Racing, Arts & Crafts"
+08776200-eb7b-4ec5-b718-e23864618fe2,Play-Doh Set,A fun and engaging toy for kids.,15.71,124,2025-12-28 23:07:00,2025-09-13 03:46:00,False,Collectibles
+e0e237ff-9a39-42f1-8e3d-04df8d0e35d9,Toy Kitchen Set,Great gift for children of all ages.,263.78,48,2025-07-07 23:05:00,2025-11-17 17:32:00,True,"Board Games, Vehicles"
+1462a761-bdcd-4135-990e-ce292aad015c,Barbie Dollhouse,Interactive and educational.,74.95,388,2025-12-12 18:48:00,2025-01-12 15:22:00,False,"Educational, Trading Cards"
+e21ed65b-f859-442c-b756-951f591a1d9e,Dinosaur Toy,Perfect for imaginative play.,79.20,339,2025-07-16 19:41:00,2025-02-07 02:23:00,True,Collectibles
+15a9ba25-d520-4bc8-9f9e-e129d7fdf4db,Magic Kit,Includes various accessories for extended fun.,12.63,348,2025-10-15 01:14:00,2025-06-28 03:16:00,True,"Trading Cards, Board Games, Baby Toys"
+07ba6047-b697-4a31-b069-98491edb077f,Plush Teddy Bear,Interactive and educational.,168.23,160,2025-05-11 18:57:00,2025-05-05 06:33:00,False,"Blasters, Racing, Board Games"
+d0608573-ba2a-4f12-8d9f-9a5f4d82dd13,Dinosaur Toy,High-quality and durable.,202.13,346,2025-12-20 19:03:00,2025-08-10 06:38:00,False,Educational
+30aaff72-fdb1-47c7-8819-f47984350c85,Magic Kit,Interactive and educational.,6.21,392,2025-10-25 21:18:00,2025-04-08 17:47:00,True,"Building Sets, Baby Toys"
+c9a155b4-fd7f-4b9f-ab5b-df5c1fd61c43,Toy Kitchen Set,Great gift for children of all ages.,168.23,290,2025-09-09 15:31:00,2025-01-04 14:29:00,True,"Baby Toys, Blasters, Collectibles"
+bb01aa64-fe5a-43a8-88f6-aaa80faed236,Robot Toy,Easy to assemble and store.,179.26,88,2025-12-22 13:12:00,2025-03-17 04:13:00,True,"Action Figures, Collectibles, Board Games"
+efd06327-143d-4ca1-94e5-6eecf5983461,Hot Wheels Track,Great gift for children of all ages.,80.78,328,2025-01-21 20:05:00,2025-03-14 19:40:00,True,"Playsets, Vehicles"
+b4bacad8-b7fb-401d-885e-911deae91b59,LEGO City Set,Designed for hours of entertainment.,12.25,301,2025-08-02 08:40:00,2025-02-25 05:47:00,True,Board Games
+87239ea8-4a85-442e-a4c6-f13e3901d2cf,NERF Blaster,Designed for hours of entertainment.,17.89,181,2025-01-26 14:03:00,2025-01-26 07:14:00,False,Racing
+6314d44f-28c5-462c-a0f8-c0b05650761b,NERF Blaster,Interactive and educational.,227.24,424,2025-01-02 18:56:00,2025-11-23 10:28:00,False,"Racing, Dolls"
+1f045be5-e806-4596-b803-3f6da233171a,Barbie Dollhouse,Perfect for imaginative play.,172.56,165,2025-02-07 00:42:00,2025-03-27 10:51:00,True,"Baby Toys, Trading Cards"
+37365eb3-9852-4699-a22d-23ae51dd4c47,Toy Kitchen Set,Great gift for children of all ages.,133.26,474,2025-10-07 23:01:00,2025-02-14 19:05:00,True,"Action Figures, Building Sets, Baby Toys"
+ab23008f-3688-46c0-b860-83d45a18ae01,Magic Kit,Great gift for children of all ages.,40.39,261,2025-08-02 23:57:00,2025-12-08 23:34:00,True,"Board Games, Racing"
+5bc6e3ec-a379-4fee-bda2-040b6a8f3f65,Fisher-Price Toy,Perfect for imaginative play.,217.92,249,2025-08-13 10:52:00,2025-01-21 14:55:00,False,"Blasters, Building Sets, Action Figures"
+1bcbab1e-4433-43db-ab60-23dda3ba5295,NERF Blaster,A fun and engaging toy for kids.,179.33,430,2025-10-06 07:33:00,2025-11-01 07:10:00,False,"Arts & Crafts, Family Games"
+351e2c98-845f-448c-add6-5b899533dd28,Plush Teddy Bear,A fun and engaging toy for kids.,207.00,300,2025-12-07 02:40:00,2025-05-04 22:47:00,True,"Racing, Arts & Crafts, Educational"
+4dedd3f8-7562-4a59-93a0-682a9be5e647,Toy Kitchen Set,Interactive and educational.,192.15,178,2025-07-14 16:33:00,2025-09-05 23:02:00,True,"Playsets, Family Games, Baby Toys"
+0dfb5b65-7932-4f30-8db1-3b822131858b,Puzzle Game,Includes various accessories for extended fun.,170.12,172,2025-07-15 05:19:00,2025-03-22 15:02:00,False,Educational
+6a40d769-a531-4e26-9686-8fd8e0402461,LEGO City Set,Includes various accessories for extended fun.,33.14,417,2025-01-26 06:20:00,2025-01-21 17:16:00,False,"Vehicles, Action Figures"
+76261902-cfdf-48e3-bec5-cad954bbbe63,Stuffed Animal,Interactive and educational.,190.90,133,2025-12-05 02:42:00,2025-04-11 18:43:00,True,Racing
+a7fc1707-7e75-46be-8964-56f539175663,Magic Kit,Interactive and educational.,211.56,23,2025-12-17 17:59:00,2025-09-06 08:54:00,False,"Arts & Crafts, Playsets"
+5d376c21-c0ac-4193-8419-c00b3299f2a4,Fisher-Price Toy,Easy to assemble and store.,59.75,494,2025-06-18 20:20:00,2025-10-25 11:18:00,False,Playsets
+e08e6368-e13f-4c29-9975-e74f8d077f46,Toy Kitchen Set,Perfect for imaginative play.,83.15,205,2025-08-21 20:12:00,2025-03-14 15:13:00,True,"Family Games, Building Sets"
+0d93ce62-717d-4e48-bd11-78e2d1094b9c,Play-Doh Set,Safe and non-toxic materials.,298.64,322,2025-07-08 14:03:00,2025-10-17 02:49:00,False,Vehicles
+6f3f7485-77b2-4302-8a51-b51cfcc788a5,Pokemon Card Set,A fun and engaging toy for kids.,200.57,456,2025-11-19 23:06:00,2025-04-07 12:10:00,False,"Racing, Playsets, Collectibles"
+f007336e-e66a-40e8-9d93-192252d915b6,Science Experiment Kit,Easy to assemble and store.,46.88,273,2025-10-19 01:38:00,2025-05-09 11:09:00,False,"Building Sets, Dolls, Blasters"
+05022a99-bb7b-4ae1-9996-94cdc65eb9ae,Plush Teddy Bear,Includes various accessories for extended fun.,60.78,422,2025-03-09 04:42:00,2025-05-22 19:44:00,False,"Vehicles, Baby Toys"
+16d9939b-fd59-4e54-b380-aa028d82f990,Remote Control Car,Designed for hours of entertainment.,224.25,377,2025-09-08 05:12:00,2025-11-07 23:52:00,True,"Baby Toys, Collectibles"
+78bfb2ce-b05f-4d27-a24c-14ea3ce6d4ed,Remote Control Car,Safe and non-toxic materials.,190.26,156,2025-12-24 19:50:00,2025-07-18 05:27:00,False,"Trading Cards, Vehicles"
+0943e82f-cff5-4abc-8655-7885bda52737,Robot Toy,Safe and non-toxic materials.,87.23,93,2025-05-04 08:12:00,2025-09-09 21:20:00,True,Dolls
+d989dd96-ebf4-4b8e-97ff-546c146eab7e,Monopoly Board Game,Interactive and educational.,136.77,183,2025-09-24 12:37:00,2025-12-01 22:03:00,True,Arts & Crafts
+cb36d3d2-bc18-482e-a5e4-93669d18768a,Fisher-Price Toy,Designed for hours of entertainment.,273.28,14,2025-01-16 02:35:00,2025-02-12 21:30:00,True,"Family Games, Board Games, Educational"
+a29df282-ded1-4521-88b0-806b35db9980,Wooden Train Set,Easy to assemble and store.,280.03,277,2025-01-05 05:52:00,2025-08-05 00:54:00,True,Dolls
+cd4e073a-c9ed-40da-88bd-25b25b86a997,LEGO City Set,Includes various accessories for extended fun.,284.10,189,2025-05-21 10:23:00,2025-07-11 05:53:00,False,"Building Sets, Collectibles"
+55e59783-4c76-426c-bdd3-a5b5feb41f39,Science Experiment Kit,Encourages creativity and problem-solving.,227.25,372,2025-06-02 21:45:00,2025-12-19 09:39:00,True,Arts & Crafts
+df2e6697-101d-48c6-8419-ac36d8ffd2ae,Dinosaur Toy,Perfect for imaginative play.,122.28,116,2025-03-01 12:14:00,2025-08-24 09:42:00,False,Collectibles
+cf141e41-4e68-4f7b-9053-266833a232a1,Monopoly Board Game,Perfect for imaginative play.,244.94,388,2025-02-03 15:06:00,2025-03-16 06:29:00,True,Dolls
+354a3061-1321-476f-a3e4-30cea4340386,Science Experiment Kit,High-quality and durable.,13.59,239,2025-06-26 01:11:00,2025-05-21 17:06:00,False,"Educational, Dolls, Blasters"
+5674d12e-bae1-4f36-b362-9f379a543d69,Wooden Train Set,Interactive and educational.,122.19,400,2025-05-15 12:11:00,2025-10-25 13:58:00,True,"Playsets, Action Figures"
+5c68415a-0f87-453c-ab76-daef62abeb2f,Magic Kit,Perfect for imaginative play.,143.51,118,2025-04-14 19:50:00,2025-08-15 07:01:00,False,"Board Games, Vehicles, Blasters"
+713f979f-688a-45ef-a92e-42f22aa1dd2b,Hot Wheels Track,Encourages creativity and problem-solving.,223.09,25,2025-10-01 03:40:00,2025-11-06 13:48:00,True,Vehicles
+76a234b8-1ed2-4378-ba8a-24ff87c811d7,Puzzle Game,Perfect for imaginative play.,25.92,174,2025-10-11 15:17:00,2025-11-10 08:40:00,False,"Collectibles, Racing, Blasters"
+332b75cc-4d34-4170-a575-79e7e0a3e67e,Barbie Dollhouse,Great gift for children of all ages.,45.70,242,2025-09-05 22:21:00,2025-05-17 09:57:00,True,"Arts & Crafts, Collectibles, Trading Cards"
+db8b8aa8-8884-44d3-bbfc-20208aee6a95,Remote Control Car,A fun and engaging toy for kids.,9.53,282,2025-02-18 08:50:00,2025-06-12 02:27:00,True,"Racing, Family Games, Vehicles"
+1b466f9a-2734-46a5-89b6-6e6e8f689834,LEGO City Set,Includes various accessories for extended fun.,38.97,439,2025-04-09 02:47:00,2025-10-04 05:33:00,True,"Playsets, Collectibles"
+89bb9486-0211-47bf-976e-c6588c7a424e,Hot Wheels Track,Safe and non-toxic materials.,278.14,393,2025-03-05 23:56:00,2025-02-05 19:49:00,False,Playsets
+283610a6-5f57-4af1-a613-6c6d10d739a7,Magic Kit,Great gift for children of all ages.,31.05,73,2025-02-28 05:23:00,2025-10-06 04:17:00,False,Baby Toys
+fc8f2d40-f354-4e8c-9e9f-a541770556fe,Stuffed Animal,Perfect for imaginative play.,214.48,299,2025-10-17 22:17:00,2025-07-27 11:43:00,False,Vehicles
+834a12e3-2d27-4961-acba-d1a54cf0a026,Monopoly Board Game,Perfect for imaginative play.,296.20,350,2025-12-25 10:43:00,2025-03-28 21:55:00,True,"Vehicles, Family Games, Board Games"
+eaf01fbc-2b9c-4d4c-8c85-eaf2d765d6c3,Monopoly Board Game,Encourages creativity and problem-solving.,237.18,141,2025-04-25 01:01:00,2025-01-16 12:43:00,True,Vehicles
+daeac595-cab3-4dea-bac7-211bedc2da44,Puzzle Game,Easy to assemble and store.,72.34,386,2025-12-02 21:20:00,2025-02-10 15:15:00,True,Educational
+b7af79a8-2ea0-4be4-9325-baffee442ed5,NERF Blaster,High-quality and durable.,73.38,366,2025-08-23 11:13:00,2025-06-19 00:31:00,True,"Dolls, Playsets, Board Games"
+68c49047-030e-47ea-a549-3ce482c4a305,Transformers Figure,Designed for hours of entertainment.,111.15,91,2025-05-14 12:29:00,2025-10-08 07:55:00,True,"Educational, Trading Cards"
+fa7f2759-be83-4b94-89d2-29c4fc4e3a97,Stuffed Animal,Perfect for imaginative play.,280.58,476,2025-01-14 20:33:00,2025-09-03 07:05:00,True,Trading Cards
+7bb71750-e2d2-4570-8d0c-2b2c965ef0a6,Plush Teddy Bear,Easy to assemble and store.,288.22,11,2025-06-21 23:38:00,2025-06-26 16:48:00,True,Building Sets
+50998f58-9da6-4b56-b387-1531fda3368a,Magic Kit,Designed for hours of entertainment.,124.57,258,2025-10-12 07:06:00,2025-10-21 20:19:00,False,Collectibles
+831c0480-9daf-47fc-8ba9-ef5bcfdc4387,Barbie Dollhouse,Designed for hours of entertainment.,108.56,329,2025-09-11 20:31:00,2025-03-13 12:02:00,False,"Building Sets, Vehicles, Board Games"
+77fd214c-19c5-47a5-86c8-b4517d991c3f,LEGO City Set,A fun and engaging toy for kids.,150.55,74,2025-04-20 19:51:00,2025-04-18 10:51:00,False,Vehicles
+9da914d6-ea81-436d-9faa-b008f9abf650,Remote Control Car,Designed for hours of entertainment.,227.56,385,2025-08-03 19:10:00,2025-03-03 10:22:00,True,Baby Toys
+7f70f154-525b-4de3-a266-4d1312e39072,Monopoly Board Game,Perfect for imaginative play.,12.35,239,2025-10-25 01:53:00,2025-03-13 22:44:00,False,Collectibles
+f30b551d-7035-4149-9261-70936b28e360,Hot Wheels Track,Easy to assemble and store.,213.96,357,2025-11-23 16:29:00,2025-12-04 22:41:00,True,Racing
+8ea27c07-44d9-4270-84be-b06b8749a90d,Toy Kitchen Set,A fun and engaging toy for kids.,174.32,23,2025-06-07 02:05:00,2025-01-19 01:24:00,True,"Family Games, Collectibles, Educational"
+11d15e91-3def-4114-8196-a594bc73e470,Dinosaur Toy,Designed for hours of entertainment.,166.63,457,2025-04-02 09:42:00,2025-02-16 23:06:00,True,Racing
+5d63dfd2-1b7c-4139-afcf-ac7ac1f1050e,Remote Control Car,Encourages creativity and problem-solving.,18.90,343,2025-10-14 23:12:00,2025-12-13 00:11:00,False,"Building Sets, Vehicles"
+3043f462-590d-4ae6-84df-bc7096c5f0c8,Dinosaur Toy,Great gift for children of all ages.,282.11,169,2025-05-16 23:33:00,2025-07-04 06:43:00,False,"Family Games, Educational, Racing"
+f73666ca-8451-424c-94cf-36f140d51767,NERF Blaster,Great gift for children of all ages.,48.23,166,2025-11-01 10:01:00,2025-04-24 06:51:00,False,"Building Sets, Playsets"
+072fa30f-dbbe-4b7f-9b9a-24b05e23341a,Transformers Figure,Perfect for imaginative play.,260.31,36,2025-01-22 14:26:00,2025-05-26 08:23:00,True,"Family Games, Collectibles"
+404b86f9-ce43-426f-9d7f-fef1630073e6,Toy Kitchen Set,Interactive and educational.,274.73,227,2025-07-28 22:08:00,2025-05-26 10:08:00,True,Dolls
+0ed109a9-47c7-4be2-a017-aa756a999acb,Pokemon Card Set,Designed for hours of entertainment.,147.62,244,2025-06-26 12:15:00,2025-03-07 07:27:00,True,Playsets
+fab2df75-057e-4024-93ff-c3fd37554dec,Transformers Figure,Easy to assemble and store.,38.91,246,2025-10-18 00:36:00,2025-04-20 11:14:00,False,"Board Games, Vehicles"
+4f135f24-70df-4b3b-9999-e6db86b56d20,Remote Control Car,Easy to assemble and store.,203.57,350,2025-09-10 15:03:00,2025-04-17 08:53:00,True,Family Games
+02eccc8f-045e-4ee8-8fa9-acf093ef7d53,Science Experiment Kit,Encourages creativity and problem-solving.,203.03,99,2025-11-19 01:36:00,2025-12-27 10:32:00,True,"Board Games, Building Sets, Trading Cards"
+81308123-54da-472d-b29a-a9dfd5257a76,Barbie Dollhouse,Includes various accessories for extended fun.,146.37,242,2025-08-28 12:42:00,2025-10-11 13:11:00,True,"Blasters, Family Games, Playsets"
+f51a31a3-72ce-4aee-b18e-0ed6391eedeb,Fisher-Price Toy,Great gift for children of all ages.,144.68,455,2025-09-10 08:40:00,2025-03-12 01:26:00,False,"Vehicles, Building Sets, Blasters"
+5c4824b4-156c-4ac0-8f51-2f126e984fce,LEGO City Set,A fun and engaging toy for kids.,279.19,370,2025-02-09 01:46:00,2025-12-12 22:58:00,True,"Racing, Collectibles"
+2de31cef-6e37-4fe7-bdc4-20147d0366b4,Plush Teddy Bear,Interactive and educational.,296.81,360,2025-09-24 09:27:00,2025-08-11 02:56:00,True,"Action Figures, Racing, Family Games"
+5ba7e560-e02b-4880-b279-fe9cd9e94935,Play-Doh Set,Safe and non-toxic materials.,29.72,54,2025-07-05 12:06:00,2025-12-16 05:52:00,True,"Educational, Building Sets"
+a1a5f4ec-a82b-4edf-9c30-db5a4c3cb50e,Puzzle Game,Easy to assemble and store.,91.18,197,2025-02-03 17:57:00,2025-12-14 21:15:00,True,"Playsets, Dolls"
+43a2c99a-48bc-4699-9773-b987529ce034,Remote Control Car,Interactive and educational.,80.60,179,2025-05-19 15:20:00,2025-09-26 09:55:00,True,Educational
+80d92762-b4b2-482d-8b46-a703f080b984,Transformers Figure,Interactive and educational.,279.86,461,2025-01-23 23:17:00,2025-12-25 02:52:00,True,Arts & Crafts
+1f745ce8-9f2d-497e-9692-cb2ff42ecafb,Hot Wheels Track,Great gift for children of all ages.,188.50,433,2025-03-11 22:58:00,2025-09-20 02:37:00,True,"Collectibles, Arts & Crafts"
+1178dd07-a887-4bbb-bf44-524fdbf2ccf0,Toy Kitchen Set,Includes various accessories for extended fun.,60.85,209,2025-10-18 10:59:00,2025-06-21 05:56:00,False,Collectibles
+0ef91e75-8f7e-4551-9dfc-a7ff07a2cee2,LEGO City Set,Includes various accessories for extended fun.,15.82,115,2025-12-25 06:20:00,2025-09-07 16:28:00,True,"Family Games, Racing, Collectibles"
+36ae57e1-5770-4791-a84f-2f8c531a6ba8,Puzzle Game,Safe and non-toxic materials.,246.14,340,2025-12-21 08:20:00,2025-07-13 09:21:00,False,"Baby Toys, Trading Cards"
+e2ffb166-9390-4d22-b7d8-9f2cb150605b,Fisher-Price Toy,Encourages creativity and problem-solving.,280.06,432,2025-02-01 05:48:00,2025-12-10 23:03:00,True,Action Figures
+0bd98985-2d90-4509-8330-7f3528c34d69,Pokemon Card Set,Safe and non-toxic materials.,51.55,393,2025-10-12 09:58:00,2025-08-13 21:49:00,False,Educational
+ea023c93-eb14-43ab-a6a2-636d85b7f828,NERF Blaster,A fun and engaging toy for kids.,105.00,440,2025-03-10 20:37:00,2025-10-23 09:29:00,False,Vehicles
+1bd2b705-6c50-4b27-a199-5d4c86792f31,Science Experiment Kit,Encourages creativity and problem-solving.,291.45,195,2025-05-13 01:09:00,2025-07-17 21:24:00,True,"Arts & Crafts, Trading Cards"
+8fb276a5-c02b-4742-9c81-edb9bd8c73d4,Magic Kit,Easy to assemble and store.,108.14,298,2025-10-02 22:29:00,2025-06-08 09:37:00,True,Blasters
+a8b1fca3-9e97-4a1f-b0ef-1661a9a55946,Robot Toy,Perfect for imaginative play.,281.03,95,2025-06-23 03:58:00,2025-07-10 10:31:00,False,"Racing, Trading Cards"
+30163572-01ea-4c37-b705-34d72bcea7ce,Wooden Train Set,A fun and engaging toy for kids.,77.22,41,2025-01-08 19:22:00,2025-03-13 01:16:00,True,"Trading Cards, Educational"
+1413bb56-586a-4b65-8d98-1c275f56bfb6,Hot Wheels Track,Interactive and educational.,73.27,261,2025-08-17 01:26:00,2025-01-26 07:54:00,True,"Playsets, Blasters"
+1ff2a637-d025-4c4b-86a9-72604b7712bc,Stuffed Animal,High-quality and durable.,189.37,362,2025-02-05 03:43:00,2025-10-14 19:02:00,False,"Arts & Crafts, Family Games"
+589b3b79-a9cd-43d0-831c-63613bee9ee3,Play-Doh Set,Includes various accessories for extended fun.,266.94,417,2025-04-10 06:16:00,2025-06-11 10:15:00,True,Family Games
+733c5d64-5bcf-4dae-bb3b-94675f713f8f,Toy Kitchen Set,Includes various accessories for extended fun.,151.36,262,2025-11-26 17:55:00,2025-06-07 02:33:00,False,"Collectibles, Family Games, Baby Toys"
+92f26ffa-7a09-4c25-bf24-58c34258d493,NERF Blaster,A fun and engaging toy for kids.,51.88,390,2025-08-27 19:23:00,2025-07-22 06:00:00,True,Trading Cards
+daaf1eeb-9d05-49d3-9a43-09f8ebd61daa,Transformers Figure,Encourages creativity and problem-solving.,167.86,218,2025-05-28 02:01:00,2025-12-21 04:55:00,True,Building Sets
+ddd38e11-dcb5-4b54-a2bd-33c003b16050,LEGO City Set,Designed for hours of entertainment.,13.10,405,2025-04-04 05:01:00,2025-09-10 23:51:00,False,Racing
+aa5acd5c-eb7f-4b79-b945-e11e6577fc76,Stuffed Animal,Includes various accessories for extended fun.,8.75,254,2025-06-27 09:47:00,2025-02-25 17:02:00,False,"Action Figures, Family Games"
+11d5650b-df20-4c06-91f7-8669bd968e1e,Monopoly Board Game,Safe and non-toxic materials.,265.44,448,2025-06-05 06:43:00,2025-10-26 20:56:00,False,"Baby Toys, Family Games, Collectibles"
+d4d8ea7e-0dd7-4879-aef8-26115cf91b57,Stuffed Animal,Designed for hours of entertainment.,264.92,226,2025-09-03 04:41:00,2025-01-10 09:45:00,True,Family Games
+a7a6c30a-61f2-4b76-a9d5-19123b050688,Pokemon Card Set,Designed for hours of entertainment.,284.58,77,2025-01-17 16:48:00,2025-06-21 19:58:00,True,Trading Cards
+dd1fb32b-1827-473f-91ea-cab05bb30a41,Hot Wheels Track,Interactive and educational.,39.70,418,2025-11-04 14:43:00,2025-03-20 15:55:00,True,Action Figures
+17e88ceb-c668-4a61-90e5-df6e9a08edb3,Toy Kitchen Set,Encourages creativity and problem-solving.,267.15,474,2025-04-25 10:46:00,2025-05-19 00:20:00,True,Board Games
+b50350e1-d989-4457-a6da-426768340496,Hot Wheels Track,Encourages creativity and problem-solving.,70.13,169,2025-01-09 21:43:00,2025-06-27 06:10:00,False,"Dolls, Collectibles, Action Figures"
+6c7a360f-18eb-4db1-aedd-66f111ccf775,LEGO City Set,Encourages creativity and problem-solving.,112.19,447,2025-05-03 08:12:00,2025-12-13 22:11:00,True,"Vehicles, Blasters, Educational"
+91c81556-93e3-43fe-8f46-8d4d2ebc4171,Pokemon Card Set,Encourages creativity and problem-solving.,206.70,145,2025-09-25 19:45:00,2025-07-10 15:15:00,False,Trading Cards
+dc5ffbf7-a508-4729-93de-6ef3423eee89,Pokemon Card Set,Perfect for imaginative play.,125.50,496,2025-04-27 00:31:00,2025-08-15 07:57:00,True,"Playsets, Building Sets"
+c0307f02-5c2d-49df-8e24-4fda45bf371e,Science Experiment Kit,Encourages creativity and problem-solving.,80.87,27,2025-09-26 20:49:00,2025-02-21 19:20:00,True,"Trading Cards, Arts & Crafts"
+80e5492f-7e1b-4d13-99e9-ca7627d4341f,Robot Toy,Perfect for imaginative play.,46.68,363,2025-08-21 14:03:00,2025-07-27 15:01:00,False,"Vehicles, Action Figures"
+b071de3f-0d9a-41ab-9c56-a4b1533205b0,Pokemon Card Set,Safe and non-toxic materials.,249.49,195,2025-04-08 17:37:00,2025-10-18 02:27:00,False,"Racing, Blasters"
+2e83ee54-3511-4217-bac1-9bcdd91dd074,Puzzle Game,Includes various accessories for extended fun.,104.24,221,2025-08-18 08:21:00,2025-07-10 04:31:00,False,"Blasters, Racing"
+bbfb927c-97b4-4f83-992c-791048c0927b,Puzzle Game,High-quality and durable.,168.05,222,2025-04-16 23:01:00,2025-05-11 13:04:00,True,"Dolls, Playsets, Collectibles"
+6e98fadb-d6d7-4b41-aef9-25a03ea9bde0,Monopoly Board Game,Safe and non-toxic materials.,289.28,266,2025-12-18 04:05:00,2025-01-09 08:32:00,False,"Collectibles, Blasters, Baby Toys"
+5de87ccf-a092-498c-8c9e-9c3051e09b43,Transformers Figure,Easy to assemble and store.,90.89,266,2025-08-07 05:14:00,2025-01-27 09:06:00,False,"Blasters, Vehicles"
+4847d116-612f-46ef-84d6-8efbbbd737de,Pokemon Card Set,Interactive and educational.,243.93,446,2025-10-04 23:38:00,2025-06-07 15:16:00,False,Family Games
+87b610f0-23de-47fb-81c4-2ea5a129eba9,Science Experiment Kit,High-quality and durable.,248.42,320,2025-03-10 13:04:00,2025-04-19 12:40:00,True,Arts & Crafts
+865c3e46-6427-44bf-8f68-76840f053834,Robot Toy,Easy to assemble and store.,262.58,314,2025-03-04 08:30:00,2025-08-20 20:06:00,False,"Educational, Blasters"
+f61390a4-03cb-4340-b0d1-6019de11e559,Magic Kit,Perfect for imaginative play.,167.15,315,2025-08-13 12:41:00,2025-06-17 22:41:00,False,"Family Games, Trading Cards"
+24fe40f0-5298-4b01-9e57-5c13c215c27f,Play-Doh Set,Easy to assemble and store.,251.07,435,2025-06-16 00:03:00,2025-10-25 11:32:00,False,Trading Cards
+510ec001-ffb5-4646-87c2-a29a94126f78,Science Experiment Kit,Designed for hours of entertainment.,181.45,121,2025-05-02 20:00:00,2025-06-26 18:26:00,False,Blasters
+e6cef334-8af1-4bf5-acbc-fcd6a5036654,Plush Teddy Bear,High-quality and durable.,244.61,29,2025-11-22 04:50:00,2025-12-09 13:35:00,False,"Building Sets, Playsets"
+e961653f-a39e-4d70-a7cf-8843d3a419a3,Magic Kit,High-quality and durable.,30.97,235,2025-10-01 12:32:00,2025-08-11 07:29:00,False,"Baby Toys, Trading Cards"
+6c281b3c-8a85-4b77-aa15-85eaff48a9b8,Puzzle Game,High-quality and durable.,110.15,168,2025-10-18 09:52:00,2025-06-22 23:51:00,False,"Dolls, Vehicles, Building Sets"
+f77f44e6-b5d7-4345-8b9e-b927cb94559e,Magic Kit,High-quality and durable.,136.53,228,2025-05-14 08:56:00,2025-05-14 08:11:00,True,"Vehicles, Family Games"
+948a3e36-41a4-49da-94f2-3c3cc8b3b594,NERF Blaster,Includes various accessories for extended fun.,197.10,425,2025-11-08 23:38:00,2025-04-13 10:27:00,True,"Blasters, Building Sets"
+0a1c69ca-d5b3-4006-95ec-2291e533df3b,Wooden Train Set,Encourages creativity and problem-solving.,297.10,213,2025-04-23 10:59:00,2025-12-17 04:19:00,True,"Arts & Crafts, Collectibles"
+6e564a05-16a9-465e-864b-f23fbaf8d814,Wooden Train Set,Encourages creativity and problem-solving.,121.66,104,2025-11-04 22:07:00,2025-10-09 20:17:00,False,"Building Sets, Trading Cards, Dolls"
+279a3c70-d5f1-443e-8a06-1a2f92d5202a,Science Experiment Kit,Easy to assemble and store.,30.89,311,2025-03-20 10:07:00,2025-09-02 22:54:00,False,"Collectibles, Building Sets"
+0d63433c-b83d-47d9-9297-634919baaaac,Play-Doh Set,Interactive and educational.,237.63,247,2025-08-11 07:23:00,2025-11-02 12:23:00,False,"Racing, Action Figures, Trading Cards"
+e6006682-60d1-43a7-8644-10e805c32f50,NERF Blaster,Safe and non-toxic materials.,195.56,427,2025-03-22 05:36:00,2025-09-12 18:58:00,True,"Vehicles, Dolls"
+060cb762-fe19-4637-ac12-50ab472d7f90,Barbie Dollhouse,Includes various accessories for extended fun.,68.95,201,2025-02-12 18:40:00,2025-07-01 20:41:00,False,"Board Games, Arts & Crafts, Educational"
+fd5ed4cb-6224-48fe-8215-40680c3d99de,Superhero Action Figure,Perfect for imaginative play.,144.28,473,2025-03-16 10:17:00,2025-02-25 05:15:00,True,Dolls
+e6991fc6-3ffb-421a-9574-bf2f794647ff,NERF Blaster,Includes various accessories for extended fun.,152.52,177,2025-02-28 07:19:00,2025-05-20 09:11:00,False,Arts & Crafts
+7a0bc2d9-aa95-436d-9b73-27658ba5be98,Remote Control Car,Encourages creativity and problem-solving.,280.06,335,2025-03-22 22:06:00,2025-05-15 22:20:00,True,"Racing, Arts & Crafts, Trading Cards"
+e5a0aa03-1085-470b-a447-f9c2558db259,Transformers Figure,Encourages creativity and problem-solving.,259.78,440,2025-06-14 05:29:00,2025-06-07 00:42:00,False,Action Figures
+97de1edc-11d6-44ef-8e37-9f09f16b8958,Monopoly Board Game,Safe and non-toxic materials.,6.85,101,2025-04-01 02:43:00,2025-12-18 18:33:00,False,Trading Cards
+698a0fac-28e3-4fed-be32-5c145b610f2e,Wooden Train Set,A fun and engaging toy for kids.,294.35,234,2025-11-16 09:24:00,2025-09-13 07:36:00,False,"Action Figures, Blasters"
+7a80ba94-83d0-442b-8ab1-edb8008fb44f,Magic Kit,Interactive and educational.,187.86,487,2025-01-04 07:43:00,2025-05-22 12:12:00,True,"Baby Toys, Racing"
+7ca14b0f-dc1d-4e3b-b831-1c8cbe0f41cd,Barbie Dollhouse,Great gift for children of all ages.,23.70,364,2025-11-18 05:45:00,2025-12-23 21:14:00,False,"Building Sets, Racing, Board Games"
+f55bce85-b687-4ad3-8f15-0efec76e0448,Stuffed Animal,High-quality and durable.,292.37,42,2025-03-20 14:15:00,2025-01-23 11:00:00,True,"Baby Toys, Vehicles, Racing"
+101c2c5d-89f4-4962-9619-4c211ca9313a,Dinosaur Toy,Easy to assemble and store.,117.45,19,2025-10-24 12:30:00,2025-12-11 14:34:00,True,"Action Figures, Collectibles, Building Sets"
+e5ee0ee9-baf1-4b2f-9abe-8b481b71e9a7,Stuffed Animal,Encourages creativity and problem-solving.,78.77,405,2025-11-15 11:42:00,2025-02-17 11:44:00,False,"Blasters, Family Games"
+1589dbc7-eb4f-4cd6-ac29-1d639d69266a,Science Experiment Kit,Safe and non-toxic materials.,80.60,389,2025-03-20 10:49:00,2025-03-24 04:28:00,True,"Dolls, Trading Cards"
+826dcc6a-4ab8-4b97-a501-d7dfd2714b90,Puzzle Game,Interactive and educational.,216.22,159,2025-06-16 07:56:00,2025-10-27 23:31:00,False,"Playsets, Vehicles"
+3bfcb84e-a3bb-4f5a-9ee6-8d3c2e484969,NERF Blaster,Interactive and educational.,256.56,195,2025-05-14 03:23:00,2025-09-21 10:47:00,True,"Blasters, Collectibles, Racing"
+54fc395d-8899-48ba-ac97-b607fa2a8c0c,Dinosaur Toy,A fun and engaging toy for kids.,291.73,88,2025-04-21 23:37:00,2025-04-20 14:22:00,True,"Family Games, Playsets, Action Figures"
+39e16683-217c-4448-ae40-7cb81972ed63,Plush Teddy Bear,Interactive and educational.,223.54,347,2025-07-16 06:58:00,2025-07-11 09:57:00,True,"Family Games, Racing"
+2821fd5e-d54e-4a70-a765-9ff481233223,Puzzle Game,Easy to assemble and store.,27.28,55,2025-10-25 18:34:00,2025-05-01 17:26:00,False,Blasters
+dfaa2d88-caac-4701-b9a3-9606b2248443,Remote Control Car,Safe and non-toxic materials.,201.50,410,2025-05-18 06:05:00,2025-03-12 15:40:00,True,"Blasters, Vehicles, Family Games"
+f05128f6-4081-4a7b-bcbc-869b8bc63f03,Monopoly Board Game,Easy to assemble and store.,30.01,377,2025-09-12 13:41:00,2025-05-15 10:40:00,False,"Board Games, Arts & Crafts"
+9732375b-c5e5-4288-b49f-5217857e63d7,Fisher-Price Toy,Designed for hours of entertainment.,253.96,270,2025-10-01 14:41:00,2025-11-02 00:21:00,True,Blasters
+11f8ed08-feb1-403e-9d8e-091150a37aef,Remote Control Car,Great gift for children of all ages.,18.26,395,2025-12-02 03:18:00,2025-12-17 12:38:00,True,Action Figures
+f70094c8-1fbf-4ba8-92b1-9f7613e86c14,Fisher-Price Toy,Designed for hours of entertainment.,28.71,306,2025-07-23 01:16:00,2025-07-14 02:01:00,False,"Board Games, Racing"
+cbd38f44-dcf8-4d75-961d-373a22d39b75,LEGO City Set,Perfect for imaginative play.,86.61,344,2025-01-17 00:22:00,2025-10-10 08:12:00,False,Racing
+62134dcf-1f7f-4ed1-ba09-a31fdede8ef8,LEGO City Set,Easy to assemble and store.,171.18,275,2025-01-04 03:49:00,2025-03-21 10:04:00,True,"Family Games, Playsets"
+1dfb1836-899f-4aa4-b885-289b63654e5f,Wooden Train Set,Includes various accessories for extended fun.,135.29,437,2025-05-02 02:08:00,2025-06-18 03:59:00,True,"Collectibles, Board Games"
+a9e7608e-522f-498f-b36b-bfeb224dd6d6,Stuffed Animal,Great gift for children of all ages.,67.92,398,2025-12-02 07:59:00,2025-12-03 11:11:00,True,"Family Games, Trading Cards"
+3638d1a6-1cd8-465d-b9e0-82f33fd137c1,Monopoly Board Game,A fun and engaging toy for kids.,113.27,217,2025-08-18 17:45:00,2025-03-14 00:52:00,True,Vehicles
+e112ce11-120a-40d8-87dc-73c95c0cf22f,Plush Teddy Bear,Safe and non-toxic materials.,164.70,448,2025-03-10 04:35:00,2025-07-28 09:18:00,True,"Collectibles, Racing"
+1179d562-114f-4c25-8b17-33e06db7b12a,Puzzle Game,High-quality and durable.,210.90,236,2025-01-01 03:29:00,2025-03-24 00:40:00,True,"Family Games, Action Figures"
+8baac734-15c8-468a-9b21-90dd4d09e990,Monopoly Board Game,Encourages creativity and problem-solving.,201.74,406,2025-12-01 08:36:00,2025-03-10 10:49:00,False,"Playsets, Educational, Trading Cards"
+91bd5747-1760-44ea-85bd-549457d9323c,Remote Control Car,Encourages creativity and problem-solving.,231.98,121,2025-08-11 04:49:00,2025-06-26 02:41:00,True,"Baby Toys, Building Sets"
+fbfc0441-2d87-4ab5-8593-49b011db9ffb,Toy Kitchen Set,Easy to assemble and store.,51.62,297,2025-04-09 12:21:00,2025-08-08 18:57:00,True,Playsets
+32cf9663-a2ec-4f76-a99a-596eba205473,Robot Toy,Easy to assemble and store.,57.71,402,2025-06-10 17:36:00,2025-07-21 12:28:00,False,Board Games
+9ce64d92-c494-4bc1-9e5e-f8cf7f0ee660,Superhero Action Figure,Encourages creativity and problem-solving.,221.70,195,2025-04-25 08:40:00,2025-04-25 08:37:00,True,"Baby Toys, Action Figures"
+c4275533-d397-4a0f-98ee-5fcbe546b8ae,Robot Toy,High-quality and durable.,100.32,337,2025-11-02 18:17:00,2025-03-02 06:24:00,True,"Educational, Blasters, Trading Cards"
+256602b5-5c4b-46c9-acae-ab83666bc825,Fisher-Price Toy,Includes various accessories for extended fun.,25.53,323,2025-06-14 14:51:00,2025-03-13 23:04:00,False,"Action Figures, Racing, Baby Toys"
+afc9edbf-8ff2-4a66-b4ec-5cde8bf93b0e,NERF Blaster,Encourages creativity and problem-solving.,65.98,416,2025-11-27 23:05:00,2025-11-26 09:45:00,True,"Dolls, Building Sets, Action Figures"
+700cbd88-70e2-4104-a20c-9eac17436121,Toy Kitchen Set,Interactive and educational.,183.19,398,2025-03-22 12:36:00,2025-06-25 06:18:00,True,"Educational, Racing"
+32ae0884-7a94-43d2-a284-8be6047f0b64,Pokemon Card Set,Easy to assemble and store.,268.84,199,2025-12-21 20:59:00,2025-09-20 19:08:00,False,Collectibles
+f6a0c4c9-cbe0-4d49-92b0-b31b4482ac04,Toy Kitchen Set,High-quality and durable.,119.46,478,2025-06-26 17:10:00,2025-12-10 07:39:00,False,Blasters
+a2c65004-d805-4cc0-a0e9-53b9763f69ee,Transformers Figure,Encourages creativity and problem-solving.,93.51,187,2025-06-20 18:01:00,2025-10-16 15:07:00,False,"Trading Cards, Baby Toys"
+b40373bd-4f30-43b5-a823-8d0280cc313a,Science Experiment Kit,Great gift for children of all ages.,25.23,389,2025-10-20 03:03:00,2025-08-24 19:58:00,False,"Blasters, Building Sets"
+f01e093e-25d1-4e48-9fc9-6df4a730c1a9,Transformers Figure,Interactive and educational.,28.44,132,2025-10-01 19:43:00,2025-02-16 03:03:00,True,"Action Figures, Family Games"
+07be520d-fe72-404d-87df-d28cf1c651b6,Puzzle Game,Designed for hours of entertainment.,179.31,145,2025-08-23 06:10:00,2025-02-12 12:52:00,True,"Action Figures, Arts & Crafts, Blasters"
+dfa897b6-0df7-4d97-9bca-844413f95341,Science Experiment Kit,Perfect for imaginative play.,270.37,79,2025-02-09 15:25:00,2025-01-17 09:30:00,False,Vehicles
+d95b01da-b489-4dc8-8a42-3818fa7d7068,Science Experiment Kit,Great gift for children of all ages.,6.29,287,2025-07-21 05:37:00,2025-02-03 03:30:00,True,"Building Sets, Arts & Crafts"
+35d8dd1f-b1a1-4f4f-9e12-469947609735,Wooden Train Set,Easy to assemble and store.,116.96,283,2025-12-28 23:53:00,2025-12-17 03:29:00,True,"Family Games, Vehicles"
+fb2ebaf3-6a75-4196-b6c3-5e9429ef5d3f,Transformers Figure,A fun and engaging toy for kids.,238.97,360,2025-07-27 23:22:00,2025-05-12 14:11:00,False,Educational
+fcc9d1e6-8400-4278-b8b6-c3be63bc44d0,Puzzle Game,Designed for hours of entertainment.,89.35,414,2025-09-05 18:48:00,2025-06-24 08:47:00,True,"Building Sets, Blasters"
+6e8a8b3e-f7e7-45e0-ac47-57d9e3c7848b,Stuffed Animal,Easy to assemble and store.,116.28,126,2025-09-17 05:05:00,2025-03-02 08:17:00,True,"Trading Cards, Racing"
+9c706f27-fd6b-4be9-825b-2c68dcc7a21e,Wooden Train Set,Designed for hours of entertainment.,205.01,238,2025-07-17 09:18:00,2025-04-13 14:36:00,True,"Baby Toys, Building Sets, Dolls"
+7a3d9fdf-76e0-4ad8-bbdb-1c59e7009a3a,Fisher-Price Toy,Encourages creativity and problem-solving.,276.04,91,2025-08-01 16:59:00,2025-02-24 14:49:00,False,Action Figures
+3b71e010-1fe0-42fa-93fe-6cb3fb01c19a,Wooden Train Set,Interactive and educational.,162.74,410,2025-09-12 14:45:00,2025-07-05 04:52:00,True,Collectibles
+e3f701e0-a335-4415-a6bd-e22c302390a4,Magic Kit,High-quality and durable.,7.17,128,2025-04-11 16:33:00,2025-06-23 01:06:00,False,"Vehicles, Action Figures"
+5fb62142-24c1-404a-8705-cb98335dc596,Remote Control Car,Encourages creativity and problem-solving.,66.27,415,2025-05-07 06:11:00,2025-05-15 23:52:00,True,"Family Games, Playsets, Dolls"
+65995e53-cfb1-4df5-98c6-48104fb3c450,Toy Kitchen Set,A fun and engaging toy for kids.,177.36,239,2025-03-26 15:02:00,2025-05-03 23:37:00,True,"Baby Toys, Arts & Crafts, Dolls"
+cf458f73-81d1-4d37-bdf3-ef9b73bb4922,Fisher-Price Toy,Perfect for imaginative play.,286.99,272,2025-04-17 05:03:00,2025-08-12 14:50:00,False,"Family Games, Baby Toys, Racing"
+79dde13a-b6eb-445c-b79f-573671693b6c,Plush Teddy Bear,Perfect for imaginative play.,178.33,259,2025-08-23 17:00:00,2025-06-21 14:58:00,True,Playsets
+6a4f9049-b35c-4a6b-85bf-91e306517d21,Fisher-Price Toy,A fun and engaging toy for kids.,128.48,93,2025-10-01 00:51:00,2025-04-16 07:38:00,True,"Building Sets, Educational"
+9d2bc129-b2cb-4b91-9aa3-3c2909aea510,Toy Kitchen Set,A fun and engaging toy for kids.,64.34,302,2025-09-26 19:02:00,2025-05-10 01:16:00,True,"Building Sets, Family Games"
+b3e3629f-e9f1-448d-8ea5-971408afe866,Fisher-Price Toy,Great gift for children of all ages.,149.54,47,2025-07-15 10:48:00,2025-01-26 11:53:00,False,"Blasters, Collectibles, Board Games"
+f56de1c9-c989-428c-955d-20f8b03a768f,Monopoly Board Game,Safe and non-toxic materials.,165.25,138,2025-04-16 18:23:00,2025-11-02 20:20:00,False,Baby Toys
+d1e663f9-1b1a-4994-a8c9-48eab90f6c49,Robot Toy,Includes various accessories for extended fun.,173.17,100,2025-11-05 23:04:00,2025-04-23 09:23:00,False,Baby Toys
+cd6050b8-451d-420c-bedb-e7585c412885,NERF Blaster,Great gift for children of all ages.,18.88,291,2025-05-01 17:06:00,2025-07-28 09:35:00,False,"Racing, Building Sets"
+e216cb52-8632-4109-a547-d09c33bf17d5,Transformers Figure,High-quality and durable.,203.13,305,2025-10-21 09:47:00,2025-10-28 03:19:00,True,Baby Toys
+f7452a43-b864-4b6d-8005-97ffbf92389e,Robot Toy,A fun and engaging toy for kids.,42.84,485,2025-11-21 12:12:00,2025-04-24 13:39:00,False,"Educational, Trading Cards, Arts & Crafts"
+119fc9ab-702c-4b01-ab5a-c96d807f6021,Puzzle Game,Interactive and educational.,270.65,255,2025-12-17 19:39:00,2025-02-05 23:34:00,True,"Baby Toys, Board Games"
+f41a7505-d3ea-45c8-94b3-58331d0358eb,Plush Teddy Bear,Great gift for children of all ages.,123.16,135,2025-07-12 18:00:00,2025-08-22 20:42:00,False,Family Games
+df8839c8-0c4b-4d29-a1de-54dfbfcdded6,Toy Kitchen Set,Perfect for imaginative play.,289.56,76,2025-11-04 04:47:00,2025-11-22 01:04:00,True,Dolls
+0b892961-144e-4946-af2d-1f5ea739c3ac,Pokemon Card Set,Perfect for imaginative play.,160.03,428,2025-05-04 09:33:00,2025-03-01 21:38:00,True,"Action Figures, Baby Toys"
+ba2bcaf8-7b9f-48cb-a99f-22ce455b4087,Monopoly Board Game,Perfect for imaginative play.,214.74,125,2025-02-12 18:08:00,2025-10-23 02:08:00,True,Baby Toys
+0597f91b-80e5-437f-81ae-2f550e254772,Hot Wheels Track,Includes various accessories for extended fun.,186.99,382,2025-06-28 17:38:00,2025-06-28 00:49:00,False,Educational
+15a2ea6e-4bcb-4a31-b5f7-c7f5a5795e39,LEGO City Set,Great gift for children of all ages.,224.60,199,2025-09-21 09:25:00,2025-06-16 13:50:00,True,"Family Games, Educational, Dolls"
+8b8aff48-fbab-480b-b7d7-0e9676a94658,Magic Kit,Great gift for children of all ages.,240.39,408,2025-02-03 09:15:00,2025-06-11 05:22:00,True,Blasters
+1652d0eb-7edf-4389-bf2c-8c6cecf103f7,NERF Blaster,Interactive and educational.,50.39,180,2025-06-25 05:37:00,2025-11-25 02:22:00,True,"Playsets, Collectibles"
+bfceb86b-fe2f-49bd-819d-73a5675ac0ce,Hot Wheels Track,Encourages creativity and problem-solving.,141.32,479,2025-08-28 22:02:00,2025-05-22 05:40:00,True,Baby Toys
+08a7013e-771c-4e37-b7df-ed0306b7305b,Transformers Figure,Includes various accessories for extended fun.,107.12,244,2025-06-21 09:49:00,2025-09-07 20:05:00,False,Dolls
+0c3a5e97-fc36-45a8-ba32-88310f4a7b34,Play-Doh Set,Includes various accessories for extended fun.,109.14,452,2025-11-12 09:03:00,2025-09-22 01:46:00,False,"Baby Toys, Trading Cards"
+4a2afab8-bc5d-4276-aece-875fc61d166e,Dinosaur Toy,A fun and engaging toy for kids.,47.39,350,2025-01-27 22:35:00,2025-06-20 02:42:00,True,"Baby Toys, Playsets"
+0947b1d7-cc57-4417-8d4b-c556756e5fc9,Barbie Dollhouse,Great gift for children of all ages.,119.72,204,2025-03-26 13:30:00,2025-11-24 09:41:00,False,Dolls
+2af08b29-cae0-4bed-be62-3a51331a0e2d,Magic Kit,Great gift for children of all ages.,246.30,457,2025-12-01 04:56:00,2025-07-10 07:14:00,True,"Collectibles, Racing"
+65f032c6-5882-430f-8f81-0fdd4cb49b00,Science Experiment Kit,Interactive and educational.,240.26,30,2025-09-18 10:04:00,2025-02-12 00:55:00,True,"Blasters, Racing"
+eef67492-57ac-4f7f-8ac9-d00adf91fd41,Toy Kitchen Set,Interactive and educational.,183.37,159,2025-05-20 09:52:00,2025-01-04 06:47:00,False,"Family Games, Trading Cards, Dolls"
+474483aa-b828-42f8-a0ae-1d4749477a2e,Transformers Figure,Designed for hours of entertainment.,265.89,484,2025-02-07 01:27:00,2025-06-15 11:36:00,False,"Vehicles, Educational"
+98a131b1-f0ab-48cf-a267-ef5da10adbf5,Superhero Action Figure,Encourages creativity and problem-solving.,41.41,424,2025-10-16 07:06:00,2025-09-16 14:00:00,False,Blasters
+1554d457-1c16-4c12-9e55-a9b7c473503f,NERF Blaster,High-quality and durable.,125.78,374,2025-03-01 00:57:00,2025-06-17 13:23:00,False,Collectibles
+bc0f7fda-d55a-4a7d-a2e6-9f7e11f0955a,Wooden Train Set,Encourages creativity and problem-solving.,229.77,496,2025-06-15 11:46:00,2025-09-04 03:52:00,False,Trading Cards
+a28e33fb-32b8-4591-b376-1dbf8a8d6a19,Plush Teddy Bear,High-quality and durable.,62.26,327,2025-04-16 09:25:00,2025-02-22 22:36:00,True,"Building Sets, Blasters, Board Games"
+be96d73c-d71c-43b7-b2a6-8d9cc5947399,Puzzle Game,Great gift for children of all ages.,28.96,216,2025-07-16 11:47:00,2025-10-09 19:12:00,True,"Trading Cards, Baby Toys"
+b57e7256-0034-4852-9868-7aba60912076,Plush Teddy Bear,Designed for hours of entertainment.,85.00,346,2025-01-06 10:32:00,2025-12-16 08:05:00,False,"Collectibles, Vehicles"
+9299637c-3c63-4984-a80e-aaabc0f76b09,Fisher-Price Toy,Includes various accessories for extended fun.,128.08,496,2025-11-24 08:10:00,2025-04-27 22:27:00,False,"Action Figures, Building Sets"
+a5dc08ac-62bd-4094-8eda-a144b62ee220,Play-Doh Set,Easy to assemble and store.,61.29,255,2025-02-18 21:37:00,2025-10-17 18:36:00,True,"Educational, Building Sets"
+138c7dc6-761e-4c7a-b827-97b584709232,Wooden Train Set,Easy to assemble and store.,56.20,376,2025-02-24 11:07:00,2025-07-28 22:25:00,True,Educational
+6f63f590-7454-49f6-9188-26569c4de234,NERF Blaster,Easy to assemble and store.,229.50,194,2025-04-25 13:31:00,2025-04-07 20:24:00,True,Playsets
+3751f8ea-6e61-4703-98fc-9b706fac1485,Superhero Action Figure,Safe and non-toxic materials.,147.42,372,2025-01-10 02:35:00,2025-07-18 17:06:00,True,"Action Figures, Vehicles"
+72faeaf3-6467-4c67-b2db-8ebeaea82ba4,Remote Control Car,Includes various accessories for extended fun.,90.64,337,2025-01-05 11:51:00,2025-08-03 05:18:00,True,"Playsets, Collectibles"
+3985b79e-f913-4c7f-9b9b-46da7704b34a,Science Experiment Kit,Easy to assemble and store.,109.09,179,2025-04-15 10:04:00,2025-05-10 03:18:00,False,Baby Toys
+3df5aca1-ac18-4a79-89e0-a1f9aca4efda,Pokemon Card Set,High-quality and durable.,251.97,304,2025-11-12 20:56:00,2025-08-09 19:47:00,False,"Action Figures, Baby Toys"
+a331f051-9f33-440c-8b22-dad1ebcc5aed,Toy Kitchen Set,Includes various accessories for extended fun.,21.00,286,2025-03-28 08:36:00,2025-03-26 12:45:00,True,"Board Games, Collectibles"
+a1db4bd7-682a-463a-8e34-7851edd3a953,Magic Kit,High-quality and durable.,198.45,385,2025-03-09 04:50:00,2025-12-10 03:23:00,False,"Trading Cards, Building Sets, Action Figures"
+27394922-669e-4600-bc68-c2998f5d7afa,Barbie Dollhouse,Safe and non-toxic materials.,120.20,417,2025-10-02 18:08:00,2025-07-26 13:03:00,True,"Blasters, Collectibles"
+0950b3b0-2586-4428-be19-11a691c828ca,Puzzle Game,Designed for hours of entertainment.,174.60,211,2025-07-10 10:11:00,2025-06-22 03:39:00,False,"Vehicles, Building Sets, Family Games"
+85c0c52e-fdd0-4445-924c-54dcea0edf26,Play-Doh Set,Easy to assemble and store.,37.97,62,2025-09-25 21:28:00,2025-01-14 02:43:00,True,"Trading Cards, Board Games"
+d3372b00-11b8-4117-b43f-8a8904c0b2da,Transformers Figure,Includes various accessories for extended fun.,38.43,401,2025-08-12 05:58:00,2025-07-15 07:53:00,True,"Baby Toys, Building Sets, Board Games"
+b06ea78d-3613-4e78-b7c6-4f999cc3af55,LEGO City Set,A fun and engaging toy for kids.,274.69,77,2025-02-11 11:16:00,2025-01-07 12:11:00,True,"Family Games, Vehicles, Action Figures"
+5262463b-e179-409e-ba90-b9e52238eb50,NERF Blaster,Interactive and educational.,292.42,185,2025-01-27 14:14:00,2025-11-28 20:18:00,True,"Family Games, Racing, Dolls"
+cc19c0ed-9e3a-42b8-85e1-7c50804e0788,Toy Kitchen Set,A fun and engaging toy for kids.,93.55,22,2025-12-06 23:56:00,2025-03-17 18:00:00,True,Playsets
+854d8afe-10ba-4f13-a63d-feddb01cbd66,Pokemon Card Set,Easy to assemble and store.,59.18,67,2025-05-08 19:10:00,2025-07-05 19:37:00,True,Board Games
+5cec8838-d425-45bc-8ff3-7a5f2254e260,Magic Kit,Safe and non-toxic materials.,256.45,420,2025-04-19 00:42:00,2025-06-03 06:10:00,True,"Blasters, Building Sets, Vehicles"
+6b0d5168-ec45-4ff9-a195-12804e892385,Superhero Action Figure,High-quality and durable.,80.13,481,2025-06-21 06:03:00,2025-06-24 19:53:00,False,"Family Games, Trading Cards, Racing"
+bee51c92-8338-4ca7-beb9-c89508937ef8,Monopoly Board Game,Great gift for children of all ages.,293.23,136,2025-01-07 09:22:00,2025-09-19 20:36:00,False,"Vehicles, Action Figures, Building Sets"
+3b29e3cf-e533-4bba-a0b0-b1c36720abce,Science Experiment Kit,Great gift for children of all ages.,205.67,401,2025-05-08 15:35:00,2025-11-04 16:31:00,False,Board Games
+c030574f-10cd-46e6-b692-14b123f36090,Dinosaur Toy,Great gift for children of all ages.,175.81,350,2025-02-17 12:43:00,2025-10-27 21:05:00,True,"Trading Cards, Building Sets"
+1325b9bc-47d3-4bea-b7f8-54ce1192315b,Toy Kitchen Set,Interactive and educational.,142.87,241,2025-12-24 19:15:00,2025-08-15 02:19:00,True,"Blasters, Collectibles"
+ceeef420-490c-407e-a7c2-64db36f42731,Superhero Action Figure,Perfect for imaginative play.,70.37,388,2025-10-23 16:51:00,2025-10-20 06:32:00,False,"Board Games, Vehicles"
+6556a9a6-03c9-464f-badf-0a0dbeb23760,Puzzle Game,High-quality and durable.,65.36,499,2025-12-26 17:42:00,2025-08-13 22:57:00,True,"Blasters, Family Games, Dolls"
+86884314-6cde-404b-91e4-f0edf8e5c42d,Superhero Action Figure,A fun and engaging toy for kids.,39.15,442,2025-06-19 18:22:00,2025-05-19 14:14:00,False,Baby Toys
+5dc71f8d-a6af-4952-a8db-cd4ccf1f3354,NERF Blaster,Easy to assemble and store.,16.42,187,2025-09-07 21:46:00,2025-04-20 05:40:00,False,Trading Cards
+99f91d43-344c-4937-9cbd-14749c30d8bf,Puzzle Game,A fun and engaging toy for kids.,58.66,366,2025-11-09 14:58:00,2025-02-16 19:57:00,True,"Collectibles, Playsets, Trading Cards"
+7e1cf1b5-60a6-4b0f-b970-73f3768d1eb3,Barbie Dollhouse,Perfect for imaginative play.,117.34,270,2025-07-07 23:03:00,2025-09-28 03:50:00,False,"Family Games, Arts & Crafts, Building Sets"
+4c381f7a-0a8e-4fe4-8c95-0a00d7784a03,Magic Kit,A fun and engaging toy for kids.,267.37,79,2025-03-26 09:25:00,2025-11-10 14:59:00,True,"Arts & Crafts, Board Games"
+e478fd2c-9865-4d15-b384-907947f3d4fd,Play-Doh Set,Safe and non-toxic materials.,31.63,165,2025-10-16 04:47:00,2025-04-22 13:35:00,True,Action Figures
+5794a0c5-d0f6-42df-8505-c929d3a39583,Pokemon Card Set,Includes various accessories for extended fun.,120.20,220,2025-06-18 01:04:00,2025-10-08 18:10:00,False,"Vehicles, Collectibles, Board Games"
+40b74ae7-240f-4dea-aa2b-0ee51227d37d,NERF Blaster,High-quality and durable.,285.52,116,2025-07-04 17:46:00,2025-01-07 01:11:00,True,Vehicles
+620cc215-f129-4173-ac42-826bd7d9eed4,Fisher-Price Toy,Includes various accessories for extended fun.,185.67,91,2025-05-05 03:43:00,2025-07-10 19:17:00,True,"Collectibles, Arts & Crafts"
+fdb67559-b71c-4d6f-9422-7a1da92c077e,Fisher-Price Toy,Designed for hours of entertainment.,227.51,201,2025-10-21 18:39:00,2025-06-28 12:50:00,True,Arts & Crafts
+f3c5e7d5-c2c2-45e7-ba90-2b2d9e9c6023,Pokemon Card Set,Safe and non-toxic materials.,26.40,151,2025-05-16 21:01:00,2025-11-26 00:24:00,True,"Baby Toys, Trading Cards, Vehicles"
+82c35b66-4893-4307-aa88-5b0edf47ed7a,Remote Control Car,Designed for hours of entertainment.,113.56,355,2025-01-09 20:51:00,2025-01-22 04:48:00,True,"Racing, Educational, Arts & Crafts"
+a5b769ca-e359-4e77-8620-a1d537af3f28,Robot Toy,Designed for hours of entertainment.,163.56,69,2025-07-01 17:09:00,2025-01-07 12:32:00,False,"Playsets, Building Sets, Family Games"
+f31a5566-aff6-46a0-8a75-a0ade9fe3380,Monopoly Board Game,Designed for hours of entertainment.,206.30,219,2025-08-02 06:42:00,2025-10-06 08:45:00,False,"Building Sets, Board Games"
+b4468ff8-5f43-4fc4-a172-ef88c96b4694,Transformers Figure,Includes various accessories for extended fun.,181.57,342,2025-12-15 07:05:00,2025-11-14 12:58:00,True,Baby Toys
+045ec063-c975-426a-9a69-2264e962b15d,Robot Toy,Encourages creativity and problem-solving.,296.04,375,2025-08-06 13:22:00,2025-03-13 21:52:00,False,Board Games
+53e249b0-5616-4c6e-8f76-970335d18154,Wooden Train Set,High-quality and durable.,232.20,249,2025-11-11 19:19:00,2025-06-03 21:17:00,True,Dolls
+9ceb59b9-02cf-4166-b4bc-20f84e041fd7,Puzzle Game,Safe and non-toxic materials.,131.33,267,2025-12-07 00:39:00,2025-06-19 14:35:00,True,"Family Games, Racing, Dolls"
+75c938b1-b41d-422a-8e05-b2e2238c49c0,Superhero Action Figure,Perfect for imaginative play.,291.60,74,2025-01-09 23:10:00,2025-07-17 19:18:00,False,Baby Toys
+69fce20a-f0f8-4adb-af50-4005628e76b2,Plush Teddy Bear,Encourages creativity and problem-solving.,133.96,485,2025-02-11 14:48:00,2025-12-22 15:48:00,False,Board Games
+5cd54c32-7d7b-44ca-8149-d04573dc0f40,LEGO City Set,High-quality and durable.,206.63,117,2025-02-28 11:08:00,2025-01-17 13:24:00,True,"Board Games, Dolls, Educational"
+ef6c5caa-6afd-4494-aa3d-1975459cf01e,Toy Kitchen Set,Includes various accessories for extended fun.,275.98,276,2025-04-04 04:26:00,2025-04-16 23:15:00,False,"Collectibles, Arts & Crafts"
+1e2eb7b9-301e-4a59-8502-735f413b34dc,NERF Blaster,Great gift for children of all ages.,119.50,277,2025-10-12 16:44:00,2025-02-05 01:55:00,False,Trading Cards
+21f0438e-ba06-4ddc-98f6-624905eac366,Fisher-Price Toy,Interactive and educational.,77.07,281,2025-12-01 23:19:00,2025-08-18 21:11:00,False,"Building Sets, Collectibles, Blasters"
+dee51c84-ce0a-4630-91de-d8f4afff05b9,Puzzle Game,Encourages creativity and problem-solving.,79.73,33,2025-11-24 09:13:00,2025-08-18 02:35:00,True,"Building Sets, Racing"
+718208bc-c3d8-452a-ba36-390c6a67931f,Superhero Action Figure,Includes various accessories for extended fun.,178.49,130,2025-11-09 19:48:00,2025-05-24 09:51:00,True,"Collectibles, Dolls"
+2e539e6d-f429-460e-8143-1d92e78cb8a9,Toy Kitchen Set,Easy to assemble and store.,97.59,405,2025-12-27 18:09:00,2025-03-26 08:13:00,False,Collectibles
+2054f9c2-546d-41b7-8649-905d2ca7a09d,Dinosaur Toy,Safe and non-toxic materials.,180.33,459,2025-10-20 18:31:00,2025-12-14 03:42:00,False,Action Figures
+4a0b6732-21d3-427a-bd00-037eebb27af0,Hot Wheels Track,Safe and non-toxic materials.,52.35,15,2025-08-16 15:37:00,2025-07-23 05:56:00,False,"Collectibles, Educational"
+0c96b460-755b-405e-a998-f1608b62e552,LEGO City Set,Interactive and educational.,62.19,432,2025-03-10 19:35:00,2025-04-05 09:42:00,True,"Collectibles, Educational, Baby Toys"
+0698fc3a-dcc8-43d1-aefa-35fbc19132a7,Puzzle Game,Encourages creativity and problem-solving.,139.77,311,2025-06-28 20:34:00,2025-07-21 22:02:00,False,"Baby Toys, Board Games"
+a4e462c6-e1de-4117-a574-8485b6efe60f,Monopoly Board Game,Includes various accessories for extended fun.,117.56,50,2025-04-23 23:45:00,2025-12-13 23:55:00,False,"Trading Cards, Family Games"
+af664cca-4273-4d06-94eb-eafcfb069476,NERF Blaster,Safe and non-toxic materials.,10.92,250,2025-07-14 23:54:00,2025-01-21 16:23:00,False,"Trading Cards, Baby Toys, Action Figures"
+a52ba83f-98b5-4d4d-8061-c9557441d88b,Magic Kit,Interactive and educational.,156.75,220,2025-11-21 10:40:00,2025-08-08 04:15:00,False,Arts & Crafts
+6e195830-c6f0-4e71-b0ea-f258b45ee1fc,Dinosaur Toy,Designed for hours of entertainment.,293.13,190,2025-05-14 16:34:00,2025-01-04 08:52:00,False,"Building Sets, Family Games"
+abde14be-1bc1-4785-8758-9d765347f2d3,Robot Toy,High-quality and durable.,122.41,305,2025-06-22 22:52:00,2025-10-14 23:18:00,True,"Family Games, Baby Toys"
+40dea0c3-338b-4e95-a40a-9e352e2d980d,Magic Kit,Encourages creativity and problem-solving.,25.79,17,2025-11-28 22:47:00,2025-11-28 00:48:00,True,"Action Figures, Blasters"
+7367f4ab-0e44-45dc-b10c-5297b1e061d3,Superhero Action Figure,Interactive and educational.,60.67,186,2025-11-02 18:41:00,2025-10-25 10:28:00,False,Family Games
+5fed1663-6f90-4055-9bf3-62d1b3bc4103,Hot Wheels Track,Perfect for imaginative play.,261.81,377,2025-04-19 15:22:00,2025-11-04 20:52:00,False,"Baby Toys, Arts & Crafts"
+9c03f19d-74b6-44a4-b11b-0eac9990f4fb,Hot Wheels Track,Safe and non-toxic materials.,186.60,188,2025-08-16 18:08:00,2025-02-05 01:15:00,False,Dolls
+028d79a8-5944-43b5-a656-07dad2ce78bd,Remote Control Car,Perfect for imaginative play.,15.07,175,2025-11-06 13:42:00,2025-06-01 02:25:00,True,"Family Games, Trading Cards"
+ed45f45e-623d-4a68-a25f-11242f371399,Wooden Train Set,Designed for hours of entertainment.,89.81,108,2025-05-12 13:50:00,2025-12-02 09:36:00,True,Trading Cards
+3dfca9d4-d59b-49b5-b48a-60c1a26f353e,Dinosaur Toy,Encourages creativity and problem-solving.,226.17,455,2025-01-08 05:21:00,2025-09-28 21:23:00,True,Vehicles
+7f40d217-37d6-46f0-859e-28ca5fca7b44,Robot Toy,Interactive and educational.,84.93,155,2025-12-25 12:16:00,2025-11-28 13:24:00,False,"Board Games, Baby Toys, Family Games"
+05afc5bf-8caf-4cdd-818d-b295494a6298,Pokemon Card Set,Interactive and educational.,172.87,375,2025-05-09 17:01:00,2025-03-24 17:37:00,True,"Racing, Blasters, Collectibles"
+0d137ecf-cab7-4a92-af6a-a89d42e70be8,Magic Kit,High-quality and durable.,69.09,132,2025-03-25 05:35:00,2025-09-25 17:34:00,True,Baby Toys
+b066c8d8-2071-4a95-8951-72d0cd4465b6,NERF Blaster,Interactive and educational.,34.93,283,2025-11-18 00:12:00,2025-05-22 09:33:00,False,"Collectibles, Educational, Family Games"
+c38892d5-67e0-4271-9855-2391b1ed3172,Magic Kit,Perfect for imaginative play.,114.79,386,2025-04-26 15:24:00,2025-12-08 19:17:00,False,"Arts & Crafts, Board Games, Playsets"
+c6f10f52-aa78-4792-816c-4c0f013150ea,Barbie Dollhouse,Safe and non-toxic materials.,126.08,499,2025-04-24 08:19:00,2025-01-26 15:53:00,True,"Vehicles, Playsets, Collectibles"
+75546cd3-d2ad-496d-8521-7603e41e8439,Pokemon Card Set,A fun and engaging toy for kids.,230.71,463,2025-10-19 05:49:00,2025-01-13 15:59:00,False,Racing
+e75c858b-5b9e-454b-98ea-6119f411f43c,Stuffed Animal,Designed for hours of entertainment.,93.58,453,2025-03-20 03:40:00,2025-04-27 23:33:00,True,Racing
+be725ba8-e7ed-4a6e-acc8-9493f53e3df7,LEGO City Set,Perfect for imaginative play.,163.09,47,2025-07-11 14:42:00,2025-07-10 23:47:00,True,"Educational, Trading Cards, Baby Toys"
+3962c4ec-5d70-4e14-acec-4d220e45bf77,Stuffed Animal,High-quality and durable.,164.29,224,2025-07-19 02:05:00,2025-03-08 21:49:00,True,"Building Sets, Playsets"
+0c6fc93e-14a2-40e7-bac8-3ca226eb110f,Magic Kit,Perfect for imaginative play.,152.84,259,2025-08-21 11:52:00,2025-08-15 15:02:00,True,Baby Toys
+6fd4fcfb-74e7-4c80-91a9-b5b49fa01a68,Pokemon Card Set,Safe and non-toxic materials.,198.78,104,2025-06-17 21:31:00,2025-05-10 18:45:00,False,"Action Figures, Arts & Crafts, Vehicles"
+e9e25c0a-42c5-41ef-8868-d34f65cef2d2,Robot Toy,Encourages creativity and problem-solving.,100.92,171,2025-02-27 03:47:00,2025-09-05 13:13:00,False,"Trading Cards, Blasters, Racing"
+8c93b2bc-78fe-49ba-9032-5e857e24b91d,NERF Blaster,Interactive and educational.,135.55,350,2025-02-02 19:05:00,2025-11-01 02:27:00,True,"Baby Toys, Educational, Collectibles"
+01032b0b-0383-4c04-8253-a8fdb1238f9b,Wooden Train Set,Designed for hours of entertainment.,174.65,283,2025-11-03 17:23:00,2025-03-19 03:46:00,True,"Racing, Vehicles, Arts & Crafts"
+6036c329-fc2d-4628-9bc6-efdfd7d99e02,Dinosaur Toy,High-quality and durable.,116.48,388,2025-03-09 10:57:00,2025-05-12 05:05:00,True,Family Games
+6a88cabd-99a5-4dcc-baa2-80e1dc4a5a1e,Robot Toy,Easy to assemble and store.,262.56,238,2025-12-04 09:56:00,2025-08-15 00:51:00,False,Action Figures
+48a0ff31-93e8-4a1e-9145-1b6f2e28bf72,Robot Toy,Easy to assemble and store.,288.84,15,2025-02-07 16:32:00,2025-05-04 21:54:00,True,"Dolls, Baby Toys, Vehicles"
+48a8110d-4cb7-45a1-ad7d-8fad4fd4739b,Science Experiment Kit,A fun and engaging toy for kids.,25.44,123,2025-02-04 04:41:00,2025-12-09 02:45:00,False,"Board Games, Vehicles"
+b4833277-f192-46ee-9316-650df4553d0c,Puzzle Game,Includes various accessories for extended fun.,176.37,259,2025-12-28 23:18:00,2025-05-05 11:40:00,False,Arts & Crafts
+40888212-0b3c-4e8d-9495-e2a3f2bc032c,Hot Wheels Track,Includes various accessories for extended fun.,66.36,372,2025-05-12 06:15:00,2025-01-11 10:36:00,False,Board Games
+423863e4-74aa-40ab-afa8-9dec251b2004,Magic Kit,Encourages creativity and problem-solving.,105.42,20,2025-12-02 07:51:00,2025-12-05 14:03:00,False,Vehicles
+f7805703-6c1c-49c0-b404-050c7c541740,Dinosaur Toy,A fun and engaging toy for kids.,168.24,392,2025-11-13 18:02:00,2025-05-02 05:27:00,False,"Dolls, Baby Toys, Action Figures"
+27019d42-2267-4962-8814-5704983835b6,Robot Toy,Perfect for imaginative play.,56.01,151,2025-06-10 11:55:00,2025-02-13 21:03:00,True,"Collectibles, Baby Toys, Racing"
+070cc003-1ea8-4410-a8f1-576b4f584cbf,Superhero Action Figure,Includes various accessories for extended fun.,267.12,44,2025-07-27 13:31:00,2025-11-19 03:16:00,False,"Baby Toys, Dolls"
+f2157e5a-5b09-46ec-9a32-bdf9d028a79b,Superhero Action Figure,Includes various accessories for extended fun.,291.96,304,2025-07-17 12:39:00,2025-06-23 19:54:00,False,Collectibles
+0f57dcea-e0bb-4eb9-8d83-08c2b0d6cec4,Barbie Dollhouse,Designed for hours of entertainment.,139.72,483,2025-05-24 12:19:00,2025-10-20 23:35:00,False,"Dolls, Vehicles, Educational"
+3e1c68e1-b03d-4451-8eda-840752950d56,Superhero Action Figure,Interactive and educational.,160.79,179,2025-05-04 01:35:00,2025-10-12 07:54:00,True,"Baby Toys, Trading Cards, Board Games"
+e9423de0-378f-4a6d-943e-d75470dd3770,LEGO City Set,Great gift for children of all ages.,292.70,452,2025-07-11 23:10:00,2025-05-23 20:48:00,False,"Playsets, Arts & Crafts"
+257c572c-04f5-4cd5-8a7e-b63c0e79750f,Monopoly Board Game,Includes various accessories for extended fun.,188.22,287,2025-12-19 04:30:00,2025-03-24 23:14:00,False,"Racing, Vehicles"
+91c266f1-2541-41e1-b05e-a4e01d5c0d45,Play-Doh Set,Great gift for children of all ages.,155.68,40,2025-04-03 05:14:00,2025-03-13 22:38:00,False,"Family Games, Playsets"
+ae475ee9-2f63-41a0-a945-3de46521153c,Transformers Figure,Interactive and educational.,256.78,66,2025-09-07 18:01:00,2025-12-02 02:19:00,True,Building Sets
+ec8eaec3-ef4e-4c1a-8d6e-6f46fe9a60a9,Wooden Train Set,Designed for hours of entertainment.,262.27,117,2025-09-25 07:54:00,2025-01-06 01:57:00,False,Family Games
+b801c6e6-d149-482a-b6ce-c90bee5bf9d8,LEGO City Set,Encourages creativity and problem-solving.,85.52,132,2025-05-19 20:58:00,2025-07-11 14:19:00,True,"Collectibles, Arts & Crafts, Board Games"
+594a534e-014f-4133-bb0b-84f89f3172c8,Magic Kit,Perfect for imaginative play.,10.69,33,2025-11-17 11:46:00,2025-01-19 22:01:00,False,Playsets
+342d3cf6-394b-4474-a74c-f6245f98ece1,Superhero Action Figure,Designed for hours of entertainment.,233.96,375,2025-10-15 19:40:00,2025-11-15 07:48:00,False,Board Games
+b2ef9f0d-a524-43b6-ad86-62be0db72878,Toy Kitchen Set,Perfect for imaginative play.,109.29,146,2025-05-03 20:39:00,2025-08-11 08:04:00,False,Racing
+d47b9952-f224-45e4-87cd-14ff9bde612b,Play-Doh Set,High-quality and durable.,183.53,421,2025-10-05 14:56:00,2025-01-03 01:02:00,False,"Blasters, Board Games"
+b30de007-21f9-4dff-9b0a-fd47d4e82677,Play-Doh Set,Encourages creativity and problem-solving.,268.32,67,2025-10-26 03:27:00,2025-11-06 23:36:00,False,"Dolls, Arts & Crafts"
+0052691d-5688-4b5c-800e-273e5072fafd,Pokemon Card Set,Encourages creativity and problem-solving.,252.72,241,2025-07-09 10:13:00,2025-02-21 04:15:00,False,Dolls
+60129fac-5f92-45a9-94fe-c5378a981300,Remote Control Car,High-quality and durable.,15.67,428,2025-09-02 18:52:00,2025-04-18 15:23:00,True,Racing
+de3ce991-d9a2-43c8-a0cd-518aa99c16ed,Robot Toy,Interactive and educational.,23.83,123,2025-08-08 16:48:00,2025-07-11 21:23:00,False,Action Figures
+d5c55307-62d1-4bb0-9992-87bfcb84db90,Hot Wheels Track,Includes various accessories for extended fun.,250.17,178,2025-10-04 05:55:00,2025-09-28 21:53:00,True,Board Games
+e4f715b6-89f0-44f7-a0c0-b7c39483ea17,LEGO City Set,Great gift for children of all ages.,23.99,184,2025-01-28 05:22:00,2025-04-02 01:17:00,True,"Playsets, Family Games, Vehicles"
+4a7c8ef3-46a3-4ad6-9fc6-cafe3d2b1786,Plush Teddy Bear,Easy to assemble and store.,190.62,61,2025-03-09 00:59:00,2025-07-27 23:41:00,True,Arts & Crafts
+f6b35458-c1c9-4cee-aa50-8204ad6012ab,Wooden Train Set,Encourages creativity and problem-solving.,173.10,304,2025-01-05 13:59:00,2025-11-08 07:21:00,False,"Racing, Action Figures, Board Games"
+7aa7dc8c-6f73-4957-a0fb-598233e09419,Toy Kitchen Set,Easy to assemble and store.,124.82,474,2025-10-22 19:32:00,2025-07-16 05:40:00,False,"Arts & Crafts, Collectibles, Building Sets"
+55b00732-bfc6-406e-827e-6bd809c50eed,Remote Control Car,Easy to assemble and store.,99.17,372,2025-06-06 03:55:00,2025-08-23 02:24:00,True,"Action Figures, Vehicles, Baby Toys"
+8a5e3d76-022a-4a1f-97c8-a8e164737d20,Wooden Train Set,Easy to assemble and store.,146.52,201,2025-11-21 19:24:00,2025-01-05 00:41:00,False,"Collectibles, Racing, Board Games"
+f9045ec2-2c89-41f0-bcad-dd558a13cecb,Play-Doh Set,Includes various accessories for extended fun.,90.95,193,2025-12-05 13:30:00,2025-03-18 10:48:00,True,"Action Figures, Family Games"
+4fe78f94-b417-4b3f-a6f4-5a8c963e7bb0,Barbie Dollhouse,Easy to assemble and store.,188.31,21,2025-12-14 18:36:00,2025-06-13 12:54:00,True,"Playsets, Vehicles"
+c63802e1-51fc-4eae-9ae7-e96c2a9daa30,Monopoly Board Game,Encourages creativity and problem-solving.,230.54,372,2025-05-10 22:17:00,2025-08-18 07:28:00,False,"Blasters, Baby Toys"
+de785042-d5d6-4d81-a412-c0c6e44a51db,Transformers Figure,Includes various accessories for extended fun.,204.86,421,2025-05-28 06:34:00,2025-07-06 12:41:00,False,Vehicles
+d22636a4-9b6d-4fcc-9767-39afc21b64d9,LEGO City Set,Interactive and educational.,54.77,389,2025-11-06 17:20:00,2025-01-19 08:22:00,False,"Family Games, Collectibles"
+e58f5749-1dc8-4e63-8003-b68b252b0939,Robot Toy,Interactive and educational.,41.36,61,2025-12-21 15:18:00,2025-03-22 03:41:00,True,"Action Figures, Family Games, Dolls"
+cca44d58-859a-48d2-babf-eab1fe736e7f,Stuffed Animal,Perfect for imaginative play.,236.38,49,2025-10-15 21:21:00,2025-11-28 22:44:00,False,"Vehicles, Collectibles"
+ee3ba578-ea8d-434f-b61a-009cc24123bc,Robot Toy,Safe and non-toxic materials.,173.93,265,2025-01-24 10:43:00,2025-07-14 06:15:00,False,"Dolls, Board Games, Vehicles"
+975dc542-95e2-420b-9e85-1854463cd8d5,Remote Control Car,Includes various accessories for extended fun.,154.74,249,2025-02-21 11:41:00,2025-10-16 22:45:00,True,"Dolls, Arts & Crafts"
+1aa65cd8-6a91-4d39-b5bc-798fae935c70,Play-Doh Set,Encourages creativity and problem-solving.,197.91,446,2025-12-20 02:43:00,2025-07-26 10:13:00,False,"Arts & Crafts, Dolls, Building Sets"
+714b5259-016b-4f0b-af44-073f7ce63e65,Remote Control Car,Designed for hours of entertainment.,114.32,260,2025-08-24 16:45:00,2025-04-23 22:04:00,True,Dolls
+e4f87693-8a6b-4508-94f0-639bf1efbff1,Transformers Figure,High-quality and durable.,139.77,481,2025-07-25 23:02:00,2025-01-04 13:24:00,False,Action Figures
+47625c54-2554-4b39-a492-9765996ca5f1,Magic Kit,Great gift for children of all ages.,7.32,81,2025-12-09 04:41:00,2025-08-25 02:49:00,True,"Arts & Crafts, Building Sets, Family Games"
+660f140d-819c-4410-bfb9-a9c4ce8771f6,Robot Toy,Designed for hours of entertainment.,99.03,416,2025-10-13 04:04:00,2025-09-09 06:49:00,True,Educational
+7e627a17-01f8-4ef2-bc1e-c20d31b6df2a,Magic Kit,Designed for hours of entertainment.,138.79,170,2025-11-22 00:04:00,2025-02-07 20:25:00,False,"Racing, Dolls, Family Games"
+8ee9244e-b44a-4d0b-bdf7-17582794bd65,Monopoly Board Game,Interactive and educational.,213.06,103,2025-04-01 13:19:00,2025-01-19 01:56:00,False,"Arts & Crafts, Building Sets"
+d3b46757-18b5-4de3-9965-2900a7074ee3,LEGO City Set,Easy to assemble and store.,70.41,440,2025-12-27 02:25:00,2025-05-24 10:02:00,False,Arts & Crafts
+91ffd3ad-ef13-4768-aa48-52c0af2a3bb0,Transformers Figure,Includes various accessories for extended fun.,99.14,238,2025-12-15 08:06:00,2025-05-23 16:26:00,False,"Educational, Trading Cards, Dolls"
+a3fa0757-1405-4d39-984d-9d947cdf1e8e,Puzzle Game,Easy to assemble and store.,32.27,104,2025-04-19 02:09:00,2025-10-09 19:08:00,True,Playsets
+84c7487f-13d0-439a-9a1f-924072fa8a23,Pokemon Card Set,Easy to assemble and store.,293.62,328,2025-12-08 19:44:00,2025-01-17 19:21:00,False,Dolls
+eddd647b-7d30-4530-918e-9c7b81d7669c,Barbie Dollhouse,Interactive and educational.,31.46,136,2025-04-16 23:54:00,2025-11-04 10:13:00,False,"Action Figures, Educational"
+48c65a52-3b44-44c1-8f34-44b12c0ce5b4,Pokemon Card Set,Encourages creativity and problem-solving.,299.68,464,2025-11-23 07:01:00,2025-05-15 01:02:00,True,"Blasters, Family Games"
+6e02747b-56de-409d-a2bc-a64fc9166c44,Remote Control Car,Designed for hours of entertainment.,36.80,116,2025-03-27 06:35:00,2025-05-03 02:47:00,False,"Blasters, Action Figures"
+3909993a-2529-4c78-a903-a1c2eee7c119,NERF Blaster,High-quality and durable.,257.93,213,2025-08-15 03:54:00,2025-02-11 02:11:00,True,"Building Sets, Blasters, Dolls"
+1cbb9dbb-b9d2-4f57-bcf9-203d50f17ae6,Transformers Figure,Easy to assemble and store.,15.65,25,2025-02-13 05:30:00,2025-09-07 08:01:00,False,"Trading Cards, Vehicles, Action Figures"
+4a2a6089-8d8f-4461-9db9-dc05d63a3b71,Hot Wheels Track,High-quality and durable.,224.72,87,2025-08-04 01:53:00,2025-01-19 07:04:00,True,"Board Games, Vehicles"
+1d230945-78d0-4bd9-9890-2ab3b1bd4284,Hot Wheels Track,Encourages creativity and problem-solving.,78.96,118,2025-08-28 05:05:00,2025-11-17 14:21:00,False,"Racing, Action Figures, Trading Cards"
+2ca09061-c33e-4cdc-8b1c-542453294f84,Hot Wheels Track,Includes various accessories for extended fun.,264.68,486,2025-03-21 02:04:00,2025-01-06 21:21:00,True,"Baby Toys, Educational"
+99289dbb-2e6e-4788-acad-1e030b650549,Monopoly Board Game,High-quality and durable.,111.79,329,2025-01-06 19:48:00,2025-04-07 21:53:00,True,Arts & Crafts
+4981ae26-ddc3-404e-9fd7-541051c7ee5a,Plush Teddy Bear,Includes various accessories for extended fun.,13.51,196,2025-08-13 03:40:00,2025-04-22 22:27:00,False,"Board Games, Racing, Blasters"
+5e96217a-cfa8-4aae-9d31-692e629bc3a4,Puzzle Game,High-quality and durable.,33.47,121,2025-10-08 06:06:00,2025-01-01 04:58:00,False,"Baby Toys, Family Games, Blasters"
+6c1e1459-70fa-4606-98d2-ab60ee001954,Hot Wheels Track,A fun and engaging toy for kids.,20.61,333,2025-02-08 12:34:00,2025-01-20 17:16:00,False,"Vehicles, Playsets, Family Games"
+da125116-c022-4e15-9997-3650faffa5b4,Magic Kit,Perfect for imaginative play.,36.26,383,2025-10-04 19:00:00,2025-02-21 08:12:00,True,"Educational, Vehicles, Dolls"
+d1ebf38b-f145-4c3d-a59a-b3deab32c346,Monopoly Board Game,Perfect for imaginative play.,22.50,14,2025-10-19 09:16:00,2025-05-26 04:24:00,True,Board Games
+b23e3f7e-e026-475f-ac0b-c60b95c8d8fd,Monopoly Board Game,Encourages creativity and problem-solving.,238.33,407,2025-06-21 10:33:00,2025-06-11 00:55:00,True,"Action Figures, Educational, Collectibles"
+c905ba72-5df8-4736-8830-90f2f0d9a8f0,Stuffed Animal,Safe and non-toxic materials.,126.99,33,2025-08-23 09:07:00,2025-02-05 04:49:00,False,"Dolls, Trading Cards, Vehicles"
+52b19e9f-1d73-4e50-95d4-0006d6e21ac4,Stuffed Animal,High-quality and durable.,287.08,54,2025-03-26 00:52:00,2025-06-24 19:19:00,False,"Playsets, Board Games"
+9df1cefc-3ad7-425a-985a-8b3b950efe41,Remote Control Car,Designed for hours of entertainment.,182.90,387,2025-10-16 09:02:00,2025-05-14 01:11:00,True,Family Games
+012dd135-7fdc-44f6-a6e0-0d102d7bd135,Magic Kit,Safe and non-toxic materials.,193.65,93,2025-01-08 08:58:00,2025-12-08 11:58:00,True,"Building Sets, Blasters, Educational"
+34032808-7ebd-4a42-bca1-64ad6f0b65c3,Toy Kitchen Set,High-quality and durable.,50.28,148,2025-12-15 01:18:00,2025-05-15 18:35:00,False,"Building Sets, Playsets, Educational"
+903332f2-8d5b-4567-914a-966806d1768d,Superhero Action Figure,Interactive and educational.,166.26,206,2025-08-05 08:57:00,2025-04-21 15:44:00,False,Racing
+b5a1e287-9f86-4c5c-aad0-ef839ada9d45,Wooden Train Set,Easy to assemble and store.,44.36,331,2025-08-17 16:25:00,2025-05-27 18:53:00,True,"Arts & Crafts, Baby Toys, Trading Cards"
+39ec2e09-01ff-487d-b152-be279144bbec,Dinosaur Toy,A fun and engaging toy for kids.,92.77,484,2025-04-27 23:31:00,2025-11-28 13:22:00,True,"Educational, Blasters"
+2856f4ba-0a7c-464c-a5ae-5f85cded72b9,Pokemon Card Set,Designed for hours of entertainment.,275.93,62,2025-10-10 05:58:00,2025-11-07 20:24:00,True,"Building Sets, Board Games, Trading Cards"
+0ce6e4eb-1e04-4460-bd96-9546f9ff0b17,Dinosaur Toy,Perfect for imaginative play.,187.33,346,2025-03-27 11:27:00,2025-10-28 16:30:00,False,"Building Sets, Blasters"
+cfe3b32a-dd8a-4364-92dc-71056a929634,NERF Blaster,Designed for hours of entertainment.,204.60,250,2025-05-13 08:43:00,2025-02-26 16:06:00,False,"Educational, Blasters, Playsets"
+940effcf-2e82-4378-af03-19206f5fc764,Barbie Dollhouse,Easy to assemble and store.,265.47,91,2025-06-02 19:28:00,2025-05-25 16:40:00,False,"Baby Toys, Board Games, Arts & Crafts"
+741264f1-0756-466b-bff0-06a6e8f259b2,Play-Doh Set,High-quality and durable.,281.86,305,2025-02-16 02:59:00,2025-05-19 05:34:00,False,"Vehicles, Board Games"
+66057036-e364-40e8-9550-3a90b1820a4c,Transformers Figure,Encourages creativity and problem-solving.,195.94,378,2025-02-25 13:53:00,2025-11-11 02:11:00,True,Trading Cards
+effcda29-b9d0-4071-83b4-8547fa101cb0,Superhero Action Figure,Easy to assemble and store.,194.73,301,2025-03-23 16:21:00,2025-08-02 11:50:00,True,"Playsets, Blasters"
+3b8808ec-59b7-4cda-b392-d78d14791261,Magic Kit,Great gift for children of all ages.,66.56,334,2025-10-03 04:22:00,2025-10-20 15:49:00,True,"Baby Toys, Building Sets, Board Games"
+3eb62363-9e02-479f-a195-98a135801364,Dinosaur Toy,Encourages creativity and problem-solving.,209.91,440,2025-05-07 08:35:00,2025-02-06 17:30:00,True,"Building Sets, Educational"
+7fc479ff-388f-460e-9b02-843c9886f208,Wooden Train Set,Interactive and educational.,47.05,84,2025-05-19 22:13:00,2025-06-19 03:46:00,True,"Arts & Crafts, Dolls, Trading Cards"
+54e17ec4-683f-46a0-9447-d6c172fd5586,Puzzle Game,A fun and engaging toy for kids.,56.16,173,2025-01-12 03:02:00,2025-01-17 12:13:00,True,"Collectibles, Blasters, Vehicles"
+63ce4b2d-14e0-45a1-8ca5-1f2c086bb057,Science Experiment Kit,Encourages creativity and problem-solving.,134.34,358,2025-10-09 15:35:00,2025-06-26 11:12:00,True,"Building Sets, Collectibles"
+92610357-a9ea-490f-aaab-5e2ab3858dda,Toy Kitchen Set,Safe and non-toxic materials.,116.73,198,2025-05-10 04:12:00,2025-04-04 07:24:00,False,"Playsets, Board Games, Collectibles"
+8e4775d4-2d60-465d-bfd7-3966b041ad4c,Wooden Train Set,Includes various accessories for extended fun.,253.48,114,2025-11-25 09:08:00,2025-12-04 00:05:00,False,"Dolls, Board Games"
+9f8dcb20-83fa-4600-9643-60536c8b0be3,Remote Control Car,Designed for hours of entertainment.,168.78,328,2025-01-20 14:16:00,2025-01-03 03:34:00,False,Action Figures
+df777300-23a7-44c7-92ff-70a513a50ee4,Science Experiment Kit,A fun and engaging toy for kids.,15.72,76,2025-05-03 16:02:00,2025-09-23 03:28:00,False,"Building Sets, Educational"
+c4d49c7e-8a27-41e5-bd19-b647dd45b3a7,Remote Control Car,Perfect for imaginative play.,290.65,214,2025-05-06 16:57:00,2025-02-13 06:16:00,False,"Arts & Crafts, Racing, Baby Toys"
+6cd406a7-b17a-44ac-a77d-c0167a9f8afa,Pokemon Card Set,Includes various accessories for extended fun.,84.06,22,2025-09-03 20:21:00,2025-03-22 21:15:00,True,Family Games
+ab15ab92-9d3f-4509-99d2-f71dad0431eb,Pokemon Card Set,Great gift for children of all ages.,267.84,434,2025-07-25 20:24:00,2025-11-23 20:33:00,False,Educational
+e291bf3a-0e58-47f2-9c86-63bc2858322b,Magic Kit,Great gift for children of all ages.,83.59,136,2025-08-17 14:49:00,2025-02-14 11:59:00,False,"Racing, Action Figures, Blasters"
+60dab4c7-08d0-49d6-80bc-5ee9780a86b9,Dinosaur Toy,Perfect for imaginative play.,232.18,362,2025-09-18 06:29:00,2025-02-06 02:25:00,False,Vehicles
+3405a20c-6c4d-4036-a857-d5df6bc90c48,Toy Kitchen Set,Designed for hours of entertainment.,144.84,367,2025-11-03 18:34:00,2025-02-12 18:37:00,False,Racing
+6a620db2-a462-43d4-8d8d-13a721f595b7,Puzzle Game,Perfect for imaginative play.,168.33,129,2025-05-09 04:21:00,2025-07-24 04:36:00,True,Collectibles
+0753f27d-6e96-499c-b669-76ef8e2ec521,Pokemon Card Set,Designed for hours of entertainment.,224.00,288,2025-12-24 01:27:00,2025-05-22 17:49:00,False,"Building Sets, Racing, Educational"
+5a68d28c-d3f4-4be9-adbd-98e5caf79148,Barbie Dollhouse,Interactive and educational.,58.59,72,2025-02-05 16:00:00,2025-09-04 15:01:00,False,"Racing, Board Games, Collectibles"
+5743e9c0-6cc5-48fc-8139-fb0b6dcaa148,Barbie Dollhouse,Safe and non-toxic materials.,90.10,249,2025-06-18 02:32:00,2025-06-08 06:33:00,False,Vehicles
+45310213-da73-4649-b7b2-9c8389e18973,Toy Kitchen Set,Encourages creativity and problem-solving.,57.56,203,2025-03-24 08:11:00,2025-10-24 06:18:00,False,"Building Sets, Board Games, Vehicles"
+b543d9d2-445b-4053-89c2-a24553e179d6,Fisher-Price Toy,Encourages creativity and problem-solving.,73.61,429,2025-07-14 03:19:00,2025-01-18 22:48:00,False,Arts & Crafts
+539d90a0-d1ca-4504-bd16-defe8336b51c,Wooden Train Set,Safe and non-toxic materials.,222.86,16,2025-07-23 16:17:00,2025-07-23 07:56:00,False,"Building Sets, Collectibles"
+e428056f-ed0c-4c1f-bc6a-07f8f986dd5c,Play-Doh Set,Perfect for imaginative play.,56.01,436,2025-07-06 04:05:00,2025-12-04 19:40:00,False,Playsets
+c9ec70fd-666f-4c05-92a0-4112841df9a6,Puzzle Game,Designed for hours of entertainment.,292.51,347,2025-01-02 06:45:00,2025-08-16 15:01:00,True,Arts & Crafts
+7f35f407-8eaf-43be-9921-bad96632421d,Remote Control Car,Designed for hours of entertainment.,158.22,377,2025-03-08 21:21:00,2025-02-16 11:09:00,True,"Action Figures, Blasters, Playsets"
+2fb467bf-8157-48d7-bc9f-7d15333a33c1,Toy Kitchen Set,Includes various accessories for extended fun.,47.38,270,2025-05-12 21:29:00,2025-11-01 04:13:00,False,"Action Figures, Blasters"
+63475d13-ea3c-4e9b-b79d-c1607b80bf58,Toy Kitchen Set,Designed for hours of entertainment.,230.97,214,2025-12-03 01:49:00,2025-09-02 10:04:00,True,"Blasters, Dolls"
+6e3c20ee-d452-4eee-879b-78b1a1bbee84,LEGO City Set,High-quality and durable.,209.32,432,2025-04-23 10:39:00,2025-01-19 06:09:00,True,Building Sets
+79ce8f47-f128-4c8a-9c9c-8590012a62ce,Monopoly Board Game,Perfect for imaginative play.,156.05,30,2025-07-25 14:39:00,2025-06-23 10:36:00,True,Action Figures
+bd0ad8c3-0e9a-4bd0-8eb8-9c230fdfd61c,Superhero Action Figure,Includes various accessories for extended fun.,78.02,420,2025-03-12 16:45:00,2025-09-01 06:20:00,False,"Playsets, Building Sets, Baby Toys"
+e8b3884f-3828-4ff9-be26-4afc4ecc15ef,Dinosaur Toy,Includes various accessories for extended fun.,243.74,181,2025-12-09 23:30:00,2025-08-01 22:48:00,False,"Collectibles, Baby Toys, Building Sets"
+b19267aa-296a-49d8-aa38-921a016e7c51,Stuffed Animal,A fun and engaging toy for kids.,116.03,370,2025-06-05 18:46:00,2025-08-19 10:00:00,False,"Racing, Educational"
+94a6a9e4-9174-4334-9c40-f03c9a4714a5,Superhero Action Figure,Interactive and educational.,159.11,406,2025-12-28 14:43:00,2025-08-07 02:04:00,False,Arts & Crafts
+fbceb670-d88a-4dae-a359-20dddbf20ab9,Magic Kit,Safe and non-toxic materials.,92.47,13,2025-03-25 04:19:00,2025-10-14 02:37:00,False,"Playsets, Vehicles, Arts & Crafts"
+73b80005-fac1-4a26-9ebb-854fe7b4e22c,NERF Blaster,Designed for hours of entertainment.,284.17,125,2025-12-16 13:29:00,2025-04-04 13:01:00,False,"Trading Cards, Collectibles"
+c1ae2809-ba4f-4ace-9826-4e3e9f1e2fcb,Pokemon Card Set,Easy to assemble and store.,290.97,393,2025-10-23 13:29:00,2025-07-23 21:16:00,True,Family Games
+5a70f5e4-cf4b-485b-afa7-fe625bdcc1a8,Monopoly Board Game,Interactive and educational.,276.63,372,2025-09-01 15:45:00,2025-01-09 04:00:00,False,Family Games
+b5d58bfa-e1a2-44c7-8aa7-27ecfc0ae9da,Toy Kitchen Set,Safe and non-toxic materials.,103.26,420,2025-05-18 12:57:00,2025-03-17 14:59:00,False,Building Sets
+b426c234-798e-47d2-b746-3df55151d1cf,Magic Kit,Designed for hours of entertainment.,249.04,80,2025-09-03 02:55:00,2025-09-18 21:09:00,True,Blasters
+3b68d8ea-f1c1-427c-8a94-0758eeca22b0,NERF Blaster,Interactive and educational.,69.86,173,2025-12-10 03:15:00,2025-03-14 01:52:00,False,"Arts & Crafts, Playsets"
+3c552670-702e-40d6-a4c1-9419614c8b7c,Transformers Figure,Includes various accessories for extended fun.,291.70,384,2025-01-15 14:00:00,2025-10-20 03:48:00,False,Family Games
+30e1bbe2-ae38-4edf-b0d7-3d505dc6ec2d,Pokemon Card Set,Includes various accessories for extended fun.,291.44,411,2025-03-23 16:02:00,2025-10-26 14:03:00,False,"Trading Cards, Family Games, Racing"
+0dfd32ee-22f7-40f7-b675-1e15b3642afc,Magic Kit,A fun and engaging toy for kids.,163.35,12,2025-01-22 01:41:00,2025-06-20 13:20:00,False,"Building Sets, Dolls, Board Games"
+75d94530-573d-47db-bbc2-d4138df5bd27,NERF Blaster,Great gift for children of all ages.,256.57,324,2025-04-21 12:17:00,2025-08-08 11:26:00,False,"Board Games, Trading Cards"
+21e01e75-b5b9-45a6-977a-d95dce08f898,Stuffed Animal,Great gift for children of all ages.,143.40,108,2025-06-28 22:25:00,2025-06-19 03:38:00,False,Building Sets
+3454b432-4b42-4d07-88f7-cf41ef7ab5d1,Transformers Figure,Includes various accessories for extended fun.,136.31,145,2025-08-25 08:49:00,2025-01-10 04:24:00,False,"Dolls, Board Games, Baby Toys"
+084b5db9-07c4-4052-8fd1-23dfb52299d5,NERF Blaster,Encourages creativity and problem-solving.,186.97,379,2025-08-26 19:31:00,2025-03-25 16:45:00,False,"Board Games, Building Sets"
+0b4b76a0-14ce-4f39-b6bc-4e8908136ce4,Play-Doh Set,Designed for hours of entertainment.,152.66,324,2025-05-23 10:39:00,2025-08-20 06:42:00,True,Collectibles
+56be2583-6363-4ab8-94d1-9aa37c8abe44,Play-Doh Set,High-quality and durable.,189.23,39,2025-10-07 01:27:00,2025-05-23 08:55:00,False,Trading Cards
+5c8b8b45-f2cc-4b90-8311-74d4a2a1a1d9,Hot Wheels Track,Includes various accessories for extended fun.,52.97,214,2025-07-15 13:14:00,2025-06-15 13:18:00,True,"Trading Cards, Family Games"
+7116f7af-529f-46fb-8fdc-0e0f8a0a9daa,Robot Toy,Designed for hours of entertainment.,71.75,318,2025-04-08 21:16:00,2025-06-11 10:02:00,True,"Arts & Crafts, Playsets"
+e4e06b15-72f5-438a-95ab-e5b264385f7a,Plush Teddy Bear,Great gift for children of all ages.,186.51,443,2025-08-27 23:03:00,2025-10-16 09:32:00,True,Action Figures
+43a06884-197e-4033-9d32-b22708fb10d1,Monopoly Board Game,Includes various accessories for extended fun.,20.04,266,2025-01-10 18:40:00,2025-07-15 10:05:00,True,"Vehicles, Educational, Arts & Crafts"
+95495af1-a979-4585-a24b-01a7b71a0735,Stuffed Animal,A fun and engaging toy for kids.,250.14,166,2025-12-27 02:49:00,2025-06-14 14:01:00,True,Arts & Crafts
+7b8cd739-410d-4a37-b383-12d30a6704e0,Monopoly Board Game,High-quality and durable.,288.11,428,2025-01-16 10:14:00,2025-10-28 00:30:00,True,"Playsets, Collectibles, Building Sets"
+fb251d7b-7c3c-461f-9184-b8c1a1731386,Stuffed Animal,Interactive and educational.,192.03,154,2025-08-19 13:18:00,2025-07-21 04:15:00,False,"Vehicles, Trading Cards"
+983e3e6d-94cf-49a7-85d6-07063621f1d9,Stuffed Animal,Great gift for children of all ages.,259.85,103,2025-01-02 01:24:00,2025-03-22 00:10:00,False,"Action Figures, Educational"
+f7fb3845-d55d-4ae6-a590-bf35e293f89d,Science Experiment Kit,A fun and engaging toy for kids.,28.51,152,2025-08-24 06:37:00,2025-08-07 02:18:00,False,"Blasters, Educational, Collectibles"
+cac8364d-20b0-432d-aadf-6eb11fc2679f,Stuffed Animal,Great gift for children of all ages.,162.42,19,2025-02-12 01:33:00,2025-08-26 05:10:00,True,"Family Games, Action Figures, Dolls"
+7033d42c-f14c-444d-a8cc-fa16b40498a1,Robot Toy,Includes various accessories for extended fun.,144.10,157,2025-04-15 06:09:00,2025-05-08 21:51:00,True,"Arts & Crafts, Vehicles"
+0fa37056-d929-44a6-964b-b15d990b9399,LEGO City Set,Interactive and educational.,22.59,40,2025-10-14 14:32:00,2025-10-27 12:17:00,True,"Family Games, Building Sets"
+a2d143bc-7519-47b0-b7dd-658ce37dc04d,Stuffed Animal,Designed for hours of entertainment.,150.61,229,2025-11-18 11:20:00,2025-09-16 06:30:00,False,"Arts & Crafts, Trading Cards"
+6ef23858-4157-456e-9a9b-c131d62853f1,Magic Kit,Encourages creativity and problem-solving.,13.62,212,2025-06-28 10:01:00,2025-01-02 13:25:00,True,"Racing, Arts & Crafts, Board Games"
+a2bbd72d-6afc-4172-b13b-3ed496fe0684,Stuffed Animal,Includes various accessories for extended fun.,286.16,188,2025-11-02 14:40:00,2025-11-16 02:04:00,True,"Vehicles, Racing, Baby Toys"
+4f1bc73a-26b5-4aee-865a-6ae12779e3f8,Wooden Train Set,Interactive and educational.,229.21,313,2025-10-21 23:42:00,2025-01-10 19:13:00,False,"Racing, Building Sets, Baby Toys"
+e154fb9a-2759-41c7-88cd-490dd44bc85d,Remote Control Car,Interactive and educational.,197.54,241,2025-09-22 15:33:00,2025-01-22 18:46:00,False,"Family Games, Building Sets, Trading Cards"
+08b163c6-03d2-486e-9189-41ab546874d1,Transformers Figure,Designed for hours of entertainment.,263.73,447,2025-10-18 20:49:00,2025-07-06 02:19:00,False,"Building Sets, Arts & Crafts"
+b5c6ea33-6164-4236-9ad5-bf0c91963a2c,Puzzle Game,Includes various accessories for extended fun.,239.87,394,2025-05-10 03:19:00,2025-02-15 07:57:00,True,"Educational, Racing"
+37b827be-55de-4ee7-959b-ce90f99a4ac0,Pokemon Card Set,Includes various accessories for extended fun.,253.45,361,2025-01-20 02:41:00,2025-02-04 09:17:00,True,Racing
+ef9b15c5-20c6-431a-adbb-b05d8e039708,Toy Kitchen Set,Interactive and educational.,25.97,148,2025-08-05 23:19:00,2025-06-10 05:59:00,False,"Baby Toys, Dolls"
+3d88bd83-dd41-4069-aacb-10b1ff711d23,Wooden Train Set,Encourages creativity and problem-solving.,16.96,231,2025-08-09 04:00:00,2025-11-20 20:20:00,True,Trading Cards
+a2b967b3-579b-4481-addd-74c17e4e6978,Hot Wheels Track,A fun and engaging toy for kids.,119.80,300,2025-07-13 00:35:00,2025-07-20 03:08:00,True,Collectibles
+88d13a80-328c-42f4-8c68-0443332c882b,Puzzle Game,Includes various accessories for extended fun.,275.45,120,2025-01-17 15:28:00,2025-08-22 09:23:00,True,"Trading Cards, Blasters"
+fc298b74-5ed4-4cba-913f-56864b216d00,Puzzle Game,Safe and non-toxic materials.,239.01,263,2025-02-04 12:16:00,2025-04-06 05:10:00,True,"Educational, Baby Toys, Dolls"
+89f2d06b-e33b-443b-a992-651980a39c6c,Magic Kit,Great gift for children of all ages.,210.50,371,2025-09-24 07:02:00,2025-04-18 01:02:00,True,"Vehicles, Family Games, Collectibles"
+e1452f97-418f-47fc-bd18-5cbf6b5a70df,Magic Kit,Encourages creativity and problem-solving.,156.72,186,2025-03-18 14:16:00,2025-09-04 01:08:00,True,Board Games
+4774be4f-0994-4349-b9ad-b522a7ecff12,Superhero Action Figure,Easy to assemble and store.,40.79,233,2025-02-02 23:11:00,2025-08-26 20:16:00,True,"Arts & Crafts, Building Sets"
+52f6e73f-7943-4729-a374-380ba0eb05fd,Toy Kitchen Set,Easy to assemble and store.,275.29,283,2025-07-28 04:09:00,2025-03-18 06:51:00,True,"Blasters, Family Games"
+fc1be9e3-4a2a-467b-827a-a32fb568bd4a,LEGO City Set,Easy to assemble and store.,136.59,74,2025-05-07 10:13:00,2025-10-04 12:45:00,False,"Baby Toys, Dolls, Arts & Crafts"
+6c07266d-82bc-4428-be72-799a80e5661f,Toy Kitchen Set,Great gift for children of all ages.,114.02,312,2025-01-16 23:47:00,2025-05-17 01:03:00,True,"Playsets, Building Sets, Educational"
+69045a45-139a-4221-81bc-f68883276fb5,Transformers Figure,A fun and engaging toy for kids.,82.68,66,2025-06-24 03:00:00,2025-09-02 02:47:00,False,"Educational, Vehicles"
+b65fe671-c967-47a6-99c0-1c4a5abda521,Pokemon Card Set,Easy to assemble and store.,131.04,322,2025-03-24 13:09:00,2025-03-20 08:32:00,False,"Blasters, Arts & Crafts"
+da13b690-77d1-478e-8e49-19864e04e59f,Science Experiment Kit,Encourages creativity and problem-solving.,37.32,466,2025-12-19 06:55:00,2025-06-25 02:23:00,False,Educational
+499b6762-9992-4795-befb-fe72c6a4a8d0,Wooden Train Set,Easy to assemble and store.,77.04,211,2025-05-12 13:20:00,2025-08-04 22:38:00,False,"Family Games, Dolls, Arts & Crafts"
+9d5ece74-e1c6-4ca1-8bf2-a7bb0e9ae7ec,Play-Doh Set,Safe and non-toxic materials.,294.60,38,2025-02-28 16:50:00,2025-11-17 05:17:00,False,Building Sets
+689ea0a6-18eb-422b-b3dd-cfd66168d7d9,Dinosaur Toy,Designed for hours of entertainment.,179.90,300,2025-12-21 08:05:00,2025-03-14 06:50:00,False,Trading Cards
+584dfb88-8e0e-4a65-92be-b0c5438c592b,Transformers Figure,Includes various accessories for extended fun.,135.60,374,2025-11-01 02:39:00,2025-06-03 12:10:00,True,"Building Sets, Trading Cards, Arts & Crafts"
+a4da0408-7550-47cd-b893-5eef27db0744,Play-Doh Set,Encourages creativity and problem-solving.,203.54,375,2025-07-15 15:53:00,2025-04-06 01:41:00,False,"Playsets, Vehicles, Educational"
+8c2e37e7-4c29-44e7-9f94-2dd4e3af14d5,Robot Toy,High-quality and durable.,71.68,124,2025-11-02 02:12:00,2025-12-02 10:26:00,False,"Collectibles, Playsets"
+ec5f5ce2-ba60-4f41-a893-dc3f36b02eb9,Plush Teddy Bear,Interactive and educational.,259.56,158,2025-03-07 10:58:00,2025-09-03 12:43:00,False,"Educational, Board Games"
+ed77c36a-225b-4fd4-88a3-ec676b3ed65e,Science Experiment Kit,Easy to assemble and store.,101.49,320,2025-01-26 13:23:00,2025-08-17 03:33:00,True,Building Sets
+333bdb45-37b1-454b-97b5-726e2aac03bd,Stuffed Animal,Easy to assemble and store.,289.20,171,2025-04-20 15:35:00,2025-05-06 12:13:00,False,"Building Sets, Action Figures"
+1a452937-90e6-40d7-bea7-815ddb22d4ed,Barbie Dollhouse,High-quality and durable.,230.06,43,2025-07-26 12:42:00,2025-05-26 01:15:00,True,Baby Toys
+26fb969b-c169-4ed4-b8cd-23a023d3a587,Science Experiment Kit,Includes various accessories for extended fun.,107.80,369,2025-04-12 23:37:00,2025-08-25 14:35:00,False,"Board Games, Trading Cards"
+29d160aa-938b-4a7c-84b1-89b34b7d82e6,Robot Toy,Perfect for imaginative play.,20.38,335,2025-01-07 23:58:00,2025-08-11 23:16:00,False,"Arts & Crafts, Board Games, Action Figures"
+75aeb49b-af15-4255-b70c-8eaeb016880e,Stuffed Animal,Perfect for imaginative play.,112.08,303,2025-05-16 09:12:00,2025-08-16 17:47:00,True,Dolls
+6b0e6dd8-92dc-40da-95bf-db6bdccc09ac,Plush Teddy Bear,Great gift for children of all ages.,136.90,343,2025-05-05 09:35:00,2025-07-07 20:12:00,True,"Family Games, Building Sets"
+90b90a16-754b-40e6-b9c4-7746341207fe,Dinosaur Toy,Designed for hours of entertainment.,160.25,399,2025-02-22 16:45:00,2025-10-07 06:32:00,False,"Blasters, Racing, Educational"
+43bf4c5e-4b1b-43ac-b6ab-48d8c185c5c3,Science Experiment Kit,Designed for hours of entertainment.,195.25,407,2025-10-10 17:25:00,2025-03-03 23:20:00,False,"Vehicles, Arts & Crafts, Collectibles"
+d65617ed-e14c-42b2-8dcf-46164fb2b504,Science Experiment Kit,Perfect for imaginative play.,25.85,386,2025-04-08 03:34:00,2025-03-21 12:33:00,False,"Arts & Crafts, Playsets"
+0d4cb3e4-52bd-4251-bc99-ef2546ddf3d0,Robot Toy,Great gift for children of all ages.,148.38,99,2025-03-19 04:35:00,2025-02-05 12:43:00,True,"Collectibles, Action Figures, Arts & Crafts"
+3c36c58f-ed28-4c27-89e1-cd93e3341fa0,Play-Doh Set,Encourages creativity and problem-solving.,158.76,300,2025-12-16 09:59:00,2025-01-19 19:07:00,True,Vehicles
+0bb8a2d3-8069-47fd-9402-8ce2d34a0376,NERF Blaster,High-quality and durable.,81.85,35,2025-02-03 17:14:00,2025-06-25 12:41:00,True,"Building Sets, Baby Toys, Action Figures"
+7e4fdbc1-5a51-477b-8ba8-0f8e0c04c6ed,LEGO City Set,Easy to assemble and store.,125.23,53,2025-01-10 13:41:00,2025-10-26 16:17:00,True,"Building Sets, Racing, Blasters"
+c03c4fa1-f825-40f5-be79-bcdcee96521f,Remote Control Car,Perfect for imaginative play.,106.01,417,2025-08-23 00:30:00,2025-02-15 08:13:00,False,Building Sets
+93818153-07bf-4449-8719-155e73277643,LEGO City Set,A fun and engaging toy for kids.,143.63,110,2025-06-25 11:51:00,2025-05-11 23:13:00,True,"Racing, Educational"
+88e02e0e-bd99-42aa-b7d3-3af888c3b8a2,Puzzle Game,Designed for hours of entertainment.,202.35,215,2025-01-09 12:02:00,2025-10-21 21:23:00,False,"Action Figures, Educational"
+a1e2017d-3a29-4a0b-8672-eee290949fa0,Magic Kit,Includes various accessories for extended fun.,48.81,203,2025-08-21 04:59:00,2025-06-26 02:56:00,False,"Trading Cards, Board Games"
+052d0661-b05a-4322-928e-a8328234b31b,LEGO City Set,Great gift for children of all ages.,29.93,187,2025-05-28 06:40:00,2025-01-11 05:34:00,False,"Playsets, Blasters, Board Games"
+715b02db-ad1f-461d-b82a-8e8e69aa7da9,Plush Teddy Bear,Great gift for children of all ages.,260.06,317,2025-09-20 08:15:00,2025-10-17 09:35:00,True,"Trading Cards, Board Games, Family Games"
+a2cb8dd5-8ffc-40c5-a9d0-8d59569c7014,Stuffed Animal,Safe and non-toxic materials.,63.18,86,2025-10-19 11:06:00,2025-12-13 19:14:00,False,"Arts & Crafts, Family Games"
+7fc792f2-ccdf-4ef5-a24a-e2d705df8c57,Puzzle Game,Easy to assemble and store.,125.81,454,2025-09-11 04:44:00,2025-10-16 22:16:00,True,Collectibles
+a9d67187-b0e4-4339-8f57-f291edbd457e,Science Experiment Kit,Safe and non-toxic materials.,118.37,101,2025-03-21 15:03:00,2025-07-24 15:50:00,False,Playsets
+dd793069-3b69-45ea-8089-8bface42e2ba,Superhero Action Figure,Perfect for imaginative play.,174.50,437,2025-01-11 21:28:00,2025-05-23 20:48:00,False,"Vehicles, Blasters"
+524d8ec5-50bb-448e-9ae4-8f37d34dadd5,Plush Teddy Bear,Perfect for imaginative play.,12.96,266,2025-12-06 00:22:00,2025-03-11 02:12:00,True,"Blasters, Dolls"
+94674dfe-3f92-4202-9f8c-10b2e568343f,Play-Doh Set,Safe and non-toxic materials.,191.94,378,2025-02-10 19:55:00,2025-05-25 09:07:00,True,Vehicles
+a872cbda-a98c-401b-8491-695b4d60221a,LEGO City Set,Encourages creativity and problem-solving.,58.39,191,2025-05-10 14:47:00,2025-10-23 19:23:00,False,Playsets
+a0900343-a696-42fb-9ce2-2fdfd16a41ac,Barbie Dollhouse,Safe and non-toxic materials.,291.96,495,2025-02-19 14:10:00,2025-11-28 23:43:00,True,"Collectibles, Racing"
+9c5532c7-e617-4f74-ac16-626dfed30c16,Monopoly Board Game,Great gift for children of all ages.,27.61,423,2025-10-16 06:02:00,2025-05-15 06:57:00,False,"Family Games, Racing, Building Sets"
+f5f64c9f-7b50-4942-ae7a-479f47997a4b,Pokemon Card Set,Easy to assemble and store.,6.66,312,2025-07-01 22:43:00,2025-12-17 08:53:00,False,"Family Games, Blasters, Educational"
+b8647acc-1b6d-403b-bfa9-80ec7e07bcbf,Dinosaur Toy,Interactive and educational.,200.27,306,2025-10-28 07:14:00,2025-05-22 14:09:00,False,"Family Games, Vehicles, Action Figures"
+0ccbdc88-5a25-4c2d-9e09-3dc6eabebf30,Science Experiment Kit,Interactive and educational.,115.33,123,2025-11-26 23:01:00,2025-06-10 10:33:00,False,"Baby Toys, Dolls, Action Figures"
+e5a543f1-950d-4817-8283-8e041538393d,Pokemon Card Set,A fun and engaging toy for kids.,229.50,272,2025-10-14 14:32:00,2025-06-09 17:04:00,False,"Board Games, Action Figures, Building Sets"
+a75f99e7-a5c9-4d06-b38a-7672614d0a04,Dinosaur Toy,Perfect for imaginative play.,27.23,99,2025-01-15 23:21:00,2025-10-05 02:51:00,False,Arts & Crafts
+20111752-97dc-417e-a51e-4303edad14de,Wooden Train Set,Easy to assemble and store.,277.20,364,2025-06-24 11:24:00,2025-05-13 10:28:00,True,Playsets
+eaa112fa-5e2a-4c51-9c0d-43f9e1a30d6f,Science Experiment Kit,Interactive and educational.,127.81,196,2025-05-14 11:12:00,2025-10-04 03:38:00,True,"Racing, Board Games, Collectibles"

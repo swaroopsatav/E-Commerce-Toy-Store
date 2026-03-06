@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% extends 'checkout/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        a.btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        a.btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+{% block title %}Order Successful{% endblock %}
+
+{% block content %}
+    <h1>Thank You!</h1>
+    <p>Your order has been placed successfully.</p>
+    <a href="{% url 'products:home_view' %}" class="btn btn-primary">Go to Home</a>
+    {% if order_id %}
+        <a href="{% url 'orders:order_track' order_id %}" class="btn btn-secondary">Track Your Order</a>
+    {% else %}
+        <p>No order found.</p>
+    {% endif %}
+{% endblock %}
+</body>
+</html>

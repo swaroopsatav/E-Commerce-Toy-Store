@@ -1,0 +1,89 @@
+{% extends 'users/base.html' %}
+
+{% block title %}Welcome to Toy Store{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to Toy Store!</h1>
+    {% if user.is_authenticated %}
+        <p>Hello, {{ user.username }}!</p>
+    {% else %}
+        <p>Welcome, guest!</p>
+    {% endif %}
+    <p>Browse products or manage your profile.</p>
+
+    <div class="links-container">
+        <a href="{% url 'products:home_view' %}" class="btn">Products</a>
+        <a href="{% url 'orders:home' %}" class="btn">Orders</a>
+        <a href="{% url 'cart:cart' %}" class="btn">Cart</a>
+        <a href="{% url 'checkout:checkout_home' %}" class="btn">Checkout</a>
+        <a href="{% url 'payment:payment_home' %}" class="btn">Payment</a>
+        <a href="{% url 'shipping:shipping_home' %}" class="btn">Shipping</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 50px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    p {
+        text-align: center;
+        color: #666;
+        font-size: 1.1rem;
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+{% endblock %}

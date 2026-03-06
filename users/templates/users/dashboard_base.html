@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}
+<style>
+    .dashboard-sidebar {
+        min-height: 100vh;
+        background-color: #f8f9fa;
+        border-right: 1px solid #dee2e6;
+    }
+    
+    .dashboard-sidebar .nav-link {
+        color: #495057;
+        padding: 0.75rem 1.5rem;
+    }
+    
+    .dashboard-sidebar .nav-link:hover {
+        color: #212529;
+        background-color: #e9ecef;
+    }
+    
+    .dashboard-sidebar .nav-link.active {
+        color: #007bff;
+        background-color: #e9ecef;
+        border-right: 3px solid #007bff;
+    }
+    
+    .dashboard-content {
+        padding: 1.5rem;
+    }
+    
+    .profile-card {
+        border: none;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        transition: transform 0.2s;
+    }
+    
+    .profile-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .order-card {
+        border: none;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        margin-bottom: 1rem;
+    }
+    
+    .order-card:hover {
+        transform: translateY(-3px);
+    }
+    
+    .status-badge {
+        padding: 0.25rem 0.75rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+    
+    .status-pending { background-color: #ffc107; color: #000; }
+    .status-completed { background-color: #28a745; color: #fff; }
+    .status-cancelled { background-color: #dc3545; color: #fff; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-3 col-lg-2 d-md-block dashboard-sidebar">
+            <div class="position-sticky pt-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}" href="{% url 'users:dashboard' %}">
+                            <i class="fas fa-home me-2"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.resolver_match.url_name == 'profile' %}active{% endif %}" href="{% url 'users:profile' %}">
+                            <i class="fas fa-user me-2"></i> Profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.resolver_match.url_name == 'order_history' %}active{% endif %}" href="{% url 'users:order_history' %}">
+                            <i class="fas fa-box me-2"></i> Order History
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.resolver_match.url_name == 'payment_history' %}active{% endif %}" href="{% url 'users:payment_history' %}">
+                            <i class="fas fa-credit-card me-2"></i> Payment History
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.resolver_match.url_name == 'wishlist' %}active{% endif %}" href="{% url 'users:wishlist' %}">
+                            <i class="fas fa-heart me-2"></i> Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'users:password_change' %}">
+                            <i class="fas fa-key me-2"></i> Change Password
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 dashboard-content">
+            {% block dashboard_content %}{% endblock %}
+        </main>
+    </div>
+</div>
+{% endblock %}

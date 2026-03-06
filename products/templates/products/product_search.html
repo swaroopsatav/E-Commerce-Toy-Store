@@ -1,0 +1,48 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Search Bar -->
+    <div class="row mb-4">
+        <div class="col-md-8 mx-auto">
+            <form method="get" action="{% url 'product_search' %}" class="d-flex">
+                <input type="text" name="q" value="{{ query }}" class="form-control"
+                       placeholder="Search products..." required>
+                <button type="submit" class="btn btn-primary ms-2">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <h2 class="text-center">Search Results for: <strong>"{{ query }}"</strong></h2>
+
+    {% if products %}
+        <!-- Product Listings -->
+        <div class="row mt-4">
+            {% for product in products %}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        {% if product.images.first %}
+                            <img src="{{ product.images.first.image.url }}" class="card-img-top"
+                                 alt="{{ product.name }}" style="object-fit: cover; height: 200px;">
+                        {% else %}
+                            <img src="{% static 'images/default-product.jpg' %}" class="card-img-top"
+                                 alt="No Image" style="object-fit: cover; height: 200px;">
+                        {% endif %}
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{ product.name }}</h5>
+                            <p class="card-text text-primary fw-bold">${{ product.price }}</p>
+                            <a href="{% url 'product_detail' product.id %}" class="btn btn-primary w-100">View Product</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-warning text-center mt-4">
+            <p class="mb-0">No products match your search criteria.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

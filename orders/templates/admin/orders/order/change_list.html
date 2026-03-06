@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .custom-admin-tools, .filters {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .actions {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+        }
+
+        .btn-success:hover {
+            background-color: #1e7e34;
+        }
+
+        .filters form {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .filters input[type="text"] {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: #fff;
+            padding: 10px 15px;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 25px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .actions {
+                flex-direction: column;
+            }
+
+            .filters form {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filters input[type="text"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+        <div class="custom-admin-tools">
+            <h2>Order Management</h2>
+            <p>Use the options below to manage your orders efficiently.</p>
+
+            <div class="actions">
+                <a href="?export=csv" class="btn btn-primary" aria-label="Export orders as CSV">Export as CSV</a>
+                <a href="?export=xlsx" class="btn btn-success" aria-label="Export orders as Excel">Export as Excel</a>
+            </div>
+        </div>
+
+        <div class="filters">
+            <h3>Filters</h3>
+            <form method="get">
+                <input type="text" name="search" placeholder="Search orders..." value="{{ cl.params.search }}" aria-label="Search orders">
+                <button type="submit" class="btn btn-secondary">Filter</button>
+            </form>
+        </div>
+
+        <hr>
+        {% endblock %}
+    </div>
+</body>
+</html>
